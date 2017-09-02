@@ -1,0 +1,2359 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from www.creative-tim.com/product/rubik-presentation-page?page=2 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 10 Aug 2017 23:55:24 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head  itemscope itemtype="https://schema.org/WebSite"  prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# product: http://ogp.me/ns/product#">
+  
+  <meta charset="utf-8">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"2315e0b361","applicationID":"9961421","transactionName":"dVwNRxYMCFtVS01CQllXFlAQTBdfX04=","queueTime":2,"applicationTime":420,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+  <meta name="viewport" content="width=device-width" />
+  <meta name="p:domain_verify" content="96e683d0045e44dfac2deaec70e57185"/>
+
+  <link rel="shortcut icon" type="image/x-icon" href="../assets/favicon-07e579901353a57d289b9b754f0e2912.ico" />
+
+  <link rel="apple-touch-icon" sizes="76x76" href="../assets/apple-touch-icon-precomposed-60956e08c7bbd5166b96ef4f0340152b.png">
+  <link rel="canonical" href="rubik-presentation-page.html" data-turbolinks-track="false" itemprop="url"/>
+
+  <title itemprop="name">
+      Rubik Presentation Page: Premium Bootstrap One Page Template @ Creative Tim
+  </title>
+      <meta name="twitter:card" content="summary" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@CreativeTim" />
+    <meta name="twitter:creator" content="@CreativeTim" />
+    <meta name="twitter:title" content="Rubik Presentation Page by Creative Tim" />
+    <meta name="twitter:description" content="Premium One Page Template" />
+    <meta name="twitter:image" content="https://s3.amazonaws.com/creativetim_bucket/products/28/original/rubik_thumbnail.jpg?1431435602" />
+    <meta name="twitter:url" content="https://www.creative-tim.com/product/rubik-presentation-page?page=2" />
+
+
+  <meta name="description" content="Download Rubik Presentation Page a premium Bootstrap One Page Template developed by Creative Tim. See the live demo on our site and join over 100.000 creatives!" />
+<meta name="keywords" content="creativetim, creative tim, bootstrap, theme, freebies, bootstrap kit, bootstrap template, free items, beautiful ui" />
+<meta property="og:app_id" content="655968634437471" />
+<meta property="og:type" content="product" />
+<meta property="og:title" content="Rubik Presentation Page by Creative Tim" />
+<meta property="og:url" content="https://www.creative-tim.com/product/rubik-presentation-page?page=2" />
+<meta property="og:image" content="https://s3.amazonaws.com/creativetim_bucket/products/28/original/rubik_thumbnail.jpg?1431435602" />
+<meta name="product:price:amount" content="19.0" />
+<meta name="product:price:currency" content="USD" />
+<meta name="product:availability" content="in Stock" />
+<meta name="product:brand" content="Creative Tim" />
+<meta name="product:category" content="Landing Pages" />
+<meta name="data-turbolinks-track" content="false" />
+  <link rel="stylesheet" media="all" href="../assets/application-1bcb58ff3712e4ff5783262db7875077.css" data-turbolinks-track="true" />
+
+  <!-- font -->
+  <link href="../../maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="GW4vjmNF6qrPkzEqqMs0TnHOV3IbNQmOPLlrbT5QDnVJDh1pZ+wVYw35r9/oUj+/nLzah/VJLZNyjJAp2Q4C8Q==" />
+
+  <!--  js   -->
+  <script src="../assets/application-c1017f102a130cfd626341b0fb7e31bc.js" data-turbolinks-track="true"></script>
+  <script src="../assets/mentions-and-photoswipe-161077ada89deb7fd786388c54692d70.js" data-turbolinks-track="true"></script>
+
+  <!--
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-46172202-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+-->
+
+<!-- Google Analytics New -->
+<script type="text/javascript">
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','../../www.google-analytics.com/analytics.js','ga');
+
+// On the Origin Domain
+ga('create', 'UA-46172202-1', 'auto', {'allowLinker': true});
+ga('require', 'linker');
+ga('require', 'ecommerce');
+
+ga('linker:autoLink', ['secure.avangate.com']);      // Domains that are linked from this page.
+ga('send', 'pageview');                              // Send hits after initializing the auto-linker plug-in.
+
+</script>
+<!-- End Google Analytics -->
+
+  <!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','../../connect.facebook.net/en_US/fbevents.js');
+
+        fbq('init', '111649226022273');
+    fbq('track', "PageView");
+
+</script>
+
+<noscript><img height="1" width="1" style="display:none"
+src="../../www.facebook.com/tr5c3c.gif?id=111649226022273&amp;ev=PageView&amp;noscript=1"
+/></noscript>
+
+<!-- End Facebook Pixel Code -->
+
+<!-- Hotjar Tracking Code for www.creative-tim.com -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:99526,hjsv:5};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+	<!--
+    - acest partial este importat in toate layout-urile
+    - se face un partial pentru fiecare script pe care vrem sa-l adaugam in toate paginile si il importam aici
+-->
+
+
+</head>
+
+<body class="product-page">
+
+<nav class="navbar filter-bar fixed-absolute">
+    <div class="container">
+    <div class="notification">
+        <div id="notif-message" class="notif-message" style="display: none;" notice-type=success>
+        </div>
+    </div>
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <div data-no-turbolink>
+            <a href="https://www.creative-tim.com/" class="navbar-brand">
+                <div class="logo">
+                    <img src="../../s3.amazonaws.com/creativetim_bucket/new_logo.png" width="60" height ="60"/>
+                </div>
+                <p>Creative <br> Tim</p>
+            </a>
+        </div>
+
+    </div>
+
+
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+
+        <ul class="nav navbar-nav navbar-right" data-no-turbolink>
+
+        <!-- <li>
+            <a href="javascript:void(0)" data-toggle="search-form">
+                <i class="icon-search icon-2x"></i>
+                <p>Search</p>
+            </a>
+        </li> -->
+
+
+            <li class="dropdown dropdown-categories" data-no-turbolink>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    <i class="icon-th-large icon-2x"></i>
+                    <p>
+                        Categories
+                        <span class="caret"></span>
+                    </p>
+
+                </a>
+
+            <ul class="dropdown-menu">
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes">
+                        All Categories
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/admin-dashboard">
+                        Admin &amp; Dashboards
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/ui-kit">
+                        UI Kits
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/free">
+                        Free Themes
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/premium">
+                        Premium Themes
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/angular-dashboard">
+                        Angular Dashboards
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/landing-page">
+                        Landing Pages
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/e-commerce">
+                        E-commerce
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/one-page-template">
+                        One Page Templates
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/wizard">
+                        Wizards
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/calendar">
+                        Calendar
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/login-form">
+                        Login Forms
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/components">
+                        Components
+                    </a>
+                </li>
+            </ul>
+        </li>
+
+        <li class="big-bundle" data-no-turbolink>
+                <a href="buy/bundle/index385e.html?utm_campaign=big-bundle&amp;utm_medium=navbar&amp;utm_source=tim">
+                <i class="icon-gift icon-2x"></i>
+                <p>Big Bundle</p>
+                <span class="notification-bubble notification-inverted">New</span>
+            </a>
+        </li>
+
+
+        <li>
+            <a href="http://blog.creative-tim.com/">
+                <i class="icon-align-left icon-2x"></i>
+                <p>Blog</p>
+            </a>
+        </li>
+
+
+
+
+            <li>
+                <a href="javascript:void(0)" onclick="openLoginModal();" role="button" data-toggle="modal">
+                    <i class="icon-male-sign-alt icon-2x"></i>
+                    <p>Login/Register</p>
+                </a>
+            </li>
+
+
+        </ul>
+    </div>
+</div>
+
+</nav>
+
+
+<div class="modal fade login" id="loginModal">
+    <div class="modal-dialog login animated">
+      <div class="modal-content">
+
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title">Login with</h4>
+    </div>
+    <div class="modal-body">
+        <div class="box">
+            <div class="content">
+                <div class="social" data-no-turbolink>
+                    <a id="github_login" class="circle github" href="https://www.creative-tim.com/social/github?destination=product_page&amp;subscribed=1&amp;url=https%253A%252F%252Fwww.creative-tim.com%252Fproduct%252Frubik-presentation-page%253Fpage%253D2">
+
+                            <i class="icon-github"></i>
+</a>                    <a id="google_login" class="circle google" href="https://www.creative-tim.com/social/google_oauth2?destination=product_page&amp;subscribed=1&amp;url=https%253A%252F%252Fwww.creative-tim.com%252Fproduct%252Frubik-presentation-page%253Fpage%253D2">
+
+                            <i class="icon-google-plus-alt"></i>
+</a>                    <a id="facebook_login" class="circle facebook" href="https://www.creative-tim.com/social/facebook?destination=product_page&amp;subscribed=1&amp;url=https%253A%252F%252Fwww.creative-tim.com%252Fproduct%252Frubik-presentation-page%253Fpage%253D2">
+
+                            <i class="icon-facebook-alt"></i>
+</a>                </div>
+                <div class="division">
+                      <div class="line l"></div>
+                      <span>or</span>
+                      <div class="line r"></div>
+                </div>
+
+                <div class="error inside-alert"></div>
+                <div class="form loginBox">
+
+                        <form html="{:multipart=&gt;true}" action="https://www.creative-tim.com/login" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+                            <input type="text" name="email" id="email" class="form-control" placeholder="Email" />
+                            <input type="password" name="password" id="password" class="form-control" placeholder="Password" />
+                            <input type="hidden" name="destination" id="destination" value="product_page" />
+                            <input type="hidden" name="url" id="url" value="https%3A%2F%2Fwww.creative-tim.com%2Fproduct%2Frubik-presentation-page%3Fpage%3D2" />
+                            <input type="submit" name="commit" value="Login" class="btn btn-default btn-login" />
+</form>                </div>
+             </div>
+        </div>
+        <div class="box">
+            <div class="content registerBox" style="display:none;">
+             <div class="form">
+                <form html="{:multipart=&gt;true}" action="https://www.creative-tim.com/register" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+                    <input type="text" name="email" id="email" class="form-control" placeholder="Email" />
+                    <input type="password" name="password" id="password" class="form-control" placeholder="Password" />
+                  	<input type="password" name="password_confirmation" id="password_confirmation" class="form-control" placeholder="Repeat Password" />
+                    <input type="hidden" name="destination" id="destination" value="product_page" />
+                    <input type="hidden" name="url" id="url" value="https%3A%2F%2Fwww.creative-tim.com%2Fproduct%2Frubik-presentation-page%3Fpage%3D2" />
+                    <input type="submit" name="commit" value="Create account" class="btn btn-default btn-register" />
+                        <label class="checkbox">
+                            <input type="checkbox" value="1" data-toggle="checkbox" name="subscribed" class="ct-info checkbox-subscribe" checked>
+                            Subscribe me to the Newsletter
+                        </label>
+
+</form>             </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <div class="forgot login-footer">
+
+            <span>Looking to
+                 <a href="javascript: showRegisterForm();">create an account</a>
+            ?</span>
+            <br />
+            <span><a href="https://www.creative-tim.com/forgot-password">Forgot password</a> ?</span>
+        </div>
+        <div class="forgot register-footer" style="display:none">
+             <span>Already have an account?</span>
+             <a href="javascript: showLoginForm();">Login</a>
+        </div>
+    </div>
+
+    </div>
+    </div>
+</div>
+
+<div class="modal fade cart-modal cart-modal-checkout" id="cart-modal" role="dialog">
+	<div class="text-center">
+		<ul class="cart-steps">
+			<li class="active">
+				<a href="#cart-review">
+					<div class="number">1</div>
+					<div class="step">Review</div>
+				</a>
+			</li>
+			<li>
+				<a href="#cart-payment-details" onClick="$('#my-cart').submit();">
+					<div class="number">2</div>
+					<div class="step">Payment Details</div>
+				</a>
+			</li>
+			<li>
+				<a href="#cart-order-receipt">
+					<div class="number">3</div>
+					<div class="step">Order Receipt</div>
+				</a>
+			</li>
+
+		</ul>
+	</div>
+
+	<div class="modal-dialog">
+
+		<div class="modal-content">
+			<div class="modal-header text-center">
+				<h3 class="modal-title">Shopping Cart</h3>
+				<i class="icon-remove-circle close" data-dismiss="modal" aria-label="Close"></i>
+			</div>
+			<div id="content-for-cart" class="content-container">
+				<div class="empty-cart-message">
+    <i class="icon-shopping-cart icon-2x"></i>
+    <h4>Your cart is currently empty.</h4>
+</div>
+<div class="text-center">
+    <a href="https://www.creative-tim.com/bootstrap-themes/premium#from-empty-shopping-cart" class="btn btn-info btn-new btn-fill btn-wd">
+        Start Shopping
+    </a>
+</div>
+
+			</div>
+			<i class="fa fa-refresh fa-spin fa-fw loading-icon"></i>
+		</div>
+
+		<div class="secured-message">
+			<i class="fa fa-lock"></i> Secured Payment by <b> Avangate </b> with: <br><i class="fa fa-cc-paypal fa-2x"></i> <i class="fa fa-cc-visa fa-2x"></i> <i class="fa fa-cc-mastercard fa-2x"></i> <i class="fa fa-cc-amex fa-2x"></i></p>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade cart-modal cart-modal-one-product" id="product-cart-modal" role="dialog">
+
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <h4 class="modal-title">You added this item to your cart!</h4>
+            </div>
+            <div class="modal-body">
+                <div class="cart">
+                    product
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="https://www.creative-tim.com/bootstrap-themes" type="button" class="btn btn-default btn-fill btn-new" data-dismiss="modal">
+                    Continue Shopping
+                </a>
+                <a type="button" class="btn btn-success btn-fill btn-new" href="https://www.creative-tim.com/checkout", data-cart="0">
+                    Checkout & Download
+                </a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<div id="fb-root">
+</div>
+<script src="../../connect.facebook.net/en_US/sdk.js" type="text/javascript"></script>
+<script type="text/javascript">
+    window.fbAsyncInit = function()
+    {
+    //facebook share
+        FB.init({
+            appId: '655968634437471',
+            status: true,
+            cookie: true,
+            xfbml: true,
+            version: 'v2.9'
+        });
+    };
+
+
+    function shareFacebookWithCallBack(){
+        FB.ui({
+          method: 'feed',
+          link: 'https://www.creative-tim.com/product/rubik-presentation-page?page=2'
+        }, function(response){
+            if (response && response.post_id) {
+               $.post('/share',{social_network : 1, product_id : parseInt('28'), provider: 'facebook' },function(data){
+                    if(data['status'] == 'ok'){
+                        console.log('ShareUp');
+                    }
+               });
+             } else {
+               console.log('Post was not published.');
+             }
+        });
+    }
+    //twitter share
+        window.twttr = (function (d,s,id) {
+          var t, js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return; js=d.createElement(s); js.id=id;
+          js.src="../../platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);
+          return window.twttr || (t = { _e: [], ready: function(f){ t._e.push(f) } });
+        }(document, "script", "twitter-wjs"));
+
+        // On ready, register the callback...
+        twttr.ready(function (twttr) {
+            twttr.events.bind('tweet', function (event) {
+                $.post('/share',{social_network : 2, product_id : parseInt('28'), provider: 'twitter' },function(data){
+                    if(data['status'] == 'ok'){
+                        console.log('ShareUp');
+                    }
+               });
+            });
+        });
+
+    function googleShare(event){
+        var width  = 575,
+        height = 400,
+        left   = ($(window).width()  - width)  / 2,
+        top    = ($(window).height() - height) / 2,
+        url    = 'https://plus.google.com/share?url=https://www.creative-tim.com/product/rubik-presentation-page?page=2',
+        opts   = 'status=1' +
+                 ',width='  + width  +
+                 ',height=' + height +
+                 ',top='    + top    +
+                 ',left='   + left;
+        window.open(url, 'Google+', opts);
+        $.post('/share',{social_network : 3, product_id : parseInt('28'), provider: 'google' },function(data){
+                    if(data['status'] == 'ok'){
+                        console.log('ShareUp');
+                    }
+               });
+        return false;
+    }
+</script>
+
+<!-- Facebook Additional Pixel Code -->
+
+<script>
+
+fbq('track', 'ViewContent', {
+    content_ids: ['28'],
+    content_type: 'product',
+    value: '19.0',
+    currency: 'USD',
+    content_name: 'Rubik Presentation Page'
+});
+
+</script>
+
+<!-- End Facebook Additional Pixel Code -->
+
+
+<div class="modal fade" id="giftOfferModal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-offer">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">&nbsp;</h4>
+        </div>
+        <img src="../assets/valentines-day-54de97c0244637dcac32e0da8c952975.jpg" alt="Valentines day" />
+        <div class="modal-body">
+<!--             <p><b class="merry">Happy Valentine's Day!</b><br /> -->
+            <p><b>
+            Get a special gift from us! <br />
+            Follow the steps below to receive it. <br />
+            </b></p>
+            <ol>
+              <li>Buy a premium product.</li>
+              <li>Download the product from your dashboard.</li>
+              <li>Press the <b>'Send gift'</b> button in your dashboard and offer a premium product (with the price lower or equal) as a gift.</li>  
+            </ol>
+            </p>
+            <div class="text-center" data-no-turbolink>
+                <a href="https://www.creative-tim.com/bootstrap-themes?utm_campaign=christmas-gift-offer&amp;utm_source=tim&amp;utm_medium=modal" class="btn btn-danger btn-round btn-fill btn-new">Start shopping</a>
+            </div>
+            
+            <div class="design-courtesy">Photo Courtesy of <a href="https://dribbble.com/shots/2525661-Heart">Henrique Athayde</a></div>
+
+        </div>
+    </div>
+  </div>
+</div>
+
+<input type="hidden" id="product_id" value="28">
+
+<div class="top-moving-bar" data-no-turbolink>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-7 col-xs-7">
+                <a class="navbar-brand" href="https://www.creative-tim.com/">
+                    <div class="logo">
+                        <img rel="tooltip" title="Hey! <br> Hope you're doing fine :-)" data-html="true" data-placement="bottom" src="https://s3.amazonaws.com/creativetim_bucket/new_logo.png"/>
+                    </div>
+</a>                <h4>Rubik Presentation Page
+
+                    <div class="middot"></div>
+                        <div class="mask">
+                            <img rel="tooltip" data-placement="bottom" title="Fully Coded and Responsive HTML5" src="../assets/icon-html-e05de3f70999d3ce94b9804b7e298026.jpg" alt="Icon html" />
+                        </div>
+                        <div class="mask">
+                            <img rel="tooltip" data-placement="bottom" title="Crafted with Bootstrap - the most popular Front End Framework" src="../assets/icon-bootstrap-7cec419b71f47386f443bd3fbfef2f7c.jpg" alt="Icon bootstrap" />
+                        </div>
+                </h4>
+            </div>
+            <div class="col-md-6 col-sm-5 col-xs-5 text-right">
+
+                        <a class="btn btn-default btn-simple" target="_blank" href="http://demos.creative-tim.com/rubik">Live Preview</a>
+
+
+
+
+                        <a href="https://www.creative-tim.com/buy/rubik-presentation-page?license=1" class="btn btn-info btn-fill btn-wd btn-round">
+                            Buy now &middot;<b>
+                                $19
+                            </b>
+                        </a>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<div itemscope itemtype="http://schema.org/Product">
+    <div id="productPage" class="parallax parallax-product parallax-" data-no-turbolink style="background: url('../../s3.amazonaws.com/creativetim_bucket/products/28/rubik_cover30263.jpg?1431442743')no-repeat;background-size: cover; ">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-6">
+                    <div class="product-image">
+                        <a href="http://demos.creative-tim.com/rubik" target="_blank">
+                            <img src="../../s3.amazonaws.com/creativetim_bucket/products/28/original/rubik_thumbnail272b.jpg?1431435602" alt="Rubik Presentation Page Image"/>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-md-offset-1">
+                    <div class="pay-area">
+
+    <div class="text-center">
+        <h1 itemprop="name" class="product-name">Rubik Presentation Page</h1>
+        <h6 class="tagline">Premium One Page Template</h6>
+
+            <div class="rating-stars">
+                <input type="number" class="rating" data-min="1" data-max="5" value="5" disabled="disabled">
+                <div class="aggregate-rating" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating" data-no-turbolink>
+                    &middot;
+                    <span itemprop="ratingValue">5.00</span>/5
+
+                    <a href="rubik-presentation-page/reviews.html" >(<span itemprop="reviewCount">32</span> Reviews)</a>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+
+
+	    <div class="choose-license">
+                    <p class="pull-left">License
+                        <a  class="btn btn-round btn-xs btn-neutral pull-right"
+                             href="https://www.creative-tim.com/license"
+                              rel="tooltip"
+                            title="Something unclear regarding the licenses? Click on the '?' and see more details."
+                           target="_blank">
+                            <i class=" fa fa-question"></i>
+                        </a>
+                    </p>
+
+                        <ul class="nav nav-pills pull-right">
+                            <li class="active">
+                                <a href="#personal" data-toggle="tab">Personal</a>
+                            </li>
+                            <li>
+                                <a href="#developer" data-toggle="tab">Developer</a>
+                            </li>
+                        </ul>
+
+                <div class="clearfix"></div>
+        </div>
+
+
+        <div class="tab-content" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+
+                <meta content="19.00" itemprop="price">
+                <meta content="USD" itemprop="priceCurrency">
+                <meta content="instock" itemprop="availability">
+
+
+    	    <div class="tab-pane active" id="personal">
+
+                        <a href="https://www.creative-tim.com/buy/rubik-presentation-page?license=1" class="btn btn-new btn-neutral btn-fill btn-wd btn-round">
+                            Buy now &middot;<b>
+                                $19
+                            </b>
+                        </a>
+
+
+                    <a href="http://demos.creative-tim.com/rubik" class="hidden-xs btn btn-new btn-wd btn-neutral btn-round" target="_blank">
+                        Live Preview
+                    </a>
+
+                    <a href="http://demos.creative-tim.com/rubik" class="hidden-sm hidden-md hidden-lg btn btn-new btn-wd btn-neutral btn-round" target="_blank">
+                        Live Preview
+                    </a>
+    	    </div>
+
+    	    <div class="tab-pane" id="developer">
+
+                        <a href="https://www.creative-tim.com/buy/rubik-presentation-page?license=2" class="btn btn-new btn-neutral btn-fill btn-wd btn-round">
+                            Buy now &middot; <b>
+                                $79
+                            </b>
+                        </a>
+
+
+                    <a href="http://demos.creative-tim.com/rubik" class="btn btn-new btn-wd btn-neutral btn-round" target="_blank">
+                        Live Preview
+                    </a>
+
+    	    </div>
+
+        </div>
+    </div>
+</div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="section-product-description section-white-gradient section-scaled" data-no-turbolink>
+        <div class="container product">
+
+            <div class="row header-summary">
+
+                <div class="col-md-9">
+                    <div class="col-md-4">
+
+                        <div class="small-info">
+                            <i class="icon-cloud-download"></i>
+                            <h6 class="numbers">490 Downloads</h6>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="small-info">
+                            <i class="icon-comment"></i>
+                            <h6 class="numbers">39 Comments</h6>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="small-info">
+                            <i class="icon-medkit"></i>
+                            <h6 class="numbers">Premium Support</h6>
+                        </div>
+                    </div>
+
+                    <div class="clearfix"></div>
+
+                    <div class="col-md-4">
+                        <div class="small-info">
+                            <i class="icon-gift"></i>
+                            <h6 class="numbers">Lifetime Updates</h6>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="small-info">
+                            <i class="icon-suitcase"></i>
+                            <h6 class="numbers">
+                                Release: 2 years ago
+                            </h6>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 ">
+                        <div class="small-info">
+                            <i class="icon-refresh"></i>
+                            <h6 class="numbers">
+                                Update: 7 days ago
+                            </h6>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-3">
+                            <div class="technologies pull-right">
+                                    <div class="mask">
+                                        <img rel="tooltip" title="Fully Coded and Responsive HTML5" src="../assets/icon-html-e05de3f70999d3ce94b9804b7e298026.jpg" alt="Icon html" />
+                                    </div>
+                                    <div class="mask">
+                                        <img rel="tooltip" title="Crafted with Bootstrap - the most popular Front End Framework" src="../assets/icon-bootstrap-7cec419b71f47386f443bd3fbfef2f7c.jpg" alt="Icon bootstrap" />
+                                    </div>
+                            </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-12">
+                        <div class="swipe-gallery">
+                            <h4 class="legend text-center">
+                                Screenshots
+                                    <div class="gallery-controller">
+                                        <button class="btn btn-sm btn-default btn-round btn-fill btn-arrow-right pull-right"><i class="fa fa-arrow-right"></i></button>
+                                        <button class="btn btn-sm btn-default btn-round btn-fill btn-arrow-left pull-right disabled"><i class="fa fa-arrow-left"></i></button>
+                                    </div>
+                            </h4>
+
+                            <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery" id="product-gallery">
+
+
+                <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                    <a href="../../s3.amazonaws.com/creativetim_bucket/product_gallery/photos/8/originala365.jpg?1445430857" itemprop="contentUrl" data-size="1439x5224">
+                        <img src="../../s3.amazonaws.com/creativetim_bucket/product_gallery/photos/8/thumba365.jpg?1445430857" itemprop="thumbnail" alt="Image description" />
+
+                    </a>
+
+                    <figcaption itemprop="caption description">
+                        
+                    </figcaption>
+                </figure>
+
+                <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                    <a href="../../s3.amazonaws.com/creativetim_bucket/product_gallery/photos/10/original7cb6.jpg?1445431262" itemprop="contentUrl" data-size="1439x6714">
+                        <img src="../../s3.amazonaws.com/creativetim_bucket/product_gallery/photos/10/thumb7cb6.jpg?1445431262" itemprop="thumbnail" alt="Image description" />
+
+                    </a>
+
+                    <figcaption itemprop="caption description">
+                        
+                    </figcaption>
+                </figure>
+
+                <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                    <a href="../../s3.amazonaws.com/creativetim_bucket/product_gallery/photos/13/originalefa9.jpg?1445432214" itemprop="contentUrl" data-size="1440x1000">
+                        <img src="../../s3.amazonaws.com/creativetim_bucket/product_gallery/photos/13/thumbefa9.jpg?1445432214" itemprop="thumbnail" alt="Image description" />
+
+                    </a>
+
+                    <figcaption itemprop="caption description">
+                        
+                    </figcaption>
+                </figure>
+
+                <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                    <a href="../../s3.amazonaws.com/creativetim_bucket/product_gallery/photos/15/original93d9.jpg?1445436881" itemprop="contentUrl" data-size="1440x1000">
+                        <img src="../../s3.amazonaws.com/creativetim_bucket/product_gallery/photos/15/thumb93d9.jpg?1445436881" itemprop="thumbnail" alt="Image description" />
+
+                    </a>
+
+                    <figcaption itemprop="caption description">
+                        
+                    </figcaption>
+                </figure>
+
+</div>
+
+
+    
+<div class="modal fade" id="photo-product-gallery-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+          <form enctype="multipart/form-data" action="https://www.creative-tim.com/add_photo_in_gallery" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="p0OlvT+vRKxiUB2ppw9LXqiJdZpe+Pd1proq1+cys8v3I5daOwa7ZaA6g1znlkCvRfv4b7CE02joj9GTAGy/Tw==" />
+              <div class="modal-body">
+                  <label>Caption</label>
+                  <input type="text" name="caption" id="caption" class="form-control" />
+
+                  <label>Photo</label>
+                  <input type="file" name="photo" id="photo" />
+
+                  <input type="hidden" name="product_id" id="product_id" value="28" />
+              </div>
+              <div class="modal-footer">
+                 <input type="submit" name="commit" value="Save" class="btn btn-block btn-warning" />
+              </div>
+</form>      </div>
+    </div>
+</div>
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe.
+         It's a separate element, as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
+        <!-- don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+          </div>
+
+        </div>
+
+</div>
+
+                        </div>
+
+                </div>
+
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="description collapse" id="productDescription" aria-expanded="false">
+                        <h1 class="sub-title">Premium Bootstrap One Page Template</h1>
+                        <h4 class="legend text-center">Product description</h4>
+
+                        <span itemprop="description">
+                            Rubik - bootstrap presentation page, is a collection of elements that helps you create a beautiful and stylish presentation page for your company, agency, personal portfolio or startup. It is built on top of twitter Bootstrap and styled to look amazingly beautiful. <br>
+<br>
+If you are looking to create your online presence or just let people know who you are and what you do, this is the tool for you. Downloading the Rubik bundle will get you pre-built examples that you can change and customise to fit your profile. <br>
+<h3>Stylish components</h3>
+Every component has been created after researching what makes for a great presentation page. We put time and passion in creating the best possible elements for our users. From layouts to tiny buttons, we wanted everything to look beautiful and consistent with each other. <br>
+<br>
+<h3>Multiple Options</h3>
+The page is broken down into sections and each section has multiple options for implementation. Going throgh every part of the page, you will be able to pick out the elements that you find most useful.<br>
+<br>
+To see all the options and how they look together we have created 4 examples:<br>
+<ol><li><b><a href="http://demos.creative-tim.com/rubik-agency" rel="nofollow" target="_blank">Agency</a></b> - Customize your agency presentation with many combinations! You can see an example of a tailoring group in our live preview.</li><li><b><a href="http://demos.creative-tim.com/rubik-company" rel="nofollow" target="_blank">Company</a> </b>- Create a simple and elegant presentation page for your company or enterprise. Get inspiration for your new brand identity and check out the home building company presenation we have built!</li><li><b><a href="http://demos.creative-tim.com/rubik-startup" rel="nofollow" target="_blank">Startup</a> - </b>Present your startup team in an unique and beautiful way. We have created a music example that you can see.</li><li><b><a href="http://demos.creative-tim.com/rubik-personal-portfolio" rel="nofollow" target="_blank">Portfolio</a>  </b>- Create a simple and elegant portfolio page for your projects. Check out a photographer's presentation page in our examples!</li></ol>
+The Rubik page is what you need to create an awesome presentation page, give it a try!<br>
+<br>
+Info: We do not include any images in the product archive, the images and photos that we use belong to their owners and are just for demo purpose. If you want to use them in your project please contact the authors:<br>
+<ul><li><a href="https://jawbone.com/speakers" rel="nofollow" target="_blank">https://jawbone.com/speakers</a><br></li><li><a href="http://www.kingsmanmovie.com/" rel="nofollow" target="_blank">http://www.kingsmanmovie.com/</a><br></li><li><a href="https://www.bluhomes.com/" rel="nofollow" target="_blank">https://www.bluhomes.com/</a><br></li><li><a href="http://nelsonmouellic.tumblr.com/" rel="nofollow" target="_blank">http://nelsonmouellic.tumblr.com/</a><br></li></ul>
+<h3><b><br></b></h3><h3><b>IMPORTANT: This is just an HTML/CSS/JS product, if you want to catch the emails and messages from the contact form you need to include some backend scripts (ex. for PHP  follow this tutorial:</b> <a href="https://bootstrapbay.com/blog/working-bootstrap-contact-form/" rel="nofollow" target="_blank">https://bootstrapbay.com/blog/working-bootstrap-contact-form/</a>, it is very easy to be added)</h3>
+
+
+
+
+
+
+
+<h3><b><br></b></h3>
+                        <span>
+                        <br />
+                            Current version <b>1.2.3</b>
+                            <a class="btn btn-sm btn-simple btn-info " href="#product-version-logs-modal-28" role="button" data-toggle="modal">
+                                See updates and changelog
+                            </a>
+                    </div>
+                    <div class="view-more text-center">
+                        <button class="btn btn-simple btn-default viewMoreButton" data-target="#productDescription">View More</button>
+                    </div>
+
+                        <div class="summary">
+                            <div class="row">
+                                <div class="col-md-4 col-xs-6">
+                                    <div class="category">
+                                        <i class="icon-th-large"></i>
+                                        <p>47 Handcrafted Components</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4 col-xs-6">
+                                    <div class="category">
+                                        <i class="icon-gears"></i>
+
+                                        <p>5 Customized Plugins</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4 col-xs-6">
+                                    <div class="category">
+                                        <i class="icon-picture"></i>
+
+                                        <p>4 Example Pages</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4 col-xs-6">
+                                    <div class="category">
+                                        <i class="icon-bold"></i>
+                                        <p>Bootstrap Based</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4 col-xs-6">
+                                    <div class="category">
+                                        <i class="icon-file-text-alt"></i>
+                                        <p>Documentation</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4 col-xs-6">
+                                    <div class="category">
+                                        <i class="icon-mobile-phone"></i>
+                                        <p>Fully Responsive</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    <h6 class="text-center">Product certified by: <span itemprop="brand">Creative Tim</span></h6>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="main main-dark section-creators">
+        <div class="container">
+            <div class="creators">
+                <div class="row">
+
+    <div class="col-md-8 col-md-offset-2" id="comments">
+        <div class="creators collaborators-card">
+            <h2 class="legend text-center">We are here to help you!</h2>
+
+            <div class="collaborators" data-no-turbolink>
+
+
+                <div class="authors-container" data-collaborators="2">
+                    <div class="author">
+    <a class='card-user account-photo  account-product-owner '
+       rel='popover'
+       data-content='<div class="uil-ring-css" style="-webkit-transform:scale(0.3)"><div></div></div>'
+       data-initialized='0'
+       data-html='true'
+       data-placement='top'
+       data-template='<div class="popover" onmouseover="clearTimeout(timeoutObj);$(this).mouseleave(function() {$(this).hide();});"><div class="arrow"></div><div class="popover-inner"><div class="popover-content"><p></p></div></div></div>'
+       data-username='axelut'
+    >
+
+        <div class="mask">
+            <img src="../../s3.amazonaws.com/creativetim_bucket/photos/1/thumb953e.jpg?1484594398" class="photo"/>
+        </div>
+
+            <div class="account-type">
+                <i class="fa fa-star"></i>
+            </div>
+    </a>
+</div>
+
+
+                        <div class="author">
+    <a class='card-user account-photo '
+       rel='popover'
+       data-content='<div class="uil-ring-css" style="-webkit-transform:scale(0.3)"><div></div></div>'
+       data-initialized='0'
+       data-html='true'
+       data-placement='top'
+       data-template='<div class="popover" onmouseover="clearTimeout(timeoutObj);$(this).mouseleave(function() {$(this).hide();});"><div class="arrow"></div><div class="popover-inner"><div class="popover-content"><p></p></div></div></div>'
+       data-username='tintescu.radu'
+    >
+
+        <div class="mask">
+            <img src="../../s3.amazonaws.com/creativetim_bucket/photos/481/thumb2b04.jpg?1446051900" class="photo"/>
+        </div>
+
+    </a>
+</div>
+
+
+
+                    <br>
+                </div>
+
+                <div class="btn-area text-center">
+                    <h4 class="commented">39 Web Developers commented on this product</h4>
+
+                        <a target="_blank" class="btn btn-default btn-new btn-simple" href="https://github.com/timcreative/rubik/issues">
+                            <i class="fa fa-github-alt"></i> Report issue
+</a>
+                        <a target="_blank" class="btn btn-default btn-new btn-simple" href="https://www.youtube.com/watch?v=ua_TNpkTPZY">
+                            <i class="fa fa-youtube-play"></i> Video Tutorial
+</a>                    <div class="collapse in" id="commentsCollapse">
+                            <input id="keep_product" class="hidden" value="28">
+
+                                <div class = "sort_paginate_ajax">
+                                    
+
+    
+
+<div class="comment " id="comment-320">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/anonymous_thumb.png" alt="Anonymous thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div class="author">
+                <h4 class="username">rene.anzorena
+                    <ul>
+                    <li class = 'user-role downloaded' > downloaded</li>
+                    </ul>
+                <small>2 years ago</small>
+                </h4>
+            </div>
+            Hi!
+
+In this version the contact form works or is it just the visuals? <br>
+
+            <div class="comment-reply-btn">
+    		</div>
+    	</div>
+
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+    				
+<div class="comment " id="reply-321" >
+
+    <div class="row">
+        <div class="col-md-2 col-md-offset-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/481/thumb2b04.jpg?1446051900" alt="Thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="author">
+                <h4 class="username">tintescu.radu
+                    <ul>
+                    <li class = 'user-role downloaded' > downloaded</li>
+                    </ul>
+                </h4>
+            </div>
+            <a class='card-user'
+    	       rel='popover'
+    	       data-content='<div class="uil-ring-css" style="-webkit-transform:scale(0.3)"><div></div></div>'
+    	       data-initialized='0'
+    	       data-html='true'
+    	       data-placement='top'
+    	       data-template='<div class="popover" onmouseover="clearTimeout(timeoutObj);$(this).mouseleave(function() {$(this).hide();});"><div class="arrow"></div><div class="popover-inner"><div class="popover-content"><p></p></div></div></div>'
+    	       data-username='rene.anzorena'
+    	    >
+    	    	@rene.anzorena
+    	    </a> it is just the visuals, we included in the description a plugin that let you get emails from contact form without a server script being involved. We also sent you an email with that plugin :-)
+        </div>
+
+        <div class="col-md-2 text-right">
+            <h5 class="time">2 years ago</h5>
+        </div>
+    </div>
+</div>
+
+    <div id="last-reply-320"></div>
+    
+
+<div class="comment " id="comment-323">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/12386/thumb3868.jpg?1427214986" alt="Thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div class="author">
+                <h4 class="username">vil.helm
+                    <ul>
+                    <li class = 'user-role downloaded' > downloaded</li>
+                    </ul>
+                <small>2 years ago</small>
+                </h4>
+            </div>
+            Any news on the SASS version? <br>
+
+            <div class="comment-reply-btn">
+    		</div>
+    	</div>
+
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+    				
+<div class="comment " id="reply-324" >
+
+    <div class="row">
+        <div class="col-md-2 col-md-offset-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/481/thumb2b04.jpg?1446051900" alt="Thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="author">
+                <h4 class="username">tintescu.radu
+                    <ul>
+                    <li class = 'user-role downloaded' > downloaded</li>
+                    </ul>
+                </h4>
+            </div>
+            <b>Anonymous Tim</b> we are working on it, we've been kind of busy in the last period of time with a new freebie :-)
+        </div>
+
+        <div class="col-md-2 text-right">
+            <h5 class="time">2 years ago</h5>
+        </div>
+    </div>
+</div>
+
+    				
+<div class="comment " id="reply-469" >
+
+    <div class="row">
+        <div class="col-md-2 col-md-offset-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/39381/thumb762f.jpg?1441730140" alt="Thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="author">
+                <h4 class="username">CodedInk
+                </h4>
+            </div>
+            @vil.helm I am with you on the SASS version. I would like to see/use this version as well. Any time frame updates @tintescu.radu?
+        </div>
+
+        <div class="col-md-2 text-right">
+            <h5 class="time">1 year ago</h5>
+        </div>
+    </div>
+</div>
+
+    <div id="last-reply-323"></div>
+    
+
+<div class="comment " id="comment-331">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/anonymous_thumb.png" alt="Anonymous thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div class="author">
+                <h4 class="username">ed.wrede
+                    <ul>
+                    <li class = 'user-role downloaded' > downloaded</li>
+                    </ul>
+                <small>2 years ago</small>
+                </h4>
+            </div>
+            Hey guys :)
+
+A wonderful template and $19 well spent on my side!
+
+Just a question / issue to report...
+
+On a 13" retina MacBook Pro, if I am looking at any of the demo presentations (startup, agency etc) if I open the side navigation, the button to close the navigation is hidden by the sidebar.
+
+If I click on the main frame it dismisses the sidebar nav, but I feel the right thing would be for the X to slide far enough across that it can still be clicked to dismiss the nav.
+
+Thanks :) <br>
+
+            <div class="comment-reply-btn">
+    		</div>
+    	</div>
+
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+    <div id="last-reply-331"></div>
+    
+
+<div class="comment " id="comment-503">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/anonymous_thumb.png" alt="Anonymous thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div class="author">
+                <h4 class="username">colaja
+                    <ul>
+                    <li class = 'user-role downloaded' > downloaded</li>
+                    </ul>
+                <small>1 year ago</small>
+                </h4>
+            </div>
+            Hi guys, great work!
+
+Can you please explain how to set a map?
+
+Thanks in advance <br>
+
+            <div class="comment-reply-btn">
+    		</div>
+    	</div>
+
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+    				
+<div class="comment " id="reply-506" >
+
+    <div class="row">
+        <div class="col-md-2 col-md-offset-2">
+            <div class="account-photo account-product-owner">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/1/thumb953e.jpg?1484594398" alt="Thumb" />
+
+                    <div class="account-type" rel="tooltip" title="Product Owner">
+                        <i class="fa fa-star"></i>
+                    </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="author">
+                <h4 class="username">axelut
+                    <ul>
+                    <li class = 'user-role owner' > owner</li>
+                    </ul>
+                </h4>
+            </div>
+            <a class='card-user'
+    	       rel='popover'
+    	       data-content='<div class="uil-ring-css" style="-webkit-transform:scale(0.3)"><div></div></div>'
+    	       data-initialized='0'
+    	       data-html='true'
+    	       data-placement='top'
+    	       data-template='<div class="popover" onmouseover="clearTimeout(timeoutObj);$(this).mouseleave(function() {$(this).hide();});"><div class="arrow"></div><div class="popover-inner"><div class="popover-content"><p></p></div></div></div>'
+    	       data-username='colaja'
+    	    >
+    	    	@colaja
+    	    </a> thank you for using our product. Can you please send us an email with more details about your request? Do you want to set the coordinates on the map? Or just to activate it on your page? Or both?
+        </div>
+
+        <div class="col-md-2 text-right">
+            <h5 class="time">1 year ago</h5>
+        </div>
+    </div>
+</div>
+
+    <div id="last-reply-503"></div>
+    
+
+<div class="comment " id="comment-565">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/42341/thumb157b.jpg?1443516777" alt="Thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div class="author">
+                <h4 class="username">jenninessing
+                    <ul>
+                    <li class = 'user-role downloaded' > downloaded</li>
+                    </ul>
+                <small>1 year ago</small>
+                </h4>
+            </div>
+            Hi guys, thanks for providing this nice template! I have tried to access quontacto.com but it tells me it&#39;s a possible fishing site, also googling does not give any results. 
+
+Further I am now working the projects/clients section, and when clicking on the project, I can only post 1 image with a fixed size. Is it possible to add more images underneath each other? 
+
+Thank you! <br>
+
+            <div class="comment-reply-btn">
+    		</div>
+    	</div>
+
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+    				
+<div class="comment " id="reply-567" >
+
+    <div class="row">
+        <div class="col-md-2 col-md-offset-2">
+            <div class="account-photo account-product-owner">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/1/thumb953e.jpg?1484594398" alt="Thumb" />
+
+                    <div class="account-type" rel="tooltip" title="Product Owner">
+                        <i class="fa fa-star"></i>
+                    </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="author">
+                <h4 class="username">axelut
+                    <ul>
+                    <li class = 'user-role owner' > owner</li>
+                    </ul>
+                </h4>
+            </div>
+            <a class='card-user'
+    	       rel='popover'
+    	       data-content='<div class="uil-ring-css" style="-webkit-transform:scale(0.3)"><div></div></div>'
+    	       data-initialized='0'
+    	       data-html='true'
+    	       data-placement='top'
+    	       data-template='<div class="popover" onmouseover="clearTimeout(timeoutObj);$(this).mouseleave(function() {$(this).hide();});"><div class="arrow"></div><div class="popover-inner"><div class="popover-content"><p></p></div></div></div>'
+    	       data-username='jenninessing'
+    	    >
+    	    	@jenninessing
+    	    </a> thank you for using our product, since your request need more code and examples of implementation we sent you an email with solutions for the both items. Hope that helps you. Good luck with the development!
+        </div>
+
+        <div class="col-md-2 text-right">
+            <h5 class="time">1 year ago</h5>
+        </div>
+    </div>
+</div>
+
+    				
+<div class="comment " id="reply-566" >
+
+    <div class="row">
+        <div class="col-md-2 col-md-offset-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/42341/thumb157b.jpg?1443516777" alt="Thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="author">
+                <h4 class="username">jenninessing
+                    <ul>
+                    <li class = 'user-role downloaded' > downloaded</li>
+                    </ul>
+                </h4>
+            </div>
+            Is there an alternative for quontacto, since I cannot access the site/plugin.
+
+Thank you very much! (will share the site with you once ready)
+        </div>
+
+        <div class="col-md-2 text-right">
+            <h5 class="time">1 year ago</h5>
+        </div>
+    </div>
+</div>
+
+    <div id="last-reply-565"></div>
+    
+
+<div class="comment " id="comment-629">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/31638/thumb49d2.png?1444049939" alt="Thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div class="author">
+                <h4 class="username">jcesarg
+                    <ul>
+                    <li class = 'user-role downloaded' > downloaded</li>
+                    </ul>
+                <small>1 year ago</small>
+                </h4>
+            </div>
+            Hi his work is amazing.
+
+I have a problem with data- target = &quot; PROJECT_#&quot; only works until the number 3 when I want to do another project, such project_4 this does not work or does not appear <br>
+
+            <div class="comment-reply-btn">
+    		</div>
+    	</div>
+
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+    				
+<div class="comment " id="reply-636" >
+
+    <div class="row">
+        <div class="col-md-2 col-md-offset-2">
+            <div class="account-photo account-product-owner">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/1/thumb953e.jpg?1484594398" alt="Thumb" />
+
+                    <div class="account-type" rel="tooltip" title="Product Owner">
+                        <i class="fa fa-star"></i>
+                    </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="author">
+                <h4 class="username">axelut
+                    <ul>
+                    <li class = 'user-role owner' > owner</li>
+                    </ul>
+                </h4>
+            </div>
+            <a class='card-user'
+    	       rel='popover'
+    	       data-content='<div class="uil-ring-css" style="-webkit-transform:scale(0.3)"><div></div></div>'
+    	       data-initialized='0'
+    	       data-html='true'
+    	       data-placement='top'
+    	       data-template='<div class="popover" onmouseover="clearTimeout(timeoutObj);$(this).mouseleave(function() {$(this).hide();});"><div class="arrow"></div><div class="popover-inner"><div class="popover-content"><p></p></div></div></div>'
+    	       data-username='jcesarg'
+    	    >
+    	    	@jcesarg
+    	    </a> can you please send us a link to check it and give you a solution? Best, Alex.
+        </div>
+
+        <div class="col-md-2 text-right">
+            <h5 class="time">1 year ago</h5>
+        </div>
+    </div>
+</div>
+
+    <div id="last-reply-629"></div>
+    
+
+<div class="comment " id="comment-638">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/31638/thumb49d2.png?1444049939" alt="Thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div class="author">
+                <h4 class="username">jcesarg
+                    <ul>
+                    <li class = 'user-role downloaded' > downloaded</li>
+                    </ul>
+                <small>1 year ago</small>
+                </h4>
+            </div>
+            Thanks for you help.
+http://studyabroadindex.com/100SV/ <br>
+
+            <div class="comment-reply-btn">
+    		</div>
+    	</div>
+
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+    <div id="last-reply-638"></div>
+    
+
+<div class="comment " id="comment-640">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/31638/thumb49d2.png?1444049939" alt="Thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div class="author">
+                <h4 class="username">jcesarg
+                    <ul>
+                    <li class = 'user-role downloaded' > downloaded</li>
+                    </ul>
+                <small>1 year ago</small>
+                </h4>
+            </div>
+            I solved, thanks. <br>
+
+            <div class="comment-reply-btn">
+    		</div>
+    	</div>
+
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+    				
+<div class="comment " id="reply-641" >
+
+    <div class="row">
+        <div class="col-md-2 col-md-offset-2">
+            <div class="account-photo account-product-owner">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/1/thumb953e.jpg?1484594398" alt="Thumb" />
+
+                    <div class="account-type" rel="tooltip" title="Product Owner">
+                        <i class="fa fa-star"></i>
+                    </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="author">
+                <h4 class="username">axelut
+                    <ul>
+                    <li class = 'user-role owner' > owner</li>
+                    </ul>
+                </h4>
+            </div>
+            <a class='card-user'
+    	       rel='popover'
+    	       data-content='<div class="uil-ring-css" style="-webkit-transform:scale(0.3)"><div></div></div>'
+    	       data-initialized='0'
+    	       data-html='true'
+    	       data-placement='top'
+    	       data-template='<div class="popover" onmouseover="clearTimeout(timeoutObj);$(this).mouseleave(function() {$(this).hide();});"><div class="arrow"></div><div class="popover-inner"><div class="popover-content"><p></p></div></div></div>'
+    	       data-username='jcesarg'
+    	    >
+    	    	@jcesarg
+    	    </a> That is awesome. Btw I checked your website and it looks like you have the same css class &quot;animation-3&quot; on each group of Verb + translation. You can use &quot;animation-1&quot; for the first, &quot;animation-2&quot; for second, &quot;animation-3&quot; for third, &quot;animation-4&quot; for fourth. Then on the next &quot;row&quot;, again &quot;animation-1&quot;, &quot;animation-2&quot; etc..... In this way they will appear one after each other, and not all in the same time.
+        </div>
+
+        <div class="col-md-2 text-right">
+            <h5 class="time">1 year ago</h5>
+        </div>
+    </div>
+</div>
+
+    <div id="last-reply-640"></div>
+    
+
+<div class="comment " id="comment-684">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/44280/thumbfdb8.jpg?1446013782" alt="Thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div class="author">
+                <h4 class="username">mohammed.sakallah
+                <small>1 year ago</small>
+                </h4>
+            </div>
+            what is bootstrab version ...! 3.3.X <br>
+
+            <div class="comment-reply-btn">
+    		</div>
+    	</div>
+
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+    				
+<div class="comment " id="reply-686" >
+
+    <div class="row">
+        <div class="col-md-2 col-md-offset-2">
+            <div class="account-photo account-product-owner">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/1/thumb953e.jpg?1484594398" alt="Thumb" />
+
+                    <div class="account-type" rel="tooltip" title="Product Owner">
+                        <i class="fa fa-star"></i>
+                    </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="author">
+                <h4 class="username">axelut
+                    <ul>
+                    <li class = 'user-role owner' > owner</li>
+                    </ul>
+                </h4>
+            </div>
+            <a class='card-user'
+    	       rel='popover'
+    	       data-content='<div class="uil-ring-css" style="-webkit-transform:scale(0.3)"><div></div></div>'
+    	       data-initialized='0'
+    	       data-html='true'
+    	       data-placement='top'
+    	       data-template='<div class="popover" onmouseover="clearTimeout(timeoutObj);$(this).mouseleave(function() {$(this).hide();});"><div class="arrow"></div><div class="popover-inner"><div class="popover-content"><p></p></div></div></div>'
+    	       data-username='mohammed.sakallah'
+    	    >
+    	    	@mohammed.sakallah
+    	    </a> Right now it is v3.3.2
+        </div>
+
+        <div class="col-md-2 text-right">
+            <h5 class="time">1 year ago</h5>
+        </div>
+    </div>
+</div>
+
+    <div id="last-reply-684"></div>
+    
+
+<div class="comment " id="comment-685">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/44280/thumbfdb8.jpg?1446013782" alt="Thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div class="author">
+                <h4 class="username">mohammed.sakallah
+                <small>1 year ago</small>
+                </h4>
+            </div>
+            it&#39;s very Nice Web Designe And Good Idea :) <br>
+
+            <div class="comment-reply-btn">
+    		</div>
+    	</div>
+
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+    				
+<div class="comment " id="reply-687" >
+
+    <div class="row">
+        <div class="col-md-2 col-md-offset-2">
+            <div class="account-photo account-product-owner">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/1/thumb953e.jpg?1484594398" alt="Thumb" />
+
+                    <div class="account-type" rel="tooltip" title="Product Owner">
+                        <i class="fa fa-star"></i>
+                    </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="author">
+                <h4 class="username">axelut
+                    <ul>
+                    <li class = 'user-role owner' > owner</li>
+                    </ul>
+                </h4>
+            </div>
+            We are glad that you like it! :-)
+        </div>
+
+        <div class="col-md-2 text-right">
+            <h5 class="time">1 year ago</h5>
+        </div>
+    </div>
+</div>
+
+    <div id="last-reply-685"></div>
+<div id="last-comment-28"></div>
+
+                                    <div class="text-center" data-no-turbolink>
+                                        <div class="pagination pagination-azure pagination-no-border " is_active="true"><a class="previous_page" rel="prev" href="rubik-presentation-page2679.html?page=1#comments">«</a> <a rel="prev" href="rubik-presentation-page2679.html?page=1#comments">1</a> <em class="current">2</em> <a rel="next" href="rubik-presentation-page9ba9.html?page=3#comments">3</a> <a href="rubik-presentation-pagefdb0.html?page=4#comments">4</a> <a class="next_page" rel="next" href="rubik-presentation-page9ba9.html?page=3#comments">»</a></div>
+                                    </div>
+                                </div>
+                        <div id="last-comment-28"></div>
+                            <h4 class="post-comment-info">You have to be logged in to post a comment.
+                                <a href="javascript:void(0)" onclick="openLoginModal();" role="button" data-toggle="modal">
+                                    Login here.
+                                </a>
+                            </h4>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+                <div class="row">
+    <div class="col-md-8 col-md-offset-2 text-center">
+        <div class="sharing-area">
+            <div class="big-icon">
+                <i class="icon-comments"></i>
+            </div>
+            <h2 class="legend text-center">Sharing is caring!</h2>
+
+            <a href="javascript:shareFacebookWithCallBack()" class="btn btn-new btn-wd btn-social btn-facebook btn-fill btn-round">
+                <i class="fa fa-facebook-square"></i> Facebook
+            </a>
+            <a href="https://twitter.com/intent/tweet?url=https://www.creative-tim.com/product/rubik-presentation-page?page=2&amp;text=Checkout%20this%20awesome%20product%20for%20web%20developers&amp;via=creativetim" class="btn btn-new btn-wd btn-social btn-twitter btn-fill btn-round">
+                <i class="fa fa-twitter"></i> Twitter
+            </a>
+            <a href="javascript:void(0)" class="btn btn-new btn-wd btn-social btn-google btn-fill btn-round" onclick="googleShare(this)">
+                <i class="fa fa-google-plus-square"></i> Google+
+            </a>
+             <a href="https://www.creative-tim.com/cdn-cgi/l/email-protection#d9e6aaacbbb3bcbaade49ab1bcbab2b6acadf9adb1b0aaffbbb6bda0e491b0f590f9bfb6acb7bdf9adb1b0aaf9b8b7bdf9adb1b6acbeb1adf9a0b6acf9b4b0beb1adf9b5b0b2bcf9b0adf9b1adada9aae3f6f6aeaeaef7baabbcb8adb0afbcf4adb0b4f7bab6b4f6a9abb6bdacbaadf6abacbbb0b2f4a9abbcaabcb7adb8adb0b6b7f4a9b8bebce6a9b8bebce4eb" class="btn btn-new btn-wd btn-social btn-neutral btn-email btn-fill btn-round">
+                <i class="fa fa-paper-plane"></i> Email
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+            </div>
+        </div>
+    </div>
+
+        <div class="main main-purple section-feedback parallax  parallax-" style="background: url('../../s3.amazonaws.com/creativetim_bucket/products/28/rubik_cover30263.jpg?1431442743')no-repeat;background-size: cover; ">
+            <div class="container">
+                <div class="testimonials">
+                    <h4 class="legend text-center">Why our customers appreciate us</h4>
+                        <div class="col-md-4">
+    <div class="card" itemprop="review" itemscope itemtype="http://schema.org/Review">
+        <div class="content">
+            <div class="rating-stars rating-just-view" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+                <meta itemprop="worstRating" content="1">
+                <meta itemprop="bestRating" content="5">
+                <meta itemprop="ratingValue" content="5">
+                <input type="number" class="rating" data-min="1" data-max="5" value="5" disabled="disabled" />
+            </div>
+
+            <h3 class="small-title" itemprop="name">
+                Design Quality
+            </h3>
+
+            <h4 class="message" itemprop="description"></h4>
+
+            <div class="footer">
+               <div class="author">
+                   <a class="card-link">
+                       <img class="avatar" src="../../s3.amazonaws.com/creativetim_bucket/anonymous_thumb.png" alt="Anonymous thumb" />
+                      <span itemprop="author">Anonymous Tim</span>
+                   </a>
+               </div>
+               <div class="stats pull-right">
+                   <meta itemprop="datePublished" content="2017-07-31">10 days ago
+               </div>
+               <div class="clearfix"></div>
+           </div>
+
+        </div>
+    </div>
+</div>
+
+                        <div class="col-md-4">
+    <div class="card" itemprop="review" itemscope itemtype="http://schema.org/Review">
+        <div class="content">
+            <div class="rating-stars rating-just-view" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+                <meta itemprop="worstRating" content="1">
+                <meta itemprop="bestRating" content="5">
+                <meta itemprop="ratingValue" content="5">
+                <input type="number" class="rating" data-min="1" data-max="5" value="5" disabled="disabled" />
+            </div>
+
+            <h3 class="small-title" itemprop="name">
+                Code Quality
+            </h3>
+
+            <h4 class="message" itemprop="description">The html generator is great and allows you to make your site very quickly!</h4>
+
+            <div class="footer">
+               <div class="author">
+                   <a class="card-link">
+                       <img class="avatar" src="../../s3.amazonaws.com/creativetim_bucket/anonymous_thumb.png" alt="Anonymous thumb" />
+                      <span itemprop="author">Dan Chapman</span>
+                   </a>
+               </div>
+               <div class="stats pull-right">
+                   <meta itemprop="datePublished" content="2017-07-29">12 days ago
+               </div>
+               <div class="clearfix"></div>
+           </div>
+
+        </div>
+    </div>
+</div>
+
+                        <div class="col-md-4">
+    <div class="card" itemprop="review" itemscope itemtype="http://schema.org/Review">
+        <div class="content">
+            <div class="rating-stars rating-just-view" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+                <meta itemprop="worstRating" content="1">
+                <meta itemprop="bestRating" content="5">
+                <meta itemprop="ratingValue" content="5">
+                <input type="number" class="rating" data-min="1" data-max="5" value="5" disabled="disabled" />
+            </div>
+
+            <h3 class="small-title" itemprop="name">
+                Customizability
+            </h3>
+
+            <h4 class="message" itemprop="description">This is a great product for the late beginner to intermediate. Other products of this time should be created around this one. </h4>
+
+            <div class="footer">
+               <div class="author">
+                   <a class="card-link">
+                       <img class="avatar" src="../../s3.amazonaws.com/creativetim_bucket/photos/11965/thumb1a42.jpg?1449790345" alt="Thumb" />
+                      <span itemprop="author">Malik Dixon</span>
+                   </a>
+               </div>
+               <div class="stats pull-right">
+                   <meta itemprop="datePublished" content="2017-07-28">13 days ago
+               </div>
+               <div class="clearfix"></div>
+           </div>
+
+        </div>
+    </div>
+</div>
+
+
+                        <div class="clearfix"></div>
+                        <div class="text-center" data-no-turbolink>
+                            <a class="btn btn-new btn-neutral btn-round" href="rubik-presentation-page/reviews.html">View All Reviews</a>
+                        </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="main-grey">
+            <div class="container product gallery">
+                <h4 class="legend">Built with Rubik Presentation Page</h4>
+    <!--             Cristina: de pus conditie sa fie doar 3 -->
+                <div class="row">
+                            <div class="col-md-4">
+                                <a target="_blank" href="https://6figr.com/">
+                                    <img class="img-responsive img-rounded" src="../../s3.amazonaws.com/creativetim_bucket/galleries/photos/000/000/551/original/Captur%c4%83_de_ecran_din_2017.06.12_la_12.19.144478.png?1497259237" alt="Captur%c4%83 de ecran din 2017.06.12 la 12.19.14" />
+</a>                            </div>
+                            <div class="col-md-4">
+                                <a target="_blank" href="http://www.gomesgedeon.com.br/">
+                                    <img class="img-responsive img-rounded" src="../../s3.amazonaws.com/creativetim_bucket/galleries/photos/000/000/465/original/Captur%c4%83_de_ecran_din_2017.04.21_la_12.57.1982e0.png?1492768812" alt="Captur%c4%83 de ecran din 2017.04.21 la 12.57.19" />
+</a>                            </div>
+                            <div class="col-md-4">
+                                <a target="_blank" href="https://www.knipsbox.ch/">
+                                    <img class="img-responsive img-rounded" src="../../s3.amazonaws.com/creativetim_bucket/galleries/photos/000/000/422/original/Captur%c4%83_de_ecran_din_2017.01.09_la_15.41.40114e.png?1483969325" alt="Captur%c4%83 de ecran din 2017.01.09 la 15.41.40" />
+</a>                            </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col-md-2 col-md-offset-5">
+                        <a class="btn btn-info btn-block btn-fill" href="https://www.creative-tim.com/gallery/rubik-presentation-page">See the Gallery</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    <div class="main-white">
+        <div class="container">
+            <ol itemscope itemtype="http://schema.org/BreadcrumbList" class="breadcrumb">
+        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" >
+                <a itemprop="item" href="https://www.creative-tim.com/">
+                <span itemprop="name">Home</span>
+                </a>
+
+            <meta itemprop="position" content="1" />
+        </li>
+        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" >
+                <a itemprop="item" href="https://www.creative-tim.com/bootstrap-themes">
+                <span itemprop="name">All Categories</span>
+                </a>
+
+            <meta itemprop="position" content="2" />
+        </li>
+        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class=&quot;active&quot;&gt;>
+                <span itemprop="name">Rubik Presentation Page</span>
+
+            <meta itemprop="position" content="3" />
+        </li>
+</ol>
+
+        </div>
+    </div>
+</div>
+
+<div class="modal fade reviews-modal" id="reviewsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+
+              <td>Rubik Presentation Page</td>
+              <td>Anthony Dass</td><br>
+              <td>message:Just great!</td>
+              <td>rating:5</td>
+
+
+              <td>Rubik Presentation Page</td>
+              <td>Travis Moks</td><br>
+              <td>message:So many features, design is great and it&#39;s just all around sexy.</td>
+              <td>rating:5</td>
+
+
+              <td>Rubik Presentation Page</td>
+              <td>Dan Ross</td><br>
+              <td>message:Great theme with outstanding customer support.</td>
+              <td>rating:5</td>
+
+
+              <td>Rubik Presentation Page</td>
+              <td>Marcel Schmidt</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Rubik Presentation Page</td>
+              <td>Nikolai Kolodziej</td><br>
+              <td>message:I love it, got it from a giveaway. I experimented a little with it, didn&#39;t get to use it in an actual project though. Awesome Template. :)</td>
+              <td>rating:5</td>
+
+
+              <td>Rubik Presentation Page</td>
+              <td>Subhajai Benchadhikul</td><br>
+              <td>message:Very good layout builder!</td>
+              <td>rating:5</td>
+
+
+              <td>Rubik Presentation Page</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:Really great design and code quality! Thanks! :)</td>
+              <td>rating:5</td>
+
+
+              <td>Rubik Presentation Page</td>
+              <td>David Lapointe</td><br>
+              <td>message:Great support, quick response!</td>
+              <td>rating:5</td>
+
+
+              <td>Rubik Presentation Page</td>
+              <td>Vincent Willems</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Rubik Presentation Page</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:I&#39;m glad that I added this temp to my arsenal. Packs precision exports with fluid animations. I&#39;d definitely recommend this to those designers that need to code and deploy in record time. </td>
+              <td>rating:5</td>
+
+
+              <td>Rubik Presentation Page</td>
+              <td>Sergio Guerjik</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Rubik Presentation Page</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:Awesome Work!</td>
+              <td>rating:5</td>
+
+
+              <td>Rubik Presentation Page</td>
+              <td>Stefano Marinoni</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Rubik Presentation Page</td>
+              <td>Julio César Pérez García</td><br>
+              <td>message:Amazing</td>
+              <td>rating:5</td>
+
+
+              <td>Rubik Presentation Page</td>
+              <td>Weldys Santos</td><br>
+              <td>message:It&#39;s great the multipurpose. I can apply in any type of website with super ellegance. This template is plenty of elegance</td>
+              <td>rating:5</td>
+
+
+              <td>Rubik Presentation Page</td>
+              <td>Kevan M</td><br>
+              <td>message:It does exactly what is says on the box. This is a great tool and while the style is a bit different than my taste, I was able to make some changes to match the look I was going for with not a lot of effort. Based on my experience with this, I would definitely buy more CT products.</td>
+              <td>rating:5</td>
+
+
+              <td>Rubik Presentation Page</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Rubik Presentation Page</td>
+              <td>Cristina</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Rubik Presentation Page</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Rubik Presentation Page</td>
+              <td>john white</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Rubik Presentation Page</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Rubik Presentation Page</td>
+              <td>Mehdi Salem</td><br>
+              <td>message:Very useful as a quick starter and great quality</td>
+              <td>rating:5</td>
+
+
+              <td>Rubik Presentation Page</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Rubik Presentation Page</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Rubik Presentation Page</td>
+              <td>Cristian Ionut Avram</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Rubik Presentation Page</td>
+              <td>Théo Senoussaoui</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Rubik Presentation Page</td>
+              <td>Cristi Jora</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Rubik Presentation Page</td>
+              <td>Fredrik Hultin</td><br>
+              <td>message:Really really nice</td>
+              <td>rating:5</td>
+
+
+              <td>Rubik Presentation Page</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:Great looking layout for landing pages!</td>
+              <td>rating:5</td>
+
+
+              <td>Rubik Presentation Page</td>
+              <td>Malik Dixon</td><br>
+              <td>message:This is a great product for the late beginner to intermediate. Other products of this time should be created around this one. </td>
+              <td>rating:5</td>
+
+
+              <td>Rubik Presentation Page</td>
+              <td>Dan Chapman</td><br>
+              <td>message:The html generator is great and allows you to make your site very quickly!</td>
+              <td>rating:5</td>
+
+
+              <td>Rubik Presentation Page</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-info btn-new btn-round" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="product-version-logs-modal-28" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-account">
+
+    <div class="modal-content">
+          <div class="modal-header text-center">
+               <h4> Updates and Changelogs</h4>
+          </div>
+          <div class="modal-body">
+            <p>
+                     - V1.0 28 Mar '15 Original Release<br/>- V1.1 04 May '15<br/> - added Rubik Builder (HTML generator)<br/>   - bug fixes<br/>   - animations improves<br/><br/>- V1.1.1 12 May '15<br/> - added browser check to show notification for IE9 or less<br/><br/>- V1.2 29 May '15<br/> - changes in scroll to links and optimizations<br/><br/>- V1.2.1 03 July '15<br/> - fix bug with the logo in header<br/><br/>- V1.2.2 07 July '15<br/> - fix some items that were confusing for users<br/><br/>- V1.2.3 23 November '15 - Current Version<br/> - Mobile Sidebar can be tested on Desktop too, not only on mobile/tablet<br/><br/>- 03.08.2017 - updated license notice
+            </p>
+          </div>
+          <div class="modal-footer small-footer">
+            <button type="button" class="btn btn-default btn-simple btn-block" data-dismiss="modal">Close</button>
+          </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="footer-title ">
+    <div class="container">
+       <div class="row">
+           <div class="col-sm-8">
+             <h1 class="title">Join our newsletter and receive weekly news!</h1>
+           </div>
+            <form html="{:multipart=&gt;true}" class="form-inline" action="https://www.creative-tim.com/newsletter" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+                <div class="col-sm-6 col-md-2">
+                    <input type="email" name="subscribe_email" id="subscribe_email" class="form-control" placeholder="Enter Email" />
+                </div>
+                <div class="col-sm-6 col-md-2">
+                    <input type="submit" name="commit" value="Sign Up" class="btn btn-info btn-round btn-fill btn-block" />
+                </div>
+</form>        </div>
+    </div>
+</div>
+
+
+<div class="footer">
+    <div class="overlayer">
+    <div class="container">
+        <div class="row support">
+
+            <div class="col-sm-3 col-xs-4">
+                <h4>Creative Tim</h4>
+                <ul class="list-unstyled">
+                    <li> <a href="http://blog.creative-tim.com/">Blog</a></li>
+                    <li> <a href="https://www.creative-tim.com/affiliates/new">Affiliate Program</a></li>
+                    <li> <a href="https://www.creative-tim.com/terms">Terms &amp; Conditions</a></li>
+                    <li> <a href="https://www.creative-tim.com/privacy">Privacy Policy</a></li>
+                    <li> <a href="https://www.creative-tim.com/faq">FAQ</a></li>
+                    <li><a href="https://mixpanel.com/f/partner" rel="nofollow"><img src="../../cdn.mxpnl.com/site_media/images/partner/badge_blue.png" alt="Mobile Analytics" /></a></li>
+                </ul>
+            </div>
+            <div class="col-sm-3 col-xs-4">
+                <h4>Happy people</h4>
+                <ul class="list-unstyled social-list">
+                    <li><h3 class="numbers-dont-lie"><b>240,404</b> accounts</h3></li>
+                    <li><h3 class="numbers-dont-lie"><b>417,331</b> downloads</h3></li>
+
+                </ul>
+            </div>
+
+            <div class="col-sm-3 col-xs-4">
+                <h4>Help and Support</h4>
+                <ul class="list-unstyled">
+                    <li><a href="https://www.creative-tim.com/about-us">About Us</a></li>
+                    <li><a href="https://www.creative-tim.com/contact-us">Contact Us</a></li>
+                    <li><a href="https://www.creative-tim.com/sponsorships">Sponsorships</a></li>
+                    <li><a href="https://www.creative-tim.com/bootstrap">Bootstrap</a></li>
+                    <li><a href="https://www.creative-tim.com/license">Licenses</a></li>
+                    <li><a href="https://www.creative-tim.com/gallery/get-shit-done-pro">Products Gallery</a></li>
+                </ul>
+            </div>
+
+            <div class="col-sm-3 col-xs-12 text-center">
+                    <h4>Latest News</h4>
+                     <a
+                     class="twitter-timeline"
+                     href="https://twitter.com/CreativeTim"
+                     data-widget-id="586445781978124289"
+                     data-chrome="noheader nofooter noborders noscrollbar transparent"
+                     height="200">
+                     Tweets by @CreativeTim</a>
+            </div>
+
+        </div>
+        <hr>
+        <div class="row">
+            <div class="social-area text-center" itemscope itemtype="http://schema.org/LocalBusiness">
+                <a itemprop="url" href="https://www.creative-tim.com/" class="footer-brand">
+                    <div class="logo">
+                        <img itemprop="logo" src="../../s3.amazonaws.com/creativetim_bucket/new_logo.png" />
+                    </div>
+                    <span itemprop="name">Creative Tim</span>
+                </a>
+
+               <br/>
+                <a itemprop="sameAs" href="https://dribbble.com/creativetim" class="btn btn-default btn-social btn-round" rel="publisher" target="_blank"><i class="fa fa-dribbble"></i></a>
+                <a itemprop="sameAs" href="https://www.facebook.com/CreativeTim" class="btn btn-default btn-social btn-round" target="_blank"><i class="fa fa-facebook-square"></i></a>
+                <a itemprop="sameAs" href="https://twitter.com/CreativeTim" class="btn btn-default btn-social btn-round" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a itemprop="sameAs" href="https://plus.google.com/+CreativetimPage" class="btn btn-default btn-social btn-round" target="_blank"><i class="fa fa-google-plus-square"></i></a>
+
+                <a itemprop="sameAs" href="https://www.instagram.com/creativetimofficial/" class="btn btn-default btn-social btn-round" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a itemprop="sameAs" href="https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w" class="btn btn-default btn-social btn-round" target="_blank"><i class="fa fa-youtube"></i></a>
+                <a itemprop="sameAs" href="https://ro.pinterest.com/thecreativetim/" class="btn btn-default btn-social btn-round" target="_blank"><i class="fa fa-pinterest"></i></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="credits">
+                 &copy; 2017 Creative Tim, all rights reserved. Made with <i class="icon-heart heart" alt="love"></i> for a better web.
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+
+
+<script>
+ !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+
+ </script>
+
+
+<script type="text/javascript">
+	
+
+    $().ready(function (){
+	    initTextareaForMention();
+
+	    $('.edit-comment-modal').on('shown.bs.modal', function () {
+		  	textarea = $(this).find('textarea.hidden').html();
+		  	$(this).find('textarea.mention').val(textarea);
+		})
+    });
+
+</script>
+
+<!-- Drip -->
+<!-- <script type="text/javascript">
+	var _dcq = _dcq || [];
+	var _dcs = _dcs || {};
+	_dcs.account = '2119369';
+
+	(function() {
+		var dc = document.createElement('script');
+		dc.type = 'text/javascript'; dc.async = true;
+		dc.src = '//tag.getdrip.com/2119369.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(dc, s);
+	})();
+</script> -->
+
+
+<script>/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/\>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
+
+
+
+<!-- Mirrored from www.creative-tim.com/product/rubik-presentation-page?page=2 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 10 Aug 2017 23:55:31 GMT -->
+</html>

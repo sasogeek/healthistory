@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from www.creative-tim.com/product/material-dashboard-pro/reviews?page=11 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 10 Aug 2017 23:53:07 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head  itemscope itemtype="https://schema.org/WebSite"  prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# product: http://ogp.me/ns/product#">
+  
+  <meta charset="utf-8">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"2315e0b361","applicationID":"9961421","transactionName":"dVwNRxYMCFtVS01CQllXFlAQPBZSRlAHRUMZQAtcEzwWUkZQB0VD","queueTime":4,"applicationTime":119,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+  <meta name="viewport" content="width=device-width" />
+  <meta name="p:domain_verify" content="96e683d0045e44dfac2deaec70e57185"/>
+
+  <link rel="shortcut icon" type="image/x-icon" href="../../assets/favicon-07e579901353a57d289b9b754f0e2912.ico" />
+
+  <link rel="apple-touch-icon" sizes="76x76" href="../../assets/apple-touch-icon-precomposed-60956e08c7bbd5166b96ef4f0340152b.png">
+  <link rel="canonical" href="../material-dashboard-pro.html" data-turbolinks-track="false" itemprop="url"/>
+
+  <title itemprop="name">
+      
+  </title>
+      <meta name="twitter:card" content="summary" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@CreativeTim" />
+    <meta name="twitter:creator" content="@CreativeTim" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:description" content="" />
+    <meta name="twitter:image" content="" />
+    <meta name="twitter:url" content="" />
+
+
+  <meta name="keywords" content="creativetim, creative tim, bootstrap, theme, freebies, bootstrap kit, bootstrap template, free items, beautiful ui" />
+<meta name="data-turbolinks-track" content="false" />
+  <link rel="stylesheet" media="all" href="../../assets/application-1bcb58ff3712e4ff5783262db7875077.css" data-turbolinks-track="true" />
+
+  <!-- font -->
+  <link href="../../../maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="ZUr5aup67xNgZuJgJ6/coBu9fjk3uFtpuZQFFnOKc/g1KsuN7tMQ2qIMfJVnNtdR9s/zzNnEf3T3of5SlNR/fA==" />
+
+  <!--  js   -->
+  <script src="../../assets/application-c1017f102a130cfd626341b0fb7e31bc.js" data-turbolinks-track="true"></script>
+  <script src="../../assets/mentions-and-photoswipe-161077ada89deb7fd786388c54692d70.js" data-turbolinks-track="true"></script>
+
+  <!--
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-46172202-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+-->
+
+<!-- Google Analytics New -->
+<script type="text/javascript">
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','../../../www.google-analytics.com/analytics.js','ga');
+
+// On the Origin Domain
+ga('create', 'UA-46172202-1', 'auto', {'allowLinker': true});
+ga('require', 'linker');
+ga('require', 'ecommerce');
+
+ga('linker:autoLink', ['secure.avangate.com']);      // Domains that are linked from this page.
+ga('send', 'pageview');                              // Send hits after initializing the auto-linker plug-in.
+
+</script>
+<!-- End Google Analytics -->
+
+  <!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','../../../connect.facebook.net/en_US/fbevents.js');
+
+        fbq('init', '111649226022273');
+    fbq('track', "PageView");
+
+</script>
+
+<noscript><img height="1" width="1" style="display:none"
+src="../../../www.facebook.com/tr5c3c.gif?id=111649226022273&amp;ev=PageView&amp;noscript=1"
+/></noscript>
+
+<!-- End Facebook Pixel Code -->
+
+<!-- Hotjar Tracking Code for www.creative-tim.com -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:99526,hjsv:5};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+	<!--
+    - acest partial este importat in toate layout-urile
+    - se face un partial pentru fiecare script pe care vrem sa-l adaugam in toate paginile si il importam aici
+-->
+
+
+</head>
+
+<body class="product-page">
+
+<nav class="navbar filter-bar fixed-absolute">
+    <div class="container">
+    <div class="notification">
+        <div id="notif-message" class="notif-message" style="display: none;" notice-type=success>
+        </div>
+    </div>
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <div data-no-turbolink>
+            <a href="https://www.creative-tim.com/" class="navbar-brand">
+                <div class="logo">
+                    <img src="../../../s3.amazonaws.com/creativetim_bucket/new_logo.png" width="60" height ="60"/>
+                </div>
+                <p>Creative <br> Tim</p>
+            </a>
+        </div>
+
+    </div>
+
+
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+
+        <ul class="nav navbar-nav navbar-right" data-no-turbolink>
+
+        <!-- <li>
+            <a href="javascript:void(0)" data-toggle="search-form">
+                <i class="icon-search icon-2x"></i>
+                <p>Search</p>
+            </a>
+        </li> -->
+
+
+            <li class="dropdown dropdown-categories" data-no-turbolink>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    <i class="icon-th-large icon-2x"></i>
+                    <p>
+                        Categories
+                        <span class="caret"></span>
+                    </p>
+
+                </a>
+
+            <ul class="dropdown-menu">
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes">
+                        All Categories
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/admin-dashboard">
+                        Admin &amp; Dashboards
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/ui-kit">
+                        UI Kits
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/free">
+                        Free Themes
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/premium">
+                        Premium Themes
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/angular-dashboard">
+                        Angular Dashboards
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/landing-page">
+                        Landing Pages
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/e-commerce">
+                        E-commerce
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/one-page-template">
+                        One Page Templates
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/wizard">
+                        Wizards
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/calendar">
+                        Calendar
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/login-form">
+                        Login Forms
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/components">
+                        Components
+                    </a>
+                </li>
+            </ul>
+        </li>
+
+        <li class="big-bundle" data-no-turbolink>
+                <a href="../buy/bundle/index385e.html?utm_campaign=big-bundle&amp;utm_medium=navbar&amp;utm_source=tim">
+                <i class="icon-gift icon-2x"></i>
+                <p>Big Bundle</p>
+                <span class="notification-bubble notification-inverted">New</span>
+            </a>
+        </li>
+
+
+        <li>
+            <a href="http://blog.creative-tim.com/">
+                <i class="icon-align-left icon-2x"></i>
+                <p>Blog</p>
+            </a>
+        </li>
+
+
+
+
+            <li>
+                <a href="javascript:void(0)" onclick="openLoginModal();" role="button" data-toggle="modal">
+                    <i class="icon-male-sign-alt icon-2x"></i>
+                    <p>Login/Register</p>
+                </a>
+            </li>
+
+
+        </ul>
+    </div>
+</div>
+
+</nav>
+
+
+<div class="modal fade login" id="loginModal">
+    <div class="modal-dialog login animated">
+      <div class="modal-content">
+
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title">Login with</h4>
+    </div>
+    <div class="modal-body">
+        <div class="box">
+            <div class="content">
+                <div class="social" data-no-turbolink>
+                    <a id="github_login" class="circle github" href="https://www.creative-tim.com/social/github?destination=dashboard&amp;subscribed=1&amp;url=https%253A%252F%252Fwww.creative-tim.com%252Fproduct%252Fmaterial-dashboard-pro%252Freviews%253Fpage%253D11">
+
+                            <i class="icon-github"></i>
+</a>                    <a id="google_login" class="circle google" href="https://www.creative-tim.com/social/google_oauth2?destination=dashboard&amp;subscribed=1&amp;url=https%253A%252F%252Fwww.creative-tim.com%252Fproduct%252Fmaterial-dashboard-pro%252Freviews%253Fpage%253D11">
+
+                            <i class="icon-google-plus-alt"></i>
+</a>                    <a id="facebook_login" class="circle facebook" href="https://www.creative-tim.com/social/facebook?destination=dashboard&amp;subscribed=1&amp;url=https%253A%252F%252Fwww.creative-tim.com%252Fproduct%252Fmaterial-dashboard-pro%252Freviews%253Fpage%253D11">
+
+                            <i class="icon-facebook-alt"></i>
+</a>                </div>
+                <div class="division">
+                      <div class="line l"></div>
+                      <span>or</span>
+                      <div class="line r"></div>
+                </div>
+
+                <div class="error inside-alert"></div>
+                <div class="form loginBox">
+
+                        <form html="{:multipart=&gt;true}" action="https://www.creative-tim.com/login" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+                            <input type="text" name="email" id="email" class="form-control" placeholder="Email" />
+                            <input type="password" name="password" id="password" class="form-control" placeholder="Password" />
+                            <input type="hidden" name="destination" id="destination" value="dashboard" />
+                            <input type="hidden" name="url" id="url" value="https%3A%2F%2Fwww.creative-tim.com%2Fproduct%2Fmaterial-dashboard-pro%2Freviews%3Fpage%3D11" />
+                            <input type="submit" name="commit" value="Login" class="btn btn-default btn-login" />
+</form>                </div>
+             </div>
+        </div>
+        <div class="box">
+            <div class="content registerBox" style="display:none;">
+             <div class="form">
+                <form html="{:multipart=&gt;true}" action="https://www.creative-tim.com/register" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+                    <input type="text" name="email" id="email" class="form-control" placeholder="Email" />
+                    <input type="password" name="password" id="password" class="form-control" placeholder="Password" />
+                  	<input type="password" name="password_confirmation" id="password_confirmation" class="form-control" placeholder="Repeat Password" />
+                    <input type="hidden" name="destination" id="destination" value="dashboard" />
+                    <input type="hidden" name="url" id="url" value="https%3A%2F%2Fwww.creative-tim.com%2Fproduct%2Fmaterial-dashboard-pro%2Freviews%3Fpage%3D11" />
+                    <input type="submit" name="commit" value="Create account" class="btn btn-default btn-register" />
+                        <label class="checkbox">
+                            <input type="checkbox" value="1" data-toggle="checkbox" name="subscribed" class="ct-info checkbox-subscribe" checked>
+                            Subscribe me to the Newsletter
+                        </label>
+
+</form>             </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <div class="forgot login-footer">
+
+            <span>Looking to
+                 <a href="javascript: showRegisterForm();">create an account</a>
+            ?</span>
+            <br />
+            <span><a href="https://www.creative-tim.com/forgot-password">Forgot password</a> ?</span>
+        </div>
+        <div class="forgot register-footer" style="display:none">
+             <span>Already have an account?</span>
+             <a href="javascript: showLoginForm();">Login</a>
+        </div>
+    </div>
+
+    </div>
+    </div>
+</div>
+
+<div class="modal fade cart-modal cart-modal-checkout" id="cart-modal" role="dialog">
+	<div class="text-center">
+		<ul class="cart-steps">
+			<li class="active">
+				<a href="#cart-review">
+					<div class="number">1</div>
+					<div class="step">Review</div>
+				</a>
+			</li>
+			<li>
+				<a href="#cart-payment-details" onClick="$('#my-cart').submit();">
+					<div class="number">2</div>
+					<div class="step">Payment Details</div>
+				</a>
+			</li>
+			<li>
+				<a href="#cart-order-receipt">
+					<div class="number">3</div>
+					<div class="step">Order Receipt</div>
+				</a>
+			</li>
+
+		</ul>
+	</div>
+
+	<div class="modal-dialog">
+
+		<div class="modal-content">
+			<div class="modal-header text-center">
+				<h3 class="modal-title">Shopping Cart</h3>
+				<i class="icon-remove-circle close" data-dismiss="modal" aria-label="Close"></i>
+			</div>
+			<div id="content-for-cart" class="content-container">
+				<div class="empty-cart-message">
+    <i class="icon-shopping-cart icon-2x"></i>
+    <h4>Your cart is currently empty.</h4>
+</div>
+<div class="text-center">
+    <a href="https://www.creative-tim.com/bootstrap-themes/premium#from-empty-shopping-cart" class="btn btn-info btn-new btn-fill btn-wd">
+        Start Shopping
+    </a>
+</div>
+
+			</div>
+			<i class="fa fa-refresh fa-spin fa-fw loading-icon"></i>
+		</div>
+
+		<div class="secured-message">
+			<i class="fa fa-lock"></i> Secured Payment by <b> Avangate </b> with: <br><i class="fa fa-cc-paypal fa-2x"></i> <i class="fa fa-cc-visa fa-2x"></i> <i class="fa fa-cc-mastercard fa-2x"></i> <i class="fa fa-cc-amex fa-2x"></i></p>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade cart-modal cart-modal-one-product" id="product-cart-modal" role="dialog">
+
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <h4 class="modal-title">You added this item to your cart!</h4>
+            </div>
+            <div class="modal-body">
+                <div class="cart">
+                    product
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="https://www.creative-tim.com/bootstrap-themes" type="button" class="btn btn-default btn-fill btn-new" data-dismiss="modal">
+                    Continue Shopping
+                </a>
+                <a type="button" class="btn btn-success btn-fill btn-new" href="https://www.creative-tim.com/checkout", data-cart="0">
+                    Checkout & Download
+                </a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<div id="fb-root">
+</div>
+<script src="../../../connect.facebook.net/en_US/sdk.js" type="text/javascript"></script>
+<script type="text/javascript">
+    window.fbAsyncInit = function()
+    {
+    //facebook share
+        FB.init({
+            appId: '655968634437471',
+            status: true,
+            cookie: true,
+            xfbml: true,
+            version: 'v2.9'
+        });
+    };
+
+
+    function shareFacebookWithCallBack(){
+        FB.ui({
+          method: 'feed',
+          link: 'https://www.creative-tim.com/product/material-dashboard-pro/reviews?page=11'
+        }, function(response){
+            if (response && response.post_id) {
+               $.post('/share',{social_network : 1, product_id : parseInt('51'), provider: 'facebook' },function(data){
+                    if(data['status'] == 'ok'){
+                        console.log('ShareUp');
+                    }
+               });
+             } else {
+               console.log('Post was not published.');
+             }
+        });
+    }
+    //twitter share
+        window.twttr = (function (d,s,id) {
+          var t, js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return; js=d.createElement(s); js.id=id;
+          js.src="../../../platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);
+          return window.twttr || (t = { _e: [], ready: function(f){ t._e.push(f) } });
+        }(document, "script", "twitter-wjs"));
+
+        // On ready, register the callback...
+        twttr.ready(function (twttr) {
+            twttr.events.bind('tweet', function (event) {
+                $.post('/share',{social_network : 2, product_id : parseInt('51'), provider: 'twitter' },function(data){
+                    if(data['status'] == 'ok'){
+                        console.log('ShareUp');
+                    }
+               });
+            });
+        });
+
+    function googleShare(event){
+        var width  = 575,
+        height = 400,
+        left   = ($(window).width()  - width)  / 2,
+        top    = ($(window).height() - height) / 2,
+        url    = 'https://plus.google.com/share?url=https://www.creative-tim.com/product/material-dashboard-pro/reviews?page=11',
+        opts   = 'status=1' +
+                 ',width='  + width  +
+                 ',height=' + height +
+                 ',top='    + top    +
+                 ',left='   + left;
+        window.open(url, 'Google+', opts);
+        $.post('/share',{social_network : 3, product_id : parseInt('51'), provider: 'google' },function(data){
+                    if(data['status'] == 'ok'){
+                        console.log('ShareUp');
+                    }
+               });
+        return false;
+    }
+</script>
+
+<div class="top-moving-bar" data-no-turbolink>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-7 col-xs-7">
+                <a class="navbar-brand" href="https://www.creative-tim.com/">
+                    <div class="logo">
+                        <img rel="tooltip" title="Hey! <br> Hope you're doing fine :-)" data-html="true" data-placement="bottom" src="https://s3.amazonaws.com/creativetim_bucket/new_logo.png"/>
+                    </div>
+</a>                <h4>Material Dashboard Pro
+
+                    <div class="middot"></div>
+                        <div class="mask">
+                            <img rel="tooltip" data-placement="bottom" title="Fully Coded and Responsive HTML5" src="../../assets/icon-html-e05de3f70999d3ce94b9804b7e298026.jpg" alt="Icon html" />
+                        </div>
+                        <div class="mask">
+                            <img rel="tooltip" data-placement="bottom" title="Sass Files for Professional Front End Developers" src="../../assets/icon-sass-31b996b6252dbd1dd9c349bee39a5b8b.jpg" alt="Icon sass" />
+                        </div>
+                        <div class="mask">
+                            <img rel="tooltip" data-placement="bottom" title="Photoshop Files for Professional Designers" src="../../assets/icon-photoshop-f8d9899235a39f00fa6bc6c910a1cdaf.jpg" alt="Icon photoshop" />
+                        </div>
+                        <div class="mask">
+                            <img rel="tooltip" data-placement="bottom" title="Crafted with Bootstrap - the most popular Front End Framework" src="../../assets/icon-bootstrap-7cec419b71f47386f443bd3fbfef2f7c.jpg" alt="Icon bootstrap" />
+                        </div>
+                </h4>
+            </div>
+            <div class="col-md-6 col-sm-5 col-xs-5 text-right">
+
+                        <a class="btn btn-default btn-simple" target="_blank" href="../../../demos.creative-tim.com/material-dashboard-pro/examples/dashboard.html">Live Preview</a>
+
+                        <a class="btn btn-default btn-simple" href="../material-dashboard.html">Get Free Demo</a>
+
+
+
+                        <a href="https://www.creative-tim.com/buy/material-dashboard-pro?license=1" class="btn btn-info btn-fill btn-wd btn-round">
+                            Buy now &middot;<b>
+                                $49
+                            </b>
+                        </a>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div itemscope itemtype="http://schema.org/Product" class="section-feedback">
+
+    <div class="parallax parallax- parallax-reviews" data-no-turbolink style="background: url('../../../s3.amazonaws.com/creativetim_bucket/products/51/md_free_cover_rosec3b5.jpg?1478190596')no-repeat;background-size: cover; ">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 text-center">
+                    <h1 itemprop="name" class="product-name">Product Reviews:Material Dashboard Pro</h1>
+                    <h5 class="tagline">Premium Bootstrap Admin Template</h5>
+
+                    <div class="rating-just-view">
+                            <div class="rating-stars">
+                                <input type="number" class="rating" data-min="1" data-max="5" value="5" disabled="disabled">
+                                <div class="aggregate-rating" itemprop=aggregateRating” itemscope itemtype=”http://schema.org/AggregateRating”>
+                                    &middot;
+                                    <span itemprop=”ratingValue”>4.8</span>/5
+                                    (<span itemprop=”reviewCount”>105</span> Reviews)
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-grey">
+        <div class="container">
+                <div class="testimonials testimonials-raised">
+                    <div class="row">
+                            <div class="col-md-6 col-md-offset-3">
+    <div class="card" itemprop="review" itemscope itemtype="http://schema.org/Review">
+        <div class="content">
+            <div class="rating-stars rating-just-view" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+                <meta itemprop="worstRating" content="1">
+                <meta itemprop="bestRating" content="5">
+                <meta itemprop="ratingValue" content="5">
+                <input type="number" class="rating" data-min="1" data-max="5" value="5" disabled="disabled" />
+            </div>
+
+            <h3 class="small-title" itemprop="name">
+                Design Quality
+            </h3>
+
+            <h4 class="message" itemprop="description"></h4>
+
+            <div class="footer">
+               <div class="author">
+                   <a class="card-link">
+                       <img class="avatar" src="../../../s3.amazonaws.com/creativetim_bucket/photos/125041/thumbde9f.jpg?1480137532" alt="Thumb" />
+                      <span itemprop="author">Bui Tuan Kiet</span>
+                   </a>
+               </div>
+               <div class="stats pull-right">
+                   <meta itemprop="datePublished" content="2016-11-27">8 months ago
+               </div>
+               <div class="clearfix"></div>
+           </div>
+
+        </div>
+    </div>
+</div>
+
+                            <div class="col-md-6 col-md-offset-3">
+    <div class="card" itemprop="review" itemscope itemtype="http://schema.org/Review">
+        <div class="content">
+            <div class="rating-stars rating-just-view" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+                <meta itemprop="worstRating" content="1">
+                <meta itemprop="bestRating" content="5">
+                <meta itemprop="ratingValue" content="5">
+                <input type="number" class="rating" data-min="1" data-max="5" value="5" disabled="disabled" />
+            </div>
+
+            <h3 class="small-title" itemprop="name">
+                Design Quality
+            </h3>
+
+            <h4 class="message" itemprop="description"></h4>
+
+            <div class="footer">
+               <div class="author">
+                   <a class="card-link">
+                       <img class="avatar" src="../../../s3.amazonaws.com/creativetim_bucket/photos/111756/thumb30f8.jpg?1475089070" alt="Thumb" />
+                      <span itemprop="author">Anonymous Tim</span>
+                   </a>
+               </div>
+               <div class="stats pull-right">
+                   <meta itemprop="datePublished" content="2016-11-18">8 months ago
+               </div>
+               <div class="clearfix"></div>
+           </div>
+
+        </div>
+    </div>
+</div>
+
+                            <div class="col-md-6 col-md-offset-3">
+    <div class="card" itemprop="review" itemscope itemtype="http://schema.org/Review">
+        <div class="content">
+            <div class="rating-stars rating-just-view" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+                <meta itemprop="worstRating" content="1">
+                <meta itemprop="bestRating" content="5">
+                <meta itemprop="ratingValue" content="5">
+                <input type="number" class="rating" data-min="1" data-max="5" value="5" disabled="disabled" />
+            </div>
+
+            <h3 class="small-title" itemprop="name">
+                Design Quality
+            </h3>
+
+            <h4 class="message" itemprop="description"></h4>
+
+            <div class="footer">
+               <div class="author">
+                   <a class="card-link">
+                       <img class="avatar" src="../../../s3.amazonaws.com/creativetim_bucket/anonymous_thumb.png" alt="Anonymous thumb" />
+                      <span itemprop="author">Anonymous Tim</span>
+                   </a>
+               </div>
+               <div class="stats pull-right">
+                   <meta itemprop="datePublished" content="2016-11-17">8 months ago
+               </div>
+               <div class="clearfix"></div>
+           </div>
+
+        </div>
+    </div>
+</div>
+
+                            <div class="col-md-6 col-md-offset-3">
+    <div class="card" itemprop="review" itemscope itemtype="http://schema.org/Review">
+        <div class="content">
+            <div class="rating-stars rating-just-view" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+                <meta itemprop="worstRating" content="1">
+                <meta itemprop="bestRating" content="5">
+                <meta itemprop="ratingValue" content="5">
+                <input type="number" class="rating" data-min="1" data-max="5" value="5" disabled="disabled" />
+            </div>
+
+            <h3 class="small-title" itemprop="name">
+                Design Quality
+            </h3>
+
+            <h4 class="message" itemprop="description"></h4>
+
+            <div class="footer">
+               <div class="author">
+                   <a class="card-link">
+                       <img class="avatar" src="../../../s3.amazonaws.com/creativetim_bucket/anonymous_thumb.png" alt="Anonymous thumb" />
+                      <span itemprop="author">Anonymous Tim</span>
+                   </a>
+               </div>
+               <div class="stats pull-right">
+                   <meta itemprop="datePublished" content="2016-11-15">8 months ago
+               </div>
+               <div class="clearfix"></div>
+           </div>
+
+        </div>
+    </div>
+</div>
+
+                            <div class="col-md-6 col-md-offset-3">
+    <div class="card" itemprop="review" itemscope itemtype="http://schema.org/Review">
+        <div class="content">
+            <div class="rating-stars rating-just-view" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+                <meta itemprop="worstRating" content="1">
+                <meta itemprop="bestRating" content="5">
+                <meta itemprop="ratingValue" content="4">
+                <input type="number" class="rating" data-min="1" data-max="5" value="4" disabled="disabled" />
+            </div>
+
+            <h3 class="small-title" itemprop="name">
+                Design Quality
+            </h3>
+
+            <h4 class="message" itemprop="description">very slick... I love it</h4>
+
+            <div class="footer">
+               <div class="author">
+                   <a class="card-link">
+                       <img class="avatar" src="../../../s3.amazonaws.com/creativetim_bucket/anonymous_thumb.png" alt="Anonymous thumb" />
+                      <span itemprop="author">robert marsh</span>
+                   </a>
+               </div>
+               <div class="stats pull-right">
+                   <meta itemprop="datePublished" content="2016-11-09">9 months ago
+               </div>
+               <div class="clearfix"></div>
+           </div>
+
+        </div>
+    </div>
+</div>
+
+                        <div class="col-md-6 col-md-offset-3 text-center" data-no-turbolink >
+                            <div class="pagination pagination-azure pagination-no-border " is_active="true"><a class="previous_page" rel="prev" href="reviews1448.html?page=10">«</a> <a href="reviews2679.html?page=1">1</a> <a href="reviews4658.html?page=2">2</a> <a href="reviews9ba9.html?page=3">3</a> <a href="reviewsfdb0.html?page=4">4</a> <a href="reviewsaf4d.html?page=5">5</a> <a href="reviewsc575.html?page=6">6</a> <a href="reviews235c.html?page=7">7</a> <a href="reviewsfdfa.html?page=8">8</a> <a href="reviews0b08.html?page=9">9</a> <a rel="prev" href="reviews1448.html?page=10">10</a> <em class="current">11</em> <span class="next_page disabled">»</span></div>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+    </div>
+
+    <div class="main-white">
+        <div class="container">
+            <ol itemscope itemtype="http://schema.org/BreadcrumbList" class="breadcrumb">
+        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" >
+                <a itemprop="item" href="https://www.creative-tim.com/">
+                <span itemprop="name">Home</span>
+                </a>
+
+            <meta itemprop="position" content="1" />
+        </li>
+        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" >
+                <a itemprop="item" href="https://www.creative-tim.com/bootstrap-themes">
+                <span itemprop="name">All Categories</span>
+                </a>
+
+            <meta itemprop="position" content="2" />
+        </li>
+        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" >
+                <a itemprop="item" href="../material-dashboard-pro.html">
+                <span itemprop="name">Material Dashboard Pro</span>
+                </a>
+
+            <meta itemprop="position" content="3" />
+        </li>
+        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class=&quot;active&quot;&gt;>
+                <span itemprop="name">Reviews</span>
+
+            <meta itemprop="position" content="4" />
+        </li>
+</ol>
+
+        </div>
+    </div>
+</div>
+
+
+<div class="footer-title ">
+    <div class="container">
+       <div class="row">
+           <div class="col-sm-8">
+             <h1 class="title">Join our newsletter and receive weekly news!</h1>
+           </div>
+            <form html="{:multipart=&gt;true}" class="form-inline" action="https://www.creative-tim.com/newsletter" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+                <div class="col-sm-6 col-md-2">
+                    <input type="email" name="subscribe_email" id="subscribe_email" class="form-control" placeholder="Enter Email" />
+                </div>
+                <div class="col-sm-6 col-md-2">
+                    <input type="submit" name="commit" value="Sign Up" class="btn btn-info btn-round btn-fill btn-block" />
+                </div>
+</form>        </div>
+    </div>
+</div>
+
+
+<div class="footer">
+    <div class="overlayer">
+    <div class="container">
+        <div class="row support">
+
+            <div class="col-sm-3 col-xs-4">
+                <h4>Creative Tim</h4>
+                <ul class="list-unstyled">
+                    <li> <a href="http://blog.creative-tim.com/">Blog</a></li>
+                    <li> <a href="https://www.creative-tim.com/affiliates/new">Affiliate Program</a></li>
+                    <li> <a href="https://www.creative-tim.com/terms">Terms &amp; Conditions</a></li>
+                    <li> <a href="https://www.creative-tim.com/privacy">Privacy Policy</a></li>
+                    <li> <a href="https://www.creative-tim.com/faq">FAQ</a></li>
+                    <li><a href="https://mixpanel.com/f/partner" rel="nofollow"><img src="../../../cdn.mxpnl.com/site_media/images/partner/badge_blue.png" alt="Mobile Analytics" /></a></li>
+                </ul>
+            </div>
+            <div class="col-sm-3 col-xs-4">
+                <h4>Happy people</h4>
+                <ul class="list-unstyled social-list">
+                    <li><h3 class="numbers-dont-lie"><b>240,404</b> accounts</h3></li>
+                    <li><h3 class="numbers-dont-lie"><b>417,331</b> downloads</h3></li>
+
+                </ul>
+            </div>
+
+            <div class="col-sm-3 col-xs-4">
+                <h4>Help and Support</h4>
+                <ul class="list-unstyled">
+                    <li><a href="https://www.creative-tim.com/about-us">About Us</a></li>
+                    <li><a href="https://www.creative-tim.com/contact-us">Contact Us</a></li>
+                    <li><a href="https://www.creative-tim.com/sponsorships">Sponsorships</a></li>
+                    <li><a href="https://www.creative-tim.com/bootstrap">Bootstrap</a></li>
+                    <li><a href="https://www.creative-tim.com/license">Licenses</a></li>
+                    <li><a href="https://www.creative-tim.com/gallery/get-shit-done-pro">Products Gallery</a></li>
+                </ul>
+            </div>
+
+            <div class="col-sm-3 col-xs-12 text-center">
+                    <h4>Latest News</h4>
+                     <a
+                     class="twitter-timeline"
+                     href="https://twitter.com/CreativeTim"
+                     data-widget-id="586445781978124289"
+                     data-chrome="noheader nofooter noborders noscrollbar transparent"
+                     height="200">
+                     Tweets by @CreativeTim</a>
+            </div>
+
+        </div>
+        <hr>
+        <div class="row">
+            <div class="social-area text-center" itemscope itemtype="http://schema.org/LocalBusiness">
+                <a itemprop="url" href="https://www.creative-tim.com/" class="footer-brand">
+                    <div class="logo">
+                        <img itemprop="logo" src="../../../s3.amazonaws.com/creativetim_bucket/new_logo.png" />
+                    </div>
+                    <span itemprop="name">Creative Tim</span>
+                </a>
+
+               <br/>
+                <a itemprop="sameAs" href="https://dribbble.com/creativetim" class="btn btn-default btn-social btn-round" rel="publisher" target="_blank"><i class="fa fa-dribbble"></i></a>
+                <a itemprop="sameAs" href="https://www.facebook.com/CreativeTim" class="btn btn-default btn-social btn-round" target="_blank"><i class="fa fa-facebook-square"></i></a>
+                <a itemprop="sameAs" href="https://twitter.com/CreativeTim" class="btn btn-default btn-social btn-round" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a itemprop="sameAs" href="https://plus.google.com/+CreativetimPage" class="btn btn-default btn-social btn-round" target="_blank"><i class="fa fa-google-plus-square"></i></a>
+
+                <a itemprop="sameAs" href="https://www.instagram.com/creativetimofficial/" class="btn btn-default btn-social btn-round" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a itemprop="sameAs" href="https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w" class="btn btn-default btn-social btn-round" target="_blank"><i class="fa fa-youtube"></i></a>
+                <a itemprop="sameAs" href="https://ro.pinterest.com/thecreativetim/" class="btn btn-default btn-social btn-round" target="_blank"><i class="fa fa-pinterest"></i></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="credits">
+                 &copy; 2017 Creative Tim, all rights reserved. Made with <i class="icon-heart heart" alt="love"></i> for a better web.
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+
+
+<script>
+ !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+
+ </script>
+
+
+<script type="text/javascript">
+	
+
+    $().ready(function (){
+	    initTextareaForMention();
+
+	    $('.edit-comment-modal').on('shown.bs.modal', function () {
+		  	textarea = $(this).find('textarea.hidden').html();
+		  	$(this).find('textarea.mention').val(textarea);
+		})
+    });
+
+</script>
+
+<!-- Drip -->
+<!-- <script type="text/javascript">
+	var _dcq = _dcq || [];
+	var _dcs = _dcs || {};
+	_dcs.account = '2119369';
+
+	(function() {
+		var dc = document.createElement('script');
+		dc.type = 'text/javascript'; dc.async = true;
+		dc.src = '//tag.getdrip.com/2119369.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(dc, s);
+	})();
+</script> -->
+
+
+</body>
+
+
+
+<!-- Mirrored from www.creative-tim.com/product/material-dashboard-pro/reviews?page=11 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 10 Aug 2017 23:53:10 GMT -->
+</html>

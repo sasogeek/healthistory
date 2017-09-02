@@ -1,0 +1,2907 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from www.creative-tim.com/product/material-dashboard-pro?page=3 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 10 Aug 2017 23:44:51 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head  itemscope itemtype="https://schema.org/WebSite"  prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# product: http://ogp.me/ns/product#">
+  
+  <meta charset="utf-8">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"2315e0b361","applicationID":"9961421","transactionName":"dVwNRxYMCFtVS01CQllXFlAQTBdfX04=","queueTime":2,"applicationTime":865,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+  <meta name="viewport" content="width=device-width" />
+  <meta name="p:domain_verify" content="96e683d0045e44dfac2deaec70e57185"/>
+
+  <link rel="shortcut icon" type="image/x-icon" href="../assets/favicon-07e579901353a57d289b9b754f0e2912.ico" />
+
+  <link rel="apple-touch-icon" sizes="76x76" href="../assets/apple-touch-icon-precomposed-60956e08c7bbd5166b96ef4f0340152b.png">
+  <link rel="canonical" href="material-dashboard-pro.html" data-turbolinks-track="false" itemprop="url"/>
+
+  <title itemprop="name">
+      Material Dashboard PRO: Premium Bootstrap Admin &amp; Dashboard Template @ Creative Tim
+  </title>
+      <meta name="twitter:card" content="summary" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@CreativeTim" />
+    <meta name="twitter:creator" content="@CreativeTim" />
+    <meta name="twitter:title" content="Material Dashboard Pro by Creative Tim" />
+    <meta name="twitter:description" content="Premium Bootstrap Admin Template" />
+    <meta name="twitter:image" content="https://s3.amazonaws.com/creativetim_bucket/products/51/original/opt_mdp_thumbnail.jpg?1478190003" />
+    <meta name="twitter:url" content="https://www.creative-tim.com/product/material-dashboard-pro?page=3" />
+
+
+  <meta name="description" content="Download Material Dashboard PRO a premium Bootstrap Admin Template developed by Creative Tim. See the live demo on our site and join over 120.000 creatives!" />
+<meta name="keywords" content="creativetim, creative tim, bootstrap, theme, freebies, bootstrap kit, bootstrap template, free items, beautiful ui" />
+<meta property="og:app_id" content="655968634437471" />
+<meta property="og:type" content="product" />
+<meta property="og:title" content="Material Dashboard Pro by Creative Tim" />
+<meta property="og:url" content="https://www.creative-tim.com/product/material-dashboard-pro?page=3" />
+<meta property="og:image" content="https://s3.amazonaws.com/creativetim_bucket/products/51/original/opt_mdp_thumbnail.jpg?1478190003" />
+<meta name="product:price:amount" content="49.0" />
+<meta name="product:price:currency" content="USD" />
+<meta name="product:availability" content="in Stock" />
+<meta name="product:brand" content="Creative Tim" />
+<meta name="product:category" content="Admin &amp; Dashboards" />
+<meta name="data-turbolinks-track" content="false" />
+  <link rel="stylesheet" media="all" href="../assets/application-1bcb58ff3712e4ff5783262db7875077.css" data-turbolinks-track="true" />
+
+  <!-- font -->
+  <link href="../../maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="uecQ3hD+X++Wvp2Xm5+EHvQfU5Udp5ZVgOjo4GEh+zbphyI5FFegJlTUA2LbBo/vGW3eYPPbskjO3ROkhn/3sg==" />
+
+  <!--  js   -->
+  <script src="../assets/application-c1017f102a130cfd626341b0fb7e31bc.js" data-turbolinks-track="true"></script>
+  <script src="../assets/mentions-and-photoswipe-161077ada89deb7fd786388c54692d70.js" data-turbolinks-track="true"></script>
+
+  <!--
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-46172202-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+-->
+
+<!-- Google Analytics New -->
+<script type="text/javascript">
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','../../www.google-analytics.com/analytics.js','ga');
+
+// On the Origin Domain
+ga('create', 'UA-46172202-1', 'auto', {'allowLinker': true});
+ga('require', 'linker');
+ga('require', 'ecommerce');
+
+ga('linker:autoLink', ['secure.avangate.com']);      // Domains that are linked from this page.
+ga('send', 'pageview');                              // Send hits after initializing the auto-linker plug-in.
+
+</script>
+<!-- End Google Analytics -->
+
+  <!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','../../connect.facebook.net/en_US/fbevents.js');
+
+        fbq('init', '111649226022273');
+    fbq('track', "PageView");
+
+</script>
+
+<noscript><img height="1" width="1" style="display:none"
+src="../../www.facebook.com/tr5c3c.gif?id=111649226022273&amp;ev=PageView&amp;noscript=1"
+/></noscript>
+
+<!-- End Facebook Pixel Code -->
+
+<!-- Hotjar Tracking Code for www.creative-tim.com -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:99526,hjsv:5};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+	<!--
+    - acest partial este importat in toate layout-urile
+    - se face un partial pentru fiecare script pe care vrem sa-l adaugam in toate paginile si il importam aici
+-->
+
+
+</head>
+
+<body class="product-page">
+
+<nav class="navbar filter-bar fixed-absolute">
+    <div class="container">
+    <div class="notification">
+        <div id="notif-message" class="notif-message" style="display: none;" notice-type=success>
+        </div>
+    </div>
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <div data-no-turbolink>
+            <a href="https://www.creative-tim.com/" class="navbar-brand">
+                <div class="logo">
+                    <img src="../../s3.amazonaws.com/creativetim_bucket/new_logo.png" width="60" height ="60"/>
+                </div>
+                <p>Creative <br> Tim</p>
+            </a>
+        </div>
+
+    </div>
+
+
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+
+        <ul class="nav navbar-nav navbar-right" data-no-turbolink>
+
+        <!-- <li>
+            <a href="javascript:void(0)" data-toggle="search-form">
+                <i class="icon-search icon-2x"></i>
+                <p>Search</p>
+            </a>
+        </li> -->
+
+
+            <li class="dropdown dropdown-categories" data-no-turbolink>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    <i class="icon-th-large icon-2x"></i>
+                    <p>
+                        Categories
+                        <span class="caret"></span>
+                    </p>
+
+                </a>
+
+            <ul class="dropdown-menu">
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes">
+                        All Categories
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/admin-dashboard">
+                        Admin &amp; Dashboards
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/ui-kit">
+                        UI Kits
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/free">
+                        Free Themes
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/premium">
+                        Premium Themes
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/angular-dashboard">
+                        Angular Dashboards
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/landing-page">
+                        Landing Pages
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/e-commerce">
+                        E-commerce
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/one-page-template">
+                        One Page Templates
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/wizard">
+                        Wizards
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/calendar">
+                        Calendar
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/login-form">
+                        Login Forms
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/components">
+                        Components
+                    </a>
+                </li>
+            </ul>
+        </li>
+
+        <li class="big-bundle" data-no-turbolink>
+                <a href="buy/bundle/index385e.html?utm_campaign=big-bundle&amp;utm_medium=navbar&amp;utm_source=tim">
+                <i class="icon-gift icon-2x"></i>
+                <p>Big Bundle</p>
+                <span class="notification-bubble notification-inverted">New</span>
+            </a>
+        </li>
+
+
+        <li>
+            <a href="http://blog.creative-tim.com/">
+                <i class="icon-align-left icon-2x"></i>
+                <p>Blog</p>
+            </a>
+        </li>
+
+
+
+
+            <li>
+                <a href="javascript:void(0)" onclick="openLoginModal();" role="button" data-toggle="modal">
+                    <i class="icon-male-sign-alt icon-2x"></i>
+                    <p>Login/Register</p>
+                </a>
+            </li>
+
+
+        </ul>
+    </div>
+</div>
+
+</nav>
+
+
+<div class="modal fade login" id="loginModal">
+    <div class="modal-dialog login animated">
+      <div class="modal-content">
+
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title">Login with</h4>
+    </div>
+    <div class="modal-body">
+        <div class="box">
+            <div class="content">
+                <div class="social" data-no-turbolink>
+                    <a id="github_login" class="circle github" href="https://www.creative-tim.com/social/github?destination=product_page&amp;subscribed=1&amp;url=https%253A%252F%252Fwww.creative-tim.com%252Fproduct%252Fmaterial-dashboard-pro%253Fpage%253D3">
+
+                            <i class="icon-github"></i>
+</a>                    <a id="google_login" class="circle google" href="https://www.creative-tim.com/social/google_oauth2?destination=product_page&amp;subscribed=1&amp;url=https%253A%252F%252Fwww.creative-tim.com%252Fproduct%252Fmaterial-dashboard-pro%253Fpage%253D3">
+
+                            <i class="icon-google-plus-alt"></i>
+</a>                    <a id="facebook_login" class="circle facebook" href="https://www.creative-tim.com/social/facebook?destination=product_page&amp;subscribed=1&amp;url=https%253A%252F%252Fwww.creative-tim.com%252Fproduct%252Fmaterial-dashboard-pro%253Fpage%253D3">
+
+                            <i class="icon-facebook-alt"></i>
+</a>                </div>
+                <div class="division">
+                      <div class="line l"></div>
+                      <span>or</span>
+                      <div class="line r"></div>
+                </div>
+
+                <div class="error inside-alert"></div>
+                <div class="form loginBox">
+
+                        <form html="{:multipart=&gt;true}" action="https://www.creative-tim.com/login" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+                            <input type="text" name="email" id="email" class="form-control" placeholder="Email" />
+                            <input type="password" name="password" id="password" class="form-control" placeholder="Password" />
+                            <input type="hidden" name="destination" id="destination" value="product_page" />
+                            <input type="hidden" name="url" id="url" value="https%3A%2F%2Fwww.creative-tim.com%2Fproduct%2Fmaterial-dashboard-pro%3Fpage%3D3" />
+                            <input type="submit" name="commit" value="Login" class="btn btn-default btn-login" />
+</form>                </div>
+             </div>
+        </div>
+        <div class="box">
+            <div class="content registerBox" style="display:none;">
+             <div class="form">
+                <form html="{:multipart=&gt;true}" action="https://www.creative-tim.com/register" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+                    <input type="text" name="email" id="email" class="form-control" placeholder="Email" />
+                    <input type="password" name="password" id="password" class="form-control" placeholder="Password" />
+                  	<input type="password" name="password_confirmation" id="password_confirmation" class="form-control" placeholder="Repeat Password" />
+                    <input type="hidden" name="destination" id="destination" value="product_page" />
+                    <input type="hidden" name="url" id="url" value="https%3A%2F%2Fwww.creative-tim.com%2Fproduct%2Fmaterial-dashboard-pro%3Fpage%3D3" />
+                    <input type="submit" name="commit" value="Create account" class="btn btn-default btn-register" />
+                        <label class="checkbox">
+                            <input type="checkbox" value="1" data-toggle="checkbox" name="subscribed" class="ct-info checkbox-subscribe" checked>
+                            Subscribe me to the Newsletter
+                        </label>
+
+</form>             </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <div class="forgot login-footer">
+
+            <span>Looking to
+                 <a href="javascript: showRegisterForm();">create an account</a>
+            ?</span>
+            <br />
+            <span><a href="https://www.creative-tim.com/forgot-password">Forgot password</a> ?</span>
+        </div>
+        <div class="forgot register-footer" style="display:none">
+             <span>Already have an account?</span>
+             <a href="javascript: showLoginForm();">Login</a>
+        </div>
+    </div>
+
+    </div>
+    </div>
+</div>
+
+<div class="modal fade cart-modal cart-modal-checkout" id="cart-modal" role="dialog">
+	<div class="text-center">
+		<ul class="cart-steps">
+			<li class="active">
+				<a href="#cart-review">
+					<div class="number">1</div>
+					<div class="step">Review</div>
+				</a>
+			</li>
+			<li>
+				<a href="#cart-payment-details" onClick="$('#my-cart').submit();">
+					<div class="number">2</div>
+					<div class="step">Payment Details</div>
+				</a>
+			</li>
+			<li>
+				<a href="#cart-order-receipt">
+					<div class="number">3</div>
+					<div class="step">Order Receipt</div>
+				</a>
+			</li>
+
+		</ul>
+	</div>
+
+	<div class="modal-dialog">
+
+		<div class="modal-content">
+			<div class="modal-header text-center">
+				<h3 class="modal-title">Shopping Cart</h3>
+				<i class="icon-remove-circle close" data-dismiss="modal" aria-label="Close"></i>
+			</div>
+			<div id="content-for-cart" class="content-container">
+				<div class="empty-cart-message">
+    <i class="icon-shopping-cart icon-2x"></i>
+    <h4>Your cart is currently empty.</h4>
+</div>
+<div class="text-center">
+    <a href="https://www.creative-tim.com/bootstrap-themes/premium#from-empty-shopping-cart" class="btn btn-info btn-new btn-fill btn-wd">
+        Start Shopping
+    </a>
+</div>
+
+			</div>
+			<i class="fa fa-refresh fa-spin fa-fw loading-icon"></i>
+		</div>
+
+		<div class="secured-message">
+			<i class="fa fa-lock"></i> Secured Payment by <b> Avangate </b> with: <br><i class="fa fa-cc-paypal fa-2x"></i> <i class="fa fa-cc-visa fa-2x"></i> <i class="fa fa-cc-mastercard fa-2x"></i> <i class="fa fa-cc-amex fa-2x"></i></p>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade cart-modal cart-modal-one-product" id="product-cart-modal" role="dialog">
+
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <h4 class="modal-title">You added this item to your cart!</h4>
+            </div>
+            <div class="modal-body">
+                <div class="cart">
+                    product
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="https://www.creative-tim.com/bootstrap-themes" type="button" class="btn btn-default btn-fill btn-new" data-dismiss="modal">
+                    Continue Shopping
+                </a>
+                <a type="button" class="btn btn-success btn-fill btn-new" href="https://www.creative-tim.com/checkout", data-cart="0">
+                    Checkout & Download
+                </a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<div id="fb-root">
+</div>
+<script src="../../connect.facebook.net/en_US/sdk.js" type="text/javascript"></script>
+<script type="text/javascript">
+    window.fbAsyncInit = function()
+    {
+    //facebook share
+        FB.init({
+            appId: '655968634437471',
+            status: true,
+            cookie: true,
+            xfbml: true,
+            version: 'v2.9'
+        });
+    };
+
+
+    function shareFacebookWithCallBack(){
+        FB.ui({
+          method: 'feed',
+          link: 'https://www.creative-tim.com/product/material-dashboard-pro?page=3'
+        }, function(response){
+            if (response && response.post_id) {
+               $.post('/share',{social_network : 1, product_id : parseInt('51'), provider: 'facebook' },function(data){
+                    if(data['status'] == 'ok'){
+                        console.log('ShareUp');
+                    }
+               });
+             } else {
+               console.log('Post was not published.');
+             }
+        });
+    }
+    //twitter share
+        window.twttr = (function (d,s,id) {
+          var t, js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return; js=d.createElement(s); js.id=id;
+          js.src="../../platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);
+          return window.twttr || (t = { _e: [], ready: function(f){ t._e.push(f) } });
+        }(document, "script", "twitter-wjs"));
+
+        // On ready, register the callback...
+        twttr.ready(function (twttr) {
+            twttr.events.bind('tweet', function (event) {
+                $.post('/share',{social_network : 2, product_id : parseInt('51'), provider: 'twitter' },function(data){
+                    if(data['status'] == 'ok'){
+                        console.log('ShareUp');
+                    }
+               });
+            });
+        });
+
+    function googleShare(event){
+        var width  = 575,
+        height = 400,
+        left   = ($(window).width()  - width)  / 2,
+        top    = ($(window).height() - height) / 2,
+        url    = 'https://plus.google.com/share?url=https://www.creative-tim.com/product/material-dashboard-pro?page=3',
+        opts   = 'status=1' +
+                 ',width='  + width  +
+                 ',height=' + height +
+                 ',top='    + top    +
+                 ',left='   + left;
+        window.open(url, 'Google+', opts);
+        $.post('/share',{social_network : 3, product_id : parseInt('51'), provider: 'google' },function(data){
+                    if(data['status'] == 'ok'){
+                        console.log('ShareUp');
+                    }
+               });
+        return false;
+    }
+</script>
+
+<!-- Facebook Additional Pixel Code -->
+
+<script>
+
+fbq('track', 'ViewContent', {
+    content_ids: ['51'],
+    content_type: 'product',
+    value: '49.0',
+    currency: 'USD',
+    content_name: 'Material Dashboard Pro'
+});
+
+</script>
+
+<!-- End Facebook Additional Pixel Code -->
+
+
+<div class="modal fade" id="giftOfferModal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-offer">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">&nbsp;</h4>
+        </div>
+        <img src="../assets/valentines-day-54de97c0244637dcac32e0da8c952975.jpg" alt="Valentines day" />
+        <div class="modal-body">
+<!--             <p><b class="merry">Happy Valentine's Day!</b><br /> -->
+            <p><b>
+            Get a special gift from us! <br />
+            Follow the steps below to receive it. <br />
+            </b></p>
+            <ol>
+              <li>Buy a premium product.</li>
+              <li>Download the product from your dashboard.</li>
+              <li>Press the <b>'Send gift'</b> button in your dashboard and offer a premium product (with the price lower or equal) as a gift.</li>  
+            </ol>
+            </p>
+            <div class="text-center" data-no-turbolink>
+                <a href="https://www.creative-tim.com/bootstrap-themes?utm_campaign=christmas-gift-offer&amp;utm_source=tim&amp;utm_medium=modal" class="btn btn-danger btn-round btn-fill btn-new">Start shopping</a>
+            </div>
+            
+            <div class="design-courtesy">Photo Courtesy of <a href="https://dribbble.com/shots/2525661-Heart">Henrique Athayde</a></div>
+
+        </div>
+    </div>
+  </div>
+</div>
+
+<input type="hidden" id="product_id" value="51">
+
+<div class="top-moving-bar" data-no-turbolink>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-7 col-xs-7">
+                <a class="navbar-brand" href="https://www.creative-tim.com/">
+                    <div class="logo">
+                        <img rel="tooltip" title="Hey! <br> Hope you're doing fine :-)" data-html="true" data-placement="bottom" src="https://s3.amazonaws.com/creativetim_bucket/new_logo.png"/>
+                    </div>
+</a>                <h4>Material Dashboard Pro
+
+                    <div class="middot"></div>
+                        <div class="mask">
+                            <img rel="tooltip" data-placement="bottom" title="Fully Coded and Responsive HTML5" src="../assets/icon-html-e05de3f70999d3ce94b9804b7e298026.jpg" alt="Icon html" />
+                        </div>
+                        <div class="mask">
+                            <img rel="tooltip" data-placement="bottom" title="Sass Files for Professional Front End Developers" src="../assets/icon-sass-31b996b6252dbd1dd9c349bee39a5b8b.jpg" alt="Icon sass" />
+                        </div>
+                        <div class="mask">
+                            <img rel="tooltip" data-placement="bottom" title="Photoshop Files for Professional Designers" src="../assets/icon-photoshop-f8d9899235a39f00fa6bc6c910a1cdaf.jpg" alt="Icon photoshop" />
+                        </div>
+                        <div class="mask">
+                            <img rel="tooltip" data-placement="bottom" title="Crafted with Bootstrap - the most popular Front End Framework" src="../assets/icon-bootstrap-7cec419b71f47386f443bd3fbfef2f7c.jpg" alt="Icon bootstrap" />
+                        </div>
+                </h4>
+            </div>
+            <div class="col-md-6 col-sm-5 col-xs-5 text-right">
+
+                        <a class="btn btn-default btn-simple" target="_blank" href="../../demos.creative-tim.com/material-dashboard-pro/examples/dashboard.html">Live Preview</a>
+
+                        <a class="btn btn-default btn-simple" href="material-dashboard.html">Get Free Demo</a>
+
+
+
+                        <a href="https://www.creative-tim.com/buy/material-dashboard-pro?license=1" class="btn btn-info btn-fill btn-wd btn-round">
+                            Buy now &middot;<b>
+                                $49
+                            </b>
+                        </a>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<div itemscope itemtype="http://schema.org/Product">
+    <div id="productPage" class="parallax parallax-product parallax-" data-no-turbolink style="background: url('../../s3.amazonaws.com/creativetim_bucket/products/51/md_free_cover_rosec3b5.jpg?1478190596')no-repeat;background-size: cover; ">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-6">
+                    <div class="product-image">
+                        <a href="../../demos.creative-tim.com/material-dashboard-pro/examples/dashboard.html" target="_blank">
+                            <img src="../../s3.amazonaws.com/creativetim_bucket/products/51/original/opt_mdp_thumbnailbe08.jpg?1478190003" alt="Material Dashboard Pro Image"/>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-md-offset-1">
+                    <div class="pay-area">
+
+    <div class="text-center">
+        <h1 itemprop="name" class="product-name">Material Dashboard Pro</h1>
+        <h6 class="tagline">Premium Bootstrap Admin Template</h6>
+
+            <div class="rating-stars">
+                <input type="number" class="rating" data-min="1" data-max="5" value="5" disabled="disabled">
+                <div class="aggregate-rating" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating" data-no-turbolink>
+                    &middot;
+                    <span itemprop="ratingValue">4.80</span>/5
+
+                    <a href="material-dashboard-pro/reviews.html" >(<span itemprop="reviewCount">105</span> Reviews)</a>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+
+
+	    <div class="choose-license">
+                    <p class="pull-left">License
+                        <a  class="btn btn-round btn-xs btn-neutral pull-right"
+                             href="https://www.creative-tim.com/license"
+                              rel="tooltip"
+                            title="Something unclear regarding the licenses? Click on the '?' and see more details."
+                           target="_blank">
+                            <i class=" fa fa-question"></i>
+                        </a>
+                    </p>
+
+                        <ul class="nav nav-pills pull-right">
+                            <li class="active">
+                                <a href="#personal" data-toggle="tab">Personal</a>
+                            </li>
+                            <li>
+                                <a href="#developer" data-toggle="tab">Developer</a>
+                            </li>
+                        </ul>
+
+                <div class="clearfix"></div>
+        </div>
+
+
+        <div class="tab-content" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+
+                <meta content="49.00" itemprop="price">
+                <meta content="USD" itemprop="priceCurrency">
+                <meta content="instock" itemprop="availability">
+
+
+    	    <div class="tab-pane active" id="personal">
+
+                        <a href="https://www.creative-tim.com/buy/material-dashboard-pro?license=1" class="btn btn-new btn-neutral btn-fill btn-wd btn-round">
+                            Buy now &middot;<b>
+                                $49
+                            </b>
+                        </a>
+
+
+                    <a href="../../demos.creative-tim.com/material-dashboard-pro/examples/dashboard.html" class="hidden-xs btn btn-new btn-wd btn-neutral btn-round" target="_blank">
+                        Live Preview
+                    </a>
+
+                    <a href="../../demos.creative-tim.com/material-dashboard-pro/examples/dashboard.html" class="hidden-sm hidden-md hidden-lg btn btn-new btn-wd btn-neutral btn-round" target="_blank">
+                        Live Preview
+                    </a>
+    	    </div>
+
+    	    <div class="tab-pane" id="developer">
+
+                        <a href="https://www.creative-tim.com/buy/material-dashboard-pro?license=2" class="btn btn-new btn-neutral btn-fill btn-wd btn-round">
+                            Buy now &middot; <b>
+                                $199
+                            </b>
+                        </a>
+
+
+                    <a href="../../demos.creative-tim.com/material-dashboard-pro/examples/dashboard.html" class="btn btn-new btn-wd btn-neutral btn-round" target="_blank">
+                        Live Preview
+                    </a>
+
+    	    </div>
+
+        </div>
+    </div>
+</div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="section-product-description section-white-gradient section-scaled" data-no-turbolink>
+        <div class="container product">
+
+            <div class="row header-summary">
+
+                <div class="col-md-9">
+                    <div class="col-md-4">
+
+                        <div class="small-info">
+                            <i class="icon-cloud-download"></i>
+                            <h6 class="numbers">885 Downloads</h6>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="small-info">
+                            <i class="icon-comment"></i>
+                            <h6 class="numbers">104 Comments</h6>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="small-info">
+                            <i class="icon-medkit"></i>
+                            <h6 class="numbers">Premium Support</h6>
+                        </div>
+                    </div>
+
+                    <div class="clearfix"></div>
+
+                    <div class="col-md-4">
+                        <div class="small-info">
+                            <i class="icon-gift"></i>
+                            <h6 class="numbers">Lifetime Updates</h6>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="small-info">
+                            <i class="icon-suitcase"></i>
+                            <h6 class="numbers">
+                                Release: 9 months ago
+                            </h6>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 ">
+                        <div class="small-info">
+                            <i class="icon-refresh"></i>
+                            <h6 class="numbers">
+                                Update: 7 days ago
+                            </h6>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-3">
+                            <div class="technologies pull-right">
+                                    <div class="mask">
+                                        <img rel="tooltip" title="Fully Coded and Responsive HTML5" src="../assets/icon-html-e05de3f70999d3ce94b9804b7e298026.jpg" alt="Icon html" />
+                                    </div>
+                                    <div class="mask">
+                                        <img rel="tooltip" title="Sass Files for Professional Front End Developers" src="../assets/icon-sass-31b996b6252dbd1dd9c349bee39a5b8b.jpg" alt="Icon sass" />
+                                    </div>
+                                    <div class="mask">
+                                        <img rel="tooltip" title="Photoshop Files for Professional Designers" src="../assets/icon-photoshop-f8d9899235a39f00fa6bc6c910a1cdaf.jpg" alt="Icon photoshop" />
+                                    </div>
+                                    <div class="mask">
+                                        <img rel="tooltip" title="Crafted with Bootstrap - the most popular Front End Framework" src="../assets/icon-bootstrap-7cec419b71f47386f443bd3fbfef2f7c.jpg" alt="Icon bootstrap" />
+                                    </div>
+                            </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-12">
+                </div>
+
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="description collapse" id="productDescription" aria-expanded="false">
+                        <h1 class="sub-title">Premium Bootstrap Admin Template</h1>
+                        <h4 class="legend text-center">Product description</h4>
+
+                        <span itemprop="description">
+                            <b>Material Dashboard PRO</b> is a Premium Material Bootstrap Admin with a fresh, new design inspired by Google's Material Design. It is based on the popular Bootstrap framework and comes packed with multiple third-party plugins. All components are built to fit perfectly with each other, while aligning to the material concepts.<br>
+<br>Material Dashboard PRO makes use of light, surface and movement. The general layout resembles sheets of paper following multiple layers, so that the depth and order is obvious. Inside the archive you will find multiple example pages on how to use all components. And, of course, every element is documented.<br>
+<br>
+This kit is the bigger version for the <a href="material-dashboard.html" rel="nofollow" target="_blank">Material Dashboard</a>, which is available for free download. We have created the PRO version based on the feedback we received from people using the demo. We tried to keep it as lean as possible, but provide all the necessary tools for developing a complex product. The result is a powerful dashboard that can easily  help you build admin panels, CRMs or content management systems.<br>
+<br>
+Material Dashboard PRO has the same line of design as the Material Kit PRO, so they go together quite good. If you think you will need more landing and example pages, be sure to check it out. If you love material design, you'll probably enjoy using these products!<br><br>Material Dashboard PRO uses a framework built by our friend <a href="http://fezvrasta.github.io/bootstrap-material-design/" rel="nofollow" target="_blank">Federico - Bootstrap Material Design</a>, who did an amazing job creating the backbone for the material effects, animations, ripples and transitions. Big thanks to his team for the effort and forward thinking they put into it.<br><br>
+<h3>Special thanks</h3>
+During the development of this dashboard, we have used many existing resources from awesome developers. We want to thank them for providing their tools open source:<br>
+<ul><li><a href="https://github.com/mouse0270" rel="nofollow" target="_blank">Robert McIntosh</a> for the notification system</li><li><a href="https://gionkunz.github.io/chartist-js/" rel="nofollow" target="_blank">Chartist</a> for the wonderful charts</li><li><a href="https://twitter.com/t4t5" rel="nofollow" target="_blank">Tristan Edwards</a> for the <a href="http://limonte.github.io/sweetalert2/" rel="nofollow" target="_blank">Sweet Alert</a></li><li><a href="https://github.com/Eonasdan" rel="nofollow" target="_blank">Eonasdan</a> for the <a href="https://eonasdan.github.io/bootstrap-datetimepicker/" rel="nofollow" target="_blank">DateTimPicker</a></li><li>Kirill Lebedev for <a href="http://jvectormap.com/" rel="nofollow" target="_blank">jVector Maps</a></li><li><a href="https://twitter.com/gabrielva" rel="nofollow" target="_blank">Vincent Gabriel</a> for the <a href="http://vadimg.com/twitter-bootstrap-wizard-example/" rel="nofollow" target="_blank">Bootstrap Wizard</a></li></ul>
+Let us know your thoughts below. And good luck with development!<br><br>
+                        <span>
+                        <br />
+                            Current version <b>1.1.0</b>
+                            <a class="btn btn-sm btn-simple btn-info " href="#product-version-logs-modal-51" role="button" data-toggle="modal">
+                                See updates and changelog
+                            </a>
+                    </div>
+                    <div class="view-more text-center">
+                        <button class="btn btn-simple btn-default viewMoreButton" data-target="#productDescription">View More</button>
+                    </div>
+
+                        <div class="summary">
+                            <div class="row">
+                                <div class="col-md-4 col-xs-6">
+                                    <div class="category">
+                                        <i class="icon-th-large"></i>
+                                        <p>200 Handcrafted Components</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4 col-xs-6">
+                                    <div class="category">
+                                        <i class="icon-gears"></i>
+
+                                        <p>15 Customized Plugins</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4 col-xs-6">
+                                    <div class="category">
+                                        <i class="icon-picture"></i>
+
+                                        <p>27 Example Pages</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4 col-xs-6">
+                                    <div class="category">
+                                        <i class="icon-bold"></i>
+                                        <p>Bootstrap Based</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4 col-xs-6">
+                                    <div class="category">
+                                        <i class="icon-file-text-alt"></i>
+                                        <p>Documentation</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4 col-xs-6">
+                                    <div class="category">
+                                        <i class="icon-mobile-phone"></i>
+                                        <p>Fully Responsive</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    <h6 class="text-center">Product certified by: <span itemprop="brand">Creative Tim</span></h6>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+        <div class="main-white section-check-free-pro section-white-gradient">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+
+
+
+                        <h4 class="legend">Get Free Demo</h4>
+                        <p class="description">
+                            Learn more about Material Dashboard Pro in the light demo version. It has features from the full version. We hope you will like this introduction to this product!
+                        </p>
+
+                        <div class="row" data-no-turbolink>
+
+                            <div class="col-md-5">
+                                <h5 class="subtitle">What is in Demo?</h5>
+                                <ul class="list-unstyled">
+                                    <li>Components &middot; <b>60</b> </li>
+                                    <li>Plugins &middot; <b>2</b></li>
+                                    <li>Examples Pages &middot; <b>3</b></li>
+                                    <li>-</li>
+                                    <li>-</li>
+                                    
+                                    <li>-</li>
+                                    
+                                </ul>
+                            </div>
+                            <div class="col-md-6 col-md-offset-1">
+                                <h5 class="subtitle">What is in PRO Version?</h5>
+                                <ul class="list-unstyled">
+                                    <li>Components &middot; <b>200</b></li>
+                                    <li>Plugins &middot; <b>15</b></li>
+                                    <li>Example Pages &middot; <b>27</b></li>
+                                    <li>+ Documentation</li>
+                                    <li>+ SASS Files</li>
+                                    
+                                    <li>+ Photoshop Files</li>
+                                    
+                                </ul>
+                            </div>
+
+                                <a class="btn btn-new btn-fill btn-round btn-default" href="material-dashboard.html">Get Free Demo</a>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-md-offset-1">
+                        <div class="image">
+                                <img src="../../s3.amazonaws.com/creativetim_bucket/products/50/original/opt_md_thumbnailb01d.jpg?1474474204" alt="Opt md thumbnail" />
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    <div class="main main-dark section-creators">
+        <div class="container">
+            <div class="creators">
+                <div class="row">
+
+    <div class="col-md-8 col-md-offset-2" id="comments">
+        <div class="creators collaborators-card">
+            <h2 class="legend text-center">We are here to help you!</h2>
+
+            <div class="collaborators" data-no-turbolink>
+
+
+                <div class="authors-container" data-collaborators="2">
+                    <div class="author">
+    <a class='card-user account-photo  account-product-owner '
+       rel='popover'
+       data-content='<div class="uil-ring-css" style="-webkit-transform:scale(0.3)"><div></div></div>'
+       data-initialized='0'
+       data-html='true'
+       data-placement='top'
+       data-template='<div class="popover" onmouseover="clearTimeout(timeoutObj);$(this).mouseleave(function() {$(this).hide();});"><div class="arrow"></div><div class="popover-inner"><div class="popover-content"><p></p></div></div></div>'
+       data-username='axelut'
+    >
+
+        <div class="mask">
+            <img src="../../s3.amazonaws.com/creativetim_bucket/photos/1/thumb953e.jpg?1484594398" class="photo"/>
+        </div>
+
+            <div class="account-type">
+                <i class="fa fa-star"></i>
+            </div>
+    </a>
+</div>
+
+
+                        <div class="author">
+    <a class='card-user account-photo '
+       rel='popover'
+       data-content='<div class="uil-ring-css" style="-webkit-transform:scale(0.3)"><div></div></div>'
+       data-initialized='0'
+       data-html='true'
+       data-placement='top'
+       data-template='<div class="popover" onmouseover="clearTimeout(timeoutObj);$(this).mouseleave(function() {$(this).hide();});"><div class="arrow"></div><div class="popover-inner"><div class="popover-content"><p></p></div></div></div>'
+       data-username='dragosct10'
+    >
+
+        <div class="mask">
+            <img src="../../s3.amazonaws.com/creativetim_bucket/photos/72415/thumba48c.jpg?1471333071" class="photo"/>
+        </div>
+
+    </a>
+</div>
+
+
+
+                    <br>
+                </div>
+
+                <div class="btn-area text-center">
+                    <h4 class="commented">104 Web Developers commented on this product</h4>
+
+                        <a target="_blank" class="btn btn-default btn-new btn-simple" href="https://github.com/creativetimofficial/material-dashboard-pro/issues">
+                            <i class="fa fa-github-alt"></i> Report issue
+</a>
+                    <div class="collapse in" id="commentsCollapse">
+                            <input id="keep_product" class="hidden" value="51">
+
+                                <div class = "sort_paginate_ajax">
+                                    
+
+    
+
+<div class="comment " id="comment-2129">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/125993/thumb4ba7.png?1487190066" alt="Thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div class="author">
+                <h4 class="username">michael.olson
+                    <ul>
+                    <li class = 'user-role downloaded' > downloaded</li>
+                    </ul>
+                <small>5 months ago</small>
+                </h4>
+            </div>
+            I am having an issue with changing the color of the sidebar when it is collapsed. I am able to manipulate the color of the sidebar when it is not collapsed, but once collapsed the default color is black and I am unable to change it to anything else. <br>
+
+            <div class="comment-reply-btn">
+    		</div>
+    	</div>
+
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+    				
+<div class="comment " id="reply-2130" >
+
+    <div class="row">
+        <div class="col-md-2 col-md-offset-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/125993/thumb4ba7.png?1487190066" alt="Thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="author">
+                <h4 class="username">michael.olson
+                    <ul>
+                    <li class = 'user-role downloaded' > downloaded</li>
+                    </ul>
+                </h4>
+            </div>
+            Never mind, I found it. 
+Line 11026
+  .sidebar::before,
+  .off-canvas-sidebar::before {
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: #FFFFFF;
+    display: block;
+    content: &quot;&quot;;
+    z-index: 1;
+  }
+        </div>
+
+        <div class="col-md-2 text-right">
+            <h5 class="time">5 months ago</h5>
+        </div>
+    </div>
+</div>
+
+    				
+<div class="comment " id="reply-2140" >
+
+    <div class="row">
+        <div class="col-md-2 col-md-offset-2">
+            <div class="account-photo account-product-owner">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/1/thumb953e.jpg?1484594398" alt="Thumb" />
+
+                    <div class="account-type" rel="tooltip" title="Product Owner">
+                        <i class="fa fa-star"></i>
+                    </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="author">
+                <h4 class="username">axelut
+                    <ul>
+                    <li class = 'user-role owner' > owner</li>
+                    </ul>
+                </h4>
+            </div>
+            <a class='card-user'
+    	       rel='popover'
+    	       data-content='<div class="uil-ring-css" style="-webkit-transform:scale(0.3)"><div></div></div>'
+    	       data-initialized='0'
+    	       data-html='true'
+    	       data-placement='top'
+    	       data-template='<div class="popover" onmouseover="clearTimeout(timeoutObj);$(this).mouseleave(function() {$(this).hide();});"><div class="arrow"></div><div class="popover-inner"><div class="popover-content"><p></p></div></div></div>'
+    	       data-username='michael.olson'
+    	    >
+    	    	@michael.olson
+    	    </a> you can use the attribute data-background-color=&quot;white&quot; and it will make the background white. Did you checked that? Best, Alex!
+        </div>
+
+        <div class="col-md-2 text-right">
+            <h5 class="time">5 months ago</h5>
+        </div>
+    </div>
+</div>
+
+    				
+<div class="comment " id="reply-2143" >
+
+    <div class="row">
+        <div class="col-md-2 col-md-offset-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/125993/thumb4ba7.png?1487190066" alt="Thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="author">
+                <h4 class="username">michael.olson
+                    <ul>
+                    <li class = 'user-role downloaded' > downloaded</li>
+                    </ul>
+                </h4>
+            </div>
+            I did check that but the white was only affecting the sidebar when it wasn&#39;t collapsed. Once the screen size was minimized past the point to make it collapse the sidebar would then turn to black. If its working on a fresh template then I must have changed some code to undo the data-background-color=&quot;white&quot;.
+        </div>
+
+        <div class="col-md-2 text-right">
+            <h5 class="time">5 months ago</h5>
+        </div>
+    </div>
+</div>
+
+    				
+<div class="comment " id="reply-2150" >
+
+    <div class="row">
+        <div class="col-md-2 col-md-offset-2">
+            <div class="account-photo account-product-owner">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/1/thumb953e.jpg?1484594398" alt="Thumb" />
+
+                    <div class="account-type" rel="tooltip" title="Product Owner">
+                        <i class="fa fa-star"></i>
+                    </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="author">
+                <h4 class="username">axelut
+                    <ul>
+                    <li class = 'user-role owner' > owner</li>
+                    </ul>
+                </h4>
+            </div>
+            We&#39;ve checked and it is white also on the minimized size, here is an example: http://imgur.com/a/XCMQZ Did I get this wrong?
+        </div>
+
+        <div class="col-md-2 text-right">
+            <h5 class="time">5 months ago</h5>
+        </div>
+    </div>
+</div>
+
+    				
+<div class="comment " id="reply-2151" >
+
+    <div class="row">
+        <div class="col-md-2 col-md-offset-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/125993/thumb4ba7.png?1487190066" alt="Thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="author">
+                <h4 class="username">michael.olson
+                    <ul>
+                    <li class = 'user-role downloaded' > downloaded</li>
+                    </ul>
+                </h4>
+            </div>
+            You are correct, I messed it up on my end.
+        </div>
+
+        <div class="col-md-2 text-right">
+            <h5 class="time">5 months ago</h5>
+        </div>
+    </div>
+</div>
+
+    <div id="last-reply-2129"></div>
+    
+
+<div class="comment " id="comment-2131">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/146289/thumb8ddf.png?1487195582" alt="Thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div class="author">
+                <h4 class="username">pdc
+                <small>5 months ago</small>
+                </h4>
+            </div>
+            looks nice, i wonder if it works together with material kit components? <br>
+
+            <div class="comment-reply-btn">
+    		</div>
+    	</div>
+
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+    				
+<div class="comment " id="reply-2141" >
+
+    <div class="row">
+        <div class="col-md-2 col-md-offset-2">
+            <div class="account-photo account-product-owner">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/1/thumb953e.jpg?1484594398" alt="Thumb" />
+
+                    <div class="account-type" rel="tooltip" title="Product Owner">
+                        <i class="fa fa-star"></i>
+                    </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="author">
+                <h4 class="username">axelut
+                    <ul>
+                    <li class = 'user-role owner' > owner</li>
+                    </ul>
+                </h4>
+            </div>
+            <b>Anonymous Tim</b> thank you for your interest in our product. Our recommendation is that you should use them separately. The Dashboard for Admin/CMS part of your website and the UI kit for the presentation/landing/pricing/blog... pages. You don&#39;t have to place both products on the same page because your users will be either on a front page or on the Admin/CMS page. If you really want a specific component from one product to another, we have in documentation an example on how to move the SCSS and the javascript (it is having one). Please let us know if we can help you with anything else. Best, Alex!
+        </div>
+
+        <div class="col-md-2 text-right">
+            <h5 class="time">5 months ago</h5>
+        </div>
+    </div>
+</div>
+
+    <div id="last-reply-2131"></div>
+    
+
+<div class="comment " id="comment-2132">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/anonymous_thumb.png" alt="Anonymous thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div class="author">
+                <h4 class="username">marcoscostta
+                    <ul>
+                    <li class = 'user-role downloaded' > downloaded</li>
+                    </ul>
+                <small>5 months ago</small>
+                </h4>
+            </div>
+            How do I turn on notifications or have to press the preview button? <br>
+
+            <div class="comment-reply-btn">
+    		</div>
+    	</div>
+
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+    				
+<div class="comment " id="reply-2142" >
+
+    <div class="row">
+        <div class="col-md-2 col-md-offset-2">
+            <div class="account-photo account-product-owner">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/1/thumb953e.jpg?1484594398" alt="Thumb" />
+
+                    <div class="account-type" rel="tooltip" title="Product Owner">
+                        <i class="fa fa-star"></i>
+                    </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="author">
+                <h4 class="username">axelut
+                    <ul>
+                    <li class = 'user-role owner' > owner</li>
+                    </ul>
+                </h4>
+            </div>
+            <a class='card-user'
+    	       rel='popover'
+    	       data-content='<div class="uil-ring-css" style="-webkit-transform:scale(0.3)"><div></div></div>'
+    	       data-initialized='0'
+    	       data-html='true'
+    	       data-placement='top'
+    	       data-template='<div class="popover" onmouseover="clearTimeout(timeoutObj);$(this).mouseleave(function() {$(this).hide();});"><div class="arrow"></div><div class="popover-inner"><div class="popover-content"><p></p></div></div></div>'
+    	       data-username='marcoscostta'
+    	    >
+    	    	@marcoscostta
+    	    </a> thank you for using our product. Can you please give us more details about what you want to achieve? In the meantime, you can also check the /documentation/tutorial-components.html and look for the &quot;Bootstrap Notify&quot; and you will see an example on how to show the notification.
+        </div>
+
+        <div class="col-md-2 text-right">
+            <h5 class="time">5 months ago</h5>
+        </div>
+    </div>
+</div>
+
+    <div id="last-reply-2132"></div>
+    
+
+<div class="comment " id="comment-2138">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/anonymous_thumb.png" alt="Anonymous thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div class="author">
+                <h4 class="username">kheops
+                <small>5 months ago</small>
+                </h4>
+            </div>
+            Great JOB guys I really like this template.
+Just wondering if it was possible to sticky the footer. 
+Bye. <br>
+
+            <div class="comment-reply-btn">
+    		</div>
+    	</div>
+
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+    				
+<div class="comment " id="reply-2148" >
+
+    <div class="row">
+        <div class="col-md-2 col-md-offset-2">
+            <div class="account-photo account-product-owner">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/1/thumb953e.jpg?1484594398" alt="Thumb" />
+
+                    <div class="account-type" rel="tooltip" title="Product Owner">
+                        <i class="fa fa-star"></i>
+                    </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="author">
+                <h4 class="username">axelut
+                    <ul>
+                    <li class = 'user-role owner' > owner</li>
+                    </ul>
+                </h4>
+            </div>
+            <a class='card-user'
+    	       rel='popover'
+    	       data-content='<div class="uil-ring-css" style="-webkit-transform:scale(0.3)"><div></div></div>'
+    	       data-initialized='0'
+    	       data-html='true'
+    	       data-placement='top'
+    	       data-template='<div class="popover" onmouseover="clearTimeout(timeoutObj);$(this).mouseleave(function() {$(this).hide();});"><div class="arrow"></div><div class="popover-inner"><div class="popover-content"><p></p></div></div></div>'
+    	       data-username='kheops'
+    	    >
+    	    	@kheops
+    	    </a> thank you for using our product. At this moment that feature is not implemented. We have an example on how to do the navbar-fixed on top: https://github.com/creativetimofficial/material-dashboard/issues/2, you can use the same steps and make it for the bottom, just add the bottom:0 on a  &quot;.footer-fixed&quot; class or you can wait till Monday when we will be back at the office and give you a solution for that :D Also can you please let us know on which account you made the purchase? Best, Alex!
+        </div>
+
+        <div class="col-md-2 text-right">
+            <h5 class="time">5 months ago</h5>
+        </div>
+    </div>
+</div>
+
+    <div id="last-reply-2138"></div>
+    
+
+<div class="comment " id="comment-2154">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/anonymous_thumb.png" alt="Anonymous thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div class="author">
+                <h4 class="username">radeonorama
+                    <ul>
+                    <li class = 'user-role downloaded' > downloaded</li>
+                    </ul>
+                <small>5 months ago</small>
+                </h4>
+            </div>
+            Hey there! This looks absolutely lovely! I&#39;m currently at university looking to utilise an admin template for a potential client and am trying to work out which licence I need? The personal licence doesn&#39;t look like it will allow me to use it for them? It would just be a one off for them but do i still need to buy a developer licence? $200 just seems a little steep for one user and I don&#39;t really feel i can pass the cost on as I&#39;m just stating out? Thanks! <br>
+
+            <div class="comment-reply-btn">
+    		</div>
+    	</div>
+
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+    				
+<div class="comment " id="reply-2157" >
+
+    <div class="row">
+        <div class="col-md-2 col-md-offset-2">
+            <div class="account-photo account-product-owner">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/1/thumb953e.jpg?1484594398" alt="Thumb" />
+
+                    <div class="account-type" rel="tooltip" title="Product Owner">
+                        <i class="fa fa-star"></i>
+                    </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="author">
+                <h4 class="username">axelut
+                    <ul>
+                    <li class = 'user-role owner' > owner</li>
+                    </ul>
+                </h4>
+            </div>
+            <a class='card-user'
+    	       rel='popover'
+    	       data-content='<div class="uil-ring-css" style="-webkit-transform:scale(0.3)"><div></div></div>'
+    	       data-initialized='0'
+    	       data-html='true'
+    	       data-placement='top'
+    	       data-template='<div class="popover" onmouseover="clearTimeout(timeoutObj);$(this).mouseleave(function() {$(this).hide();});"><div class="arrow"></div><div class="popover-inner"><div class="popover-content"><p></p></div></div></div>'
+    	       data-username='radeonorama'
+    	    >
+    	    	@radeonorama
+    	    </a> thank you for your interest in our product. The Personal License allows you to use the product for you or for a single client, so you can get that license without problems. Please check more about the licenses here: https://www.creative-tim.com/license. I also added 15 credits on your account, as a gift from us for your first client :D Best, Alex!
+        </div>
+
+        <div class="col-md-2 text-right">
+            <h5 class="time">5 months ago</h5>
+        </div>
+    </div>
+</div>
+
+    <div id="last-reply-2154"></div>
+    
+
+<div class="comment " id="comment-2158">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/anonymous_thumb.png" alt="Anonymous thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div class="author">
+                <h4 class="username">radeonorama
+                    <ul>
+                    <li class = 'user-role downloaded' > downloaded</li>
+                    </ul>
+                <small>5 months ago</small>
+                </h4>
+            </div>
+            Thanks very very much! I&#39;ve just bought the dashboard now. Just waiting on the payment to process apparently! Thanks again! :-) <br>
+
+            <div class="comment-reply-btn">
+    		</div>
+    	</div>
+
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+    				
+<div class="comment " id="reply-2174" >
+
+    <div class="row">
+        <div class="col-md-2 col-md-offset-2">
+            <div class="account-photo account-product-owner">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/1/thumb953e.jpg?1484594398" alt="Thumb" />
+
+                    <div class="account-type" rel="tooltip" title="Product Owner">
+                        <i class="fa fa-star"></i>
+                    </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="author">
+                <h4 class="username">axelut
+                    <ul>
+                    <li class = 'user-role owner' > owner</li>
+                    </ul>
+                </h4>
+            </div>
+            <a class='card-user'
+    	       rel='popover'
+    	       data-content='<div class="uil-ring-css" style="-webkit-transform:scale(0.3)"><div></div></div>'
+    	       data-initialized='0'
+    	       data-html='true'
+    	       data-placement='top'
+    	       data-template='<div class="popover" onmouseover="clearTimeout(timeoutObj);$(this).mouseleave(function() {$(this).hide();});"><div class="arrow"></div><div class="popover-inner"><div class="popover-content"><p></p></div></div></div>'
+    	       data-username='radeonorama'
+    	    >
+    	    	@radeonorama
+    	    </a> congrats for getting the product! Wish you good luck with development and don&#39;t forget to share with us the result. We would be glad to give you feedback! Best, Alex!
+        </div>
+
+        <div class="col-md-2 text-right">
+            <h5 class="time">5 months ago</h5>
+        </div>
+    </div>
+</div>
+
+    <div id="last-reply-2158"></div>
+    
+
+<div class="comment " id="comment-2168">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/147738/thumb3386.jpg?1487521246" alt="Thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div class="author">
+                <h4 class="username">leo.interactives
+                    <ul>
+                    <li class = 'user-role downloaded' > downloaded</li>
+                    </ul>
+                <small>5 months ago</small>
+                </h4>
+            </div>
+            If i buy the personal license, can i use this in my project which has subscription based service for users? <br>
+
+            <div class="comment-reply-btn">
+    		</div>
+    	</div>
+
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+    				
+<div class="comment " id="reply-2183" >
+
+    <div class="row">
+        <div class="col-md-2 col-md-offset-2">
+            <div class="account-photo account-product-owner">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/1/thumb953e.jpg?1484594398" alt="Thumb" />
+
+                    <div class="account-type" rel="tooltip" title="Product Owner">
+                        <i class="fa fa-star"></i>
+                    </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="author">
+                <h4 class="username">axelut
+                    <ul>
+                    <li class = 'user-role owner' > owner</li>
+                    </ul>
+                </h4>
+            </div>
+            <a class='card-user'
+    	       rel='popover'
+    	       data-content='<div class="uil-ring-css" style="-webkit-transform:scale(0.3)"><div></div></div>'
+    	       data-initialized='0'
+    	       data-html='true'
+    	       data-placement='top'
+    	       data-template='<div class="popover" onmouseover="clearTimeout(timeoutObj);$(this).mouseleave(function() {$(this).hide();});"><div class="arrow"></div><div class="popover-inner"><div class="popover-content"><p></p></div></div></div>'
+    	       data-username='leo.interactives'
+    	    >
+    	    	@leo.interactives
+    	    </a> thank you for using our product. If your website is a SaaS, where people control anything and work with our dashboard, then you need a Developer License, if you just use it for you to manage your users/subscriptions etc. then a Personal License is enough. Please let us know if we can help you with anything else. Best, Alex!
+        </div>
+
+        <div class="col-md-2 text-right">
+            <h5 class="time">5 months ago</h5>
+        </div>
+    </div>
+</div>
+
+    <div id="last-reply-2168"></div>
+    
+
+<div class="comment " id="comment-2177">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/146842/thumbfddf.jpg?1487310407" alt="Thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div class="author">
+                <h4 class="username">mailing.sagar
+                <small>5 months ago</small>
+                </h4>
+            </div>
+            will pro come in angular 2 <br>
+
+            <div class="comment-reply-btn">
+    		</div>
+    	</div>
+
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+    				
+<div class="comment " id="reply-2185" >
+
+    <div class="row">
+        <div class="col-md-2 col-md-offset-2">
+            <div class="account-photo account-product-owner">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/1/thumb953e.jpg?1484594398" alt="Thumb" />
+
+                    <div class="account-type" rel="tooltip" title="Product Owner">
+                        <i class="fa fa-star"></i>
+                    </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="author">
+                <h4 class="username">axelut
+                    <ul>
+                    <li class = 'user-role owner' > owner</li>
+                    </ul>
+                </h4>
+            </div>
+            <a class='card-user'
+    	       rel='popover'
+    	       data-content='<div class="uil-ring-css" style="-webkit-transform:scale(0.3)"><div></div></div>'
+    	       data-initialized='0'
+    	       data-html='true'
+    	       data-placement='top'
+    	       data-template='<div class="popover" onmouseover="clearTimeout(timeoutObj);$(this).mouseleave(function() {$(this).hide();});"><div class="arrow"></div><div class="popover-inner"><div class="popover-content"><p></p></div></div></div>'
+    	       data-username='mailing.sagar'
+    	    >
+    	    	@mailing.sagar
+    	    </a> thank you for your interest in our product. Yes, it will come in Angular 2 too. In 1-2 days we will launch Light Bootstrap Dashboard PRO in Angular, then we will start the development for Material Dashboard PRO. Stay tuned :D
+        </div>
+
+        <div class="col-md-2 text-right">
+            <h5 class="time">5 months ago</h5>
+        </div>
+    </div>
+</div>
+
+    <div id="last-reply-2177"></div>
+    
+
+<div class="comment " id="comment-2221">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/anonymous_thumb.png" alt="Anonymous thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div class="author">
+                <h4 class="username">billy.san
+                <small>5 months ago</small>
+                </h4>
+            </div>
+            Hi all,
+
+How could I set the navbar to be collapsed by default?
+
+Best,
+Bar <br>
+
+            <div class="comment-reply-btn">
+    		</div>
+    	</div>
+
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+    				
+<div class="comment " id="reply-2224" >
+
+    <div class="row">
+        <div class="col-md-2 col-md-offset-2">
+            <div class="account-photo account-product-owner">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/1/thumb953e.jpg?1484594398" alt="Thumb" />
+
+                    <div class="account-type" rel="tooltip" title="Product Owner">
+                        <i class="fa fa-star"></i>
+                    </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="author">
+                <h4 class="username">axelut
+                    <ul>
+                    <li class = 'user-role owner' > owner</li>
+                    </ul>
+                </h4>
+            </div>
+            <a class='card-user'
+    	       rel='popover'
+    	       data-content='<div class="uil-ring-css" style="-webkit-transform:scale(0.3)"><div></div></div>'
+    	       data-initialized='0'
+    	       data-html='true'
+    	       data-placement='top'
+    	       data-template='<div class="popover" onmouseover="clearTimeout(timeoutObj);$(this).mouseleave(function() {$(this).hide();});"><div class="arrow"></div><div class="popover-inner"><div class="popover-content"><p></p></div></div></div>'
+    	       data-username='billy.san'
+    	    >
+    	    	@billy.san
+    	    </a> thank you for using our product. The navbar cannot be collapsed by default because it is part of the &quot;Sidebar Menu&quot; on the mobile screen when the default collapse is initialised. So technically you cannot separate that from the regular sidebar. Unfortunately, I didn&#39;t understand how that should work, can you please let us know what you want to achieve and if you have an example it would be great. Best, Alex!
+        </div>
+
+        <div class="col-md-2 text-right">
+            <h5 class="time">5 months ago</h5>
+        </div>
+    </div>
+</div>
+
+    				
+<div class="comment " id="reply-2227" >
+
+    <div class="row">
+        <div class="col-md-2 col-md-offset-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/anonymous_thumb.png" alt="Anonymous thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="author">
+                <h4 class="username">billy.san
+                </h4>
+            </div>
+            <a class='card-user'
+    	       rel='popover'
+    	       data-content='<div class="uil-ring-css" style="-webkit-transform:scale(0.3)"><div></div></div>'
+    	       data-initialized='0'
+    	       data-html='true'
+    	       data-placement='top'
+    	       data-template='<div class="popover" onmouseover="clearTimeout(timeoutObj);$(this).mouseleave(function() {$(this).hide();});"><div class="arrow"></div><div class="popover-inner"><div class="popover-content"><p></p></div></div></div>'
+    	       data-username='axelut'
+    	    >
+    	    	@axelut
+    	    </a>, thank you for your response! first I&#39;d like to apologize I confused you, I wrote &#39;navbar&#39; instead of &#39;sidebar&#39;. The sidebar has two modes, default with icons and text on each &lt;li&gt; item and one where only the icons show (text is hidden). by clicking on the &#39;Home&#39; button on the navbar you toggle these options. I just thought about having the slimmer sidebar loaded by default instead of the ones with texts along side the icons.
+
+Best,
+Bar
+        </div>
+
+        <div class="col-md-2 text-right">
+            <h5 class="time">5 months ago</h5>
+        </div>
+    </div>
+</div>
+
+    				
+<div class="comment " id="reply-2234" >
+
+    <div class="row">
+        <div class="col-md-2 col-md-offset-2">
+            <div class="account-photo account-product-owner">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/1/thumb953e.jpg?1484594398" alt="Thumb" />
+
+                    <div class="account-type" rel="tooltip" title="Product Owner">
+                        <i class="fa fa-star"></i>
+                    </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="author">
+                <h4 class="username">axelut
+                    <ul>
+                    <li class = 'user-role owner' > owner</li>
+                    </ul>
+                </h4>
+            </div>
+            <a class='card-user'
+    	       rel='popover'
+    	       data-content='<div class="uil-ring-css" style="-webkit-transform:scale(0.3)"><div></div></div>'
+    	       data-initialized='0'
+    	       data-html='true'
+    	       data-placement='top'
+    	       data-template='<div class="popover" onmouseover="clearTimeout(timeoutObj);$(this).mouseleave(function() {$(this).hide();});"><div class="arrow"></div><div class="popover-inner"><div class="popover-content"><p></p></div></div></div>'
+    	       data-username='billy.san'
+    	    >
+    	    	@billy.san
+    	    </a> got it now :-)) no worries. You can use the class &quot;.sidebar-mini&quot; on the body tag of the page. More details can be found in the documentation. Please let us know if that is solving the case :D
+        </div>
+
+        <div class="col-md-2 text-right">
+            <h5 class="time">5 months ago</h5>
+        </div>
+    </div>
+</div>
+
+    <div id="last-reply-2221"></div>
+    
+
+<div class="comment " id="comment-2245">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/141300/thumb924d.jpg?1487507870" alt="Thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div class="author">
+                <h4 class="username">reza.ghorbani557
+                <small>5 months ago</small>
+                </h4>
+            </div>
+            hi guys, how can use it in rtl mode? <br>
+
+            <div class="comment-reply-btn">
+    		</div>
+    	</div>
+
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+    				
+<div class="comment " id="reply-2253" >
+
+    <div class="row">
+        <div class="col-md-2 col-md-offset-2">
+            <div class="account-photo account-product-owner">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/1/thumb953e.jpg?1484594398" alt="Thumb" />
+
+                    <div class="account-type" rel="tooltip" title="Product Owner">
+                        <i class="fa fa-star"></i>
+                    </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="author">
+                <h4 class="username">axelut
+                    <ul>
+                    <li class = 'user-role owner' > owner</li>
+                    </ul>
+                </h4>
+            </div>
+            <a class='card-user'
+    	       rel='popover'
+    	       data-content='<div class="uil-ring-css" style="-webkit-transform:scale(0.3)"><div></div></div>'
+    	       data-initialized='0'
+    	       data-html='true'
+    	       data-placement='top'
+    	       data-template='<div class="popover" onmouseover="clearTimeout(timeoutObj);$(this).mouseleave(function() {$(this).hide();});"><div class="arrow"></div><div class="popover-inner"><div class="popover-content"><p></p></div></div></div>'
+    	       data-username='reza.ghorbani557'
+    	    >
+    	    	@reza.ghorbani557
+    	    </a> thank you for your interest in our product. The best option would be to use the Bootstrap RTL: https://github.com/morteza/bootstrap-rtl then to move the sidebar from the left side to the right. Please let us know how the thing are going. We don&#39;t have anybody in our team who knows the RTL system but we will try to help you as much as we can. Best, Alex!
+        </div>
+
+        <div class="col-md-2 text-right">
+            <h5 class="time">5 months ago</h5>
+        </div>
+    </div>
+</div>
+
+    <div id="last-reply-2245"></div>
+<div id="last-comment-51"></div>
+
+                                    <div class="text-center" data-no-turbolink>
+                                        <div class="pagination pagination-azure pagination-no-border " is_active="true"><a class="previous_page" rel="prev" href="material-dashboard-pro4658.html?page=2#comments">«</a> <a href="material-dashboard-pro2679.html?page=1#comments">1</a> <a rel="prev" href="material-dashboard-pro4658.html?page=2#comments">2</a> <em class="current">3</em> <a rel="next" href="material-dashboard-profdb0.html?page=4#comments">4</a> <a href="material-dashboard-proaf4d.html?page=5#comments">5</a> <a href="material-dashboard-proc575.html?page=6#comments">6</a> <a href="material-dashboard-pro235c.html?page=7#comments">7</a> <a href="material-dashboard-profdfa.html?page=8#comments">8</a> <a href="material-dashboard-pro0b08.html?page=9#comments">9</a> <a href="material-dashboard-pro1448.html?page=10#comments">10</a> <a href="material-dashboard-pro1c8b.html?page=11#comments">11</a> <a class="next_page" rel="next" href="material-dashboard-profdb0.html?page=4#comments">»</a></div>
+                                    </div>
+                                </div>
+                        <div id="last-comment-51"></div>
+                            <h4 class="post-comment-info">You have to be logged in to post a comment.
+                                <a href="javascript:void(0)" onclick="openLoginModal();" role="button" data-toggle="modal">
+                                    Login here.
+                                </a>
+                            </h4>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+                <div class="row">
+    <div class="col-md-8 col-md-offset-2 text-center">
+        <div class="sharing-area">
+            <div class="big-icon">
+                <i class="icon-comments"></i>
+            </div>
+            <h2 class="legend text-center">Sharing is caring!</h2>
+
+            <a href="javascript:shareFacebookWithCallBack()" class="btn btn-new btn-wd btn-social btn-facebook btn-fill btn-round">
+                <i class="fa fa-facebook-square"></i> Facebook
+            </a>
+            <a href="https://twitter.com/intent/tweet?url=https://www.creative-tim.com/product/material-dashboard-pro?page=3&amp;text=Checkout%20this%20awesome%20product%20for%20web%20developers&amp;via=creativetim" class="btn btn-new btn-wd btn-social btn-twitter btn-fill btn-round">
+                <i class="fa fa-twitter"></i> Twitter
+            </a>
+            <a href="javascript:void(0)" class="btn btn-new btn-wd btn-social btn-google btn-fill btn-round" onclick="googleShare(this)">
+                <i class="fa fa-google-plus-square"></i> Google+
+            </a>
+             <a href="https://www.creative-tim.com/cdn-cgi/l/email-protection#546b2721363e31372069173c31373f3b212074203c3d2772363b302d691c3d781d74323b213a3074203c3d2774353a3074203c3b21333c20742d3b2174393d333c2074383d3f31743d20743c202024276e7b7b2323237a37263135203d223179203d397a373b397b24263b302137207b39352031263d3538793035273c363b3526307924263b6b243533316967" class="btn btn-new btn-wd btn-social btn-neutral btn-email btn-fill btn-round">
+                <i class="fa fa-paper-plane"></i> Email
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+            </div>
+        </div>
+    </div>
+
+        <div class="main main-purple section-feedback parallax  parallax-" style="background: url('../../s3.amazonaws.com/creativetim_bucket/products/51/md_free_cover_rosec3b5.jpg?1478190596')no-repeat;background-size: cover; ">
+            <div class="container">
+                <div class="testimonials">
+                    <h4 class="legend text-center">Why our customers appreciate us</h4>
+                        <div class="col-md-4">
+    <div class="card" itemprop="review" itemscope itemtype="http://schema.org/Review">
+        <div class="content">
+            <div class="rating-stars rating-just-view" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+                <meta itemprop="worstRating" content="1">
+                <meta itemprop="bestRating" content="5">
+                <meta itemprop="ratingValue" content="5">
+                <input type="number" class="rating" data-min="1" data-max="5" value="5" disabled="disabled" />
+            </div>
+
+            <h3 class="small-title" itemprop="name">
+                Design Quality
+            </h3>
+
+            <h4 class="message" itemprop="description"></h4>
+
+            <div class="footer">
+               <div class="author">
+                   <a class="card-link">
+                       <img class="avatar" src="../../s3.amazonaws.com/creativetim_bucket/photos/24128/thumbe0d0.jpg?1428717903" alt="Thumb" />
+                      <span itemprop="author">Hayden Thorn</span>
+                   </a>
+               </div>
+               <div class="stats pull-right">
+                   <meta itemprop="datePublished" content="2017-08-10">12 hours ago
+               </div>
+               <div class="clearfix"></div>
+           </div>
+
+        </div>
+    </div>
+</div>
+
+                        <div class="col-md-4">
+    <div class="card" itemprop="review" itemscope itemtype="http://schema.org/Review">
+        <div class="content">
+            <div class="rating-stars rating-just-view" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+                <meta itemprop="worstRating" content="1">
+                <meta itemprop="bestRating" content="5">
+                <meta itemprop="ratingValue" content="5">
+                <input type="number" class="rating" data-min="1" data-max="5" value="5" disabled="disabled" />
+            </div>
+
+            <h3 class="small-title" itemprop="name">
+                Design Quality
+            </h3>
+
+            <h4 class="message" itemprop="description">Awesome</h4>
+
+            <div class="footer">
+               <div class="author">
+                   <a class="card-link">
+                       <img class="avatar" src="../../s3.amazonaws.com/creativetim_bucket/photos/235010/thumb40e9.jpg?1501496549" alt="Thumb" />
+                      <span itemprop="author">Oskar Arce</span>
+                   </a>
+               </div>
+               <div class="stats pull-right">
+                   <meta itemprop="datePublished" content="2017-08-06">3 days ago
+               </div>
+               <div class="clearfix"></div>
+           </div>
+
+        </div>
+    </div>
+</div>
+
+                        <div class="col-md-4">
+    <div class="card" itemprop="review" itemscope itemtype="http://schema.org/Review">
+        <div class="content">
+            <div class="rating-stars rating-just-view" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+                <meta itemprop="worstRating" content="1">
+                <meta itemprop="bestRating" content="5">
+                <meta itemprop="ratingValue" content="5">
+                <input type="number" class="rating" data-min="1" data-max="5" value="5" disabled="disabled" />
+            </div>
+
+            <h3 class="small-title" itemprop="name">
+                Design Quality
+            </h3>
+
+            <h4 class="message" itemprop="description"></h4>
+
+            <div class="footer">
+               <div class="author">
+                   <a class="card-link">
+                       <img class="avatar" src="../../s3.amazonaws.com/creativetim_bucket/anonymous_thumb.png" alt="Anonymous thumb" />
+                      <span itemprop="author">Stuart Bain</span>
+                   </a>
+               </div>
+               <div class="stats pull-right">
+                   <meta itemprop="datePublished" content="2017-08-04">6 days ago
+               </div>
+               <div class="clearfix"></div>
+           </div>
+
+        </div>
+    </div>
+</div>
+
+
+                        <div class="clearfix"></div>
+                        <div class="text-center" data-no-turbolink>
+                            <a class="btn btn-new btn-neutral btn-round" href="material-dashboard-pro/reviews.html">View All Reviews</a>
+                        </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+    <div class="main-white">
+        <div class="container">
+            <ol itemscope itemtype="http://schema.org/BreadcrumbList" class="breadcrumb">
+        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" >
+                <a itemprop="item" href="https://www.creative-tim.com/">
+                <span itemprop="name">Home</span>
+                </a>
+
+            <meta itemprop="position" content="1" />
+        </li>
+        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" >
+                <a itemprop="item" href="https://www.creative-tim.com/bootstrap-themes">
+                <span itemprop="name">All Categories</span>
+                </a>
+
+            <meta itemprop="position" content="2" />
+        </li>
+        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class=&quot;active&quot;&gt;>
+                <span itemprop="name">Material Dashboard Pro</span>
+
+            <meta itemprop="position" content="3" />
+        </li>
+</ol>
+
+        </div>
+    </div>
+</div>
+
+<div class="modal fade reviews-modal" id="reviewsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+
+              <td>Material Dashboard Pro</td>
+              <td>robert marsh</td><br>
+              <td>message:very slick... I love it</td>
+              <td>rating:4</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Bui Tuan Kiet</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Cho Sunyoung</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Vamsi Komanapalli</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Radovan Preradovic</td><br>
+              <td>message:Very well designed.</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Aravindh S</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Eugeney Dubrovin</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Chia Chen</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:Great product. Love it!</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Edwin Arellano</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Huy Trịnh Quốc</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:Awesome</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:Awesome and elegant design </td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Justin Eakins</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Russ White</td><br>
+              <td>message:</td>
+              <td>rating:4</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Nikola Peric</td><br>
+              <td>message:</td>
+              <td>rating:4</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Lucas Marciano</td><br>
+              <td>message:Great, this is the best template ever!</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Matt Silverman</td><br>
+              <td>message:Very nice, adheres to all material design standards.</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Ray Espinosa</td><br>
+              <td>message:It has helped me to desing uuuhmmm let&#39;s say production mockups using its great and very cool components. You people did a great job here, TY</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Cory Bowles</td><br>
+              <td>message:Documentation from Creative Tim is second to none when it comes to web site templates!  I have never seen such thorough attention put towards what some feel is &#39;nicety&#39;. </td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Frederic Simard</td><br>
+              <td>message:</td>
+              <td>rating:4</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Andreas Ek</td><br>
+              <td>message:Not as fresh as the Free Material Dashboard from Creative Tim...</td>
+              <td>rating:3</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Barry Chapman</td><br>
+              <td>message:very nice theme - would be nice if there were more visual components for the price though.
+
+Thanks!</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Burak GONENLI</td><br>
+              <td>message:Clean code, great support</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>proteasa dan catalin</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:Wonderfully good looking, a little more example that covers more aspect of most component will be great.</td>
+              <td>rating:4</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Leo Interactives</td><br>
+              <td>message:absolutely love it</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Richard Madison</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Low Chin Kian</td><br>
+              <td>message:Template comes with plenty of good example. </td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Mike M</td><br>
+              <td>message:Very good for making professional-looking dashboards and rich with functionality, would suggest to anyone looking for a cheap, high-quality dashboard UI-kit solution!</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>john white</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Florian Valiente</td><br>
+              <td>message:I would personally rate my CSS as 5/10 on good days, and this was a breeze to use!</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Junfeng Zhao</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Norman Edance</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>WANG JIANGHONG</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Saleem hadad</td><br>
+              <td>message:awesome</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Christina Thum</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:Awesome!</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Luiz Antonio Batista da Silva</td><br>
+              <td>message:Hi quality</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:Awesome design</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:I&#39;m happy to see what I can develop with these dashboard. Thanks!</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Steven Smith</td><br>
+              <td>message:Works out of the box on any browser I threw it at. Great base for any application... refresh your bootstrap-based application with Material Design!</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Tuoyu Deng</td><br>
+              <td>message:</td>
+              <td>rating:4</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Tuoyu Deng</td><br>
+              <td>message:</td>
+              <td>rating:4</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Yudhi Satrio</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Vinicius Rufine</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Pugo UG,Sören Völkel</td><br>
+              <td>message:</td>
+              <td>rating:4</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>FELIPE SOLIS</td><br>
+              <td>message:</td>
+              <td>rating:4</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Cristi Jora</td><br>
+              <td>message:Kind of slowish for mobile devices. Has a lot of css and js (4mb transferred on first load of dashboard).
+Also has some strange bugs where some weird text appears instead of icons. After it&#39;s fully loaded the text is replaced with the icons.
+The look on the other side is stunning!</td>
+              <td>rating:4</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:4</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Juan Lafuente</td><br>
+              <td>message:Good</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Dávid Zita</td><br>
+              <td>message:Thanks so much. Code is clean and usefull.</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>adisorn wisuttipat</td><br>
+              <td>message:awesome </td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Nawapon New netjinda</td><br>
+              <td>message:Thank you for your support</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>TechnoLinks Test-User</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:Love it!</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:Very Impressed</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Leam Delaney</td><br>
+              <td>message:I love this template!</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:Excellent !</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Javier Vidal Otero</td><br>
+              <td>message:</td>
+              <td>rating:4</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Rodrigo Fraga</td><br>
+              <td>message:Amazing!</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:Best purchase ever!</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:Best</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Imre Nagy</td><br>
+              <td>message:It is simple and brilliant - there are a few things missing though. For example the floating action button. Which is actually part of the material design documentation. 
+
+In order to get that - we needed to incorporate materialize.css - but of course the two libraries are _not_quite_ compatible... therefore a lot of tweek-fix-patch css needed to be added.
+
+if it would have _all_ material design components - it would be the ultimate tool. 
+This way though.. it is only a &quot;good starting point&quot;
+
+I look forward for future updates when it will be really Material design compatible.
+
+Keep up the good work</td>
+              <td>rating:3</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:Excelent and beutiful design</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Suhas Ghodke</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>SYAHRIL BIN ZULKEFLI</td><br>
+              <td>message:</td>
+              <td>rating:4</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:4</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:AWESOME!  If you want to save in development time - get this kit, you&#39;ll be glad you did!</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Cyrille Georgel</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:4</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Fernando Medeiros</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Kim Skinner</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Nikos Loulos</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:Great Admin panel... </td>
+              <td>rating:4</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:Awesome looking and very comprehensive!  I was able to do quite a bit with this - Thanks!</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>César García Acebal</td><br>
+              <td>message:Looks great, performs great, and it&#39;s easy to integrate.</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:Very Nice</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>bachir akmar</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Mehdi Salem</td><br>
+              <td>message:This did get me going very fast and I&#39;ll use it for more clients</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Pavel Voitkun</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Pax Beach</td><br>
+              <td>message:Very siimple to start your own dashboard.
+Modern Material design and good kind of code.
+</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Dustin Nielson</td><br>
+              <td>message:very well put together</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Joe Harper</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>阳立 蔡</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:an amazing design and animations</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:The best for admin dashboard easy !</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:Great, beautiful materials. Documentation is hard to very light and it takes some digging to figure out how to correctly use all the included classes and javascript</td>
+              <td>rating:4</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Lee Fenlan</td><br>
+              <td>message:Very good looking and easy to use</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Stuart Bain</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Oskar Arce</td><br>
+              <td>message:Awesome</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro</td>
+              <td>Hayden Thorn</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-info btn-new btn-round" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="product-version-logs-modal-51" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-account">
+
+    <div class="modal-content">
+          <div class="modal-header text-center">
+               <h4> Updates and Changelogs</h4>
+          </div>
+          <div class="modal-body">
+            <p>
+                     - V1.0.0 3 Nov, 2016 - Initial Release<br/><br/>- V1.1.0 17 Nov, 2016 - BugFixing, Plugin Change<br/>  - Fix bug on main panel > content while you use the Sidebar Mini<br/>  - Replaced select plugin with a more complex select “bootstrap-select”<br/>  - Added File Input library by Jasny<br/>  - change filter colors for example pages<br/>  - fix Charts responsive issue when switching from Desktop to Mobile<br/>  - added PerfectScrollbar just for Windows, fix problem in MacOs and Ubuntu<br/><br/>- V1.1.0 20 Jul, 2017 - Added Photoshop Package (PSD)<br/><br/>- 03.08.2017 - updated license notice
+            </p>
+          </div>
+          <div class="modal-footer small-footer">
+            <button type="button" class="btn btn-default btn-simple btn-block" data-dismiss="modal">Close</button>
+          </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="footer-title ">
+    <div class="container">
+       <div class="row">
+           <div class="col-sm-8">
+             <h1 class="title">Join our newsletter and receive weekly news!</h1>
+           </div>
+            <form html="{:multipart=&gt;true}" class="form-inline" action="https://www.creative-tim.com/newsletter" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+                <div class="col-sm-6 col-md-2">
+                    <input type="email" name="subscribe_email" id="subscribe_email" class="form-control" placeholder="Enter Email" />
+                </div>
+                <div class="col-sm-6 col-md-2">
+                    <input type="submit" name="commit" value="Sign Up" class="btn btn-info btn-round btn-fill btn-block" />
+                </div>
+</form>        </div>
+    </div>
+</div>
+
+
+<div class="footer">
+    <div class="overlayer">
+    <div class="container">
+        <div class="row support">
+
+            <div class="col-sm-3 col-xs-4">
+                <h4>Creative Tim</h4>
+                <ul class="list-unstyled">
+                    <li> <a href="http://blog.creative-tim.com/">Blog</a></li>
+                    <li> <a href="https://www.creative-tim.com/affiliates/new">Affiliate Program</a></li>
+                    <li> <a href="https://www.creative-tim.com/terms">Terms &amp; Conditions</a></li>
+                    <li> <a href="https://www.creative-tim.com/privacy">Privacy Policy</a></li>
+                    <li> <a href="https://www.creative-tim.com/faq">FAQ</a></li>
+                    <li><a href="https://mixpanel.com/f/partner" rel="nofollow"><img src="../../cdn.mxpnl.com/site_media/images/partner/badge_blue.png" alt="Mobile Analytics" /></a></li>
+                </ul>
+            </div>
+            <div class="col-sm-3 col-xs-4">
+                <h4>Happy people</h4>
+                <ul class="list-unstyled social-list">
+                    <li><h3 class="numbers-dont-lie"><b>240,404</b> accounts</h3></li>
+                    <li><h3 class="numbers-dont-lie"><b>417,331</b> downloads</h3></li>
+
+                </ul>
+            </div>
+
+            <div class="col-sm-3 col-xs-4">
+                <h4>Help and Support</h4>
+                <ul class="list-unstyled">
+                    <li><a href="https://www.creative-tim.com/about-us">About Us</a></li>
+                    <li><a href="https://www.creative-tim.com/contact-us">Contact Us</a></li>
+                    <li><a href="https://www.creative-tim.com/sponsorships">Sponsorships</a></li>
+                    <li><a href="https://www.creative-tim.com/bootstrap">Bootstrap</a></li>
+                    <li><a href="https://www.creative-tim.com/license">Licenses</a></li>
+                    <li><a href="https://www.creative-tim.com/gallery/get-shit-done-pro">Products Gallery</a></li>
+                </ul>
+            </div>
+
+            <div class="col-sm-3 col-xs-12 text-center">
+                    <h4>Latest News</h4>
+                     <a
+                     class="twitter-timeline"
+                     href="https://twitter.com/CreativeTim"
+                     data-widget-id="586445781978124289"
+                     data-chrome="noheader nofooter noborders noscrollbar transparent"
+                     height="200">
+                     Tweets by @CreativeTim</a>
+            </div>
+
+        </div>
+        <hr>
+        <div class="row">
+            <div class="social-area text-center" itemscope itemtype="http://schema.org/LocalBusiness">
+                <a itemprop="url" href="https://www.creative-tim.com/" class="footer-brand">
+                    <div class="logo">
+                        <img itemprop="logo" src="../../s3.amazonaws.com/creativetim_bucket/new_logo.png" />
+                    </div>
+                    <span itemprop="name">Creative Tim</span>
+                </a>
+
+               <br/>
+                <a itemprop="sameAs" href="https://dribbble.com/creativetim" class="btn btn-default btn-social btn-round" rel="publisher" target="_blank"><i class="fa fa-dribbble"></i></a>
+                <a itemprop="sameAs" href="https://www.facebook.com/CreativeTim" class="btn btn-default btn-social btn-round" target="_blank"><i class="fa fa-facebook-square"></i></a>
+                <a itemprop="sameAs" href="https://twitter.com/CreativeTim" class="btn btn-default btn-social btn-round" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a itemprop="sameAs" href="https://plus.google.com/+CreativetimPage" class="btn btn-default btn-social btn-round" target="_blank"><i class="fa fa-google-plus-square"></i></a>
+
+                <a itemprop="sameAs" href="https://www.instagram.com/creativetimofficial/" class="btn btn-default btn-social btn-round" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a itemprop="sameAs" href="https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w" class="btn btn-default btn-social btn-round" target="_blank"><i class="fa fa-youtube"></i></a>
+                <a itemprop="sameAs" href="https://ro.pinterest.com/thecreativetim/" class="btn btn-default btn-social btn-round" target="_blank"><i class="fa fa-pinterest"></i></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="credits">
+                 &copy; 2017 Creative Tim, all rights reserved. Made with <i class="icon-heart heart" alt="love"></i> for a better web.
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+
+
+<script>
+ !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+
+ </script>
+
+
+<script type="text/javascript">
+	
+
+    $().ready(function (){
+	    initTextareaForMention();
+
+	    $('.edit-comment-modal').on('shown.bs.modal', function () {
+		  	textarea = $(this).find('textarea.hidden').html();
+		  	$(this).find('textarea.mention').val(textarea);
+		})
+    });
+
+</script>
+
+<!-- Drip -->
+<!-- <script type="text/javascript">
+	var _dcq = _dcq || [];
+	var _dcs = _dcs || {};
+	_dcs.account = '2119369';
+
+	(function() {
+		var dc = document.createElement('script');
+		dc.type = 'text/javascript'; dc.async = true;
+		dc.src = '//tag.getdrip.com/2119369.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(dc, s);
+	})();
+</script> -->
+
+
+<script>/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/\>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
+
+
+
+<!-- Mirrored from www.creative-tim.com/product/material-dashboard-pro?page=3 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 10 Aug 2017 23:44:57 GMT -->
+</html>

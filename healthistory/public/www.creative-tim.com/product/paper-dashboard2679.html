@@ -1,0 +1,2946 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from www.creative-tim.com/product/paper-dashboard?page=1 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 10 Aug 2017 23:57:49 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head  itemscope itemtype="https://schema.org/WebSite"  prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# product: http://ogp.me/ns/product#">
+  
+  <meta charset="utf-8">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"2315e0b361","applicationID":"9961421","transactionName":"dVwNRxYMCFtVS01CQllXFlAQTBdfX04=","queueTime":2,"applicationTime":934,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+  <meta name="viewport" content="width=device-width" />
+  <meta name="p:domain_verify" content="96e683d0045e44dfac2deaec70e57185"/>
+
+  <link rel="shortcut icon" type="image/x-icon" href="../assets/favicon-07e579901353a57d289b9b754f0e2912.ico" />
+
+  <link rel="apple-touch-icon" sizes="76x76" href="../assets/apple-touch-icon-precomposed-60956e08c7bbd5166b96ef4f0340152b.png">
+  <link rel="canonical" href="paper-dashboard.html" data-turbolinks-track="false" itemprop="url"/>
+
+  <title itemprop="name">
+      Paper Dashboard: Free Bootstrap Admin Template @ Creative Tim
+  </title>
+      <meta name="twitter:card" content="summary" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@CreativeTim" />
+    <meta name="twitter:creator" content="@CreativeTim" />
+    <meta name="twitter:title" content="Paper Dashboard by Creative Tim" />
+    <meta name="twitter:description" content="Free Bootstrap Admin Template" />
+    <meta name="twitter:image" content="https://s3.amazonaws.com/creativetim_bucket/products/43/original/opt_pd_thumbnail.jpg?1459261403" />
+    <meta name="twitter:url" content="https://www.creative-tim.com/product/paper-dashboard?page=1" />
+
+
+  <meta name="description" content="Download Paper Dashboard a free Bootstrap Admin Template developed by Creative Tim. See the live demo on our site and join over 100.000 creatives!" />
+<meta name="keywords" content="creativetim, creative tim, bootstrap, theme, freebies, bootstrap kit, bootstrap template, free items, beautiful ui" />
+<meta property="og:app_id" content="655968634437471" />
+<meta property="og:type" content="product" />
+<meta property="og:title" content="Paper Dashboard by Creative Tim" />
+<meta property="og:url" content="https://www.creative-tim.com/product/paper-dashboard?page=1" />
+<meta property="og:image" content="https://s3.amazonaws.com/creativetim_bucket/products/43/original/opt_pd_thumbnail.jpg?1459261403" />
+<meta name="product:price:amount" content="Free" />
+<meta name="product:price:currency" content="USD" />
+<meta name="product:availability" content="in Stock" />
+<meta name="product:brand" content="Creative Tim" />
+<meta name="product:category" content="Admin &amp; Dashboards" />
+<meta name="data-turbolinks-track" content="false" />
+  <link rel="stylesheet" media="all" href="../assets/application-1bcb58ff3712e4ff5783262db7875077.css" data-turbolinks-track="true" />
+
+  <!-- font -->
+  <link href="../../maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="iN9P0UZYKeoC0oz9UM+fl7ixBsfxMaaYVpia0rB1hdHYv302QvHWI8C4EggQVpRmVcOLMh9NgoUYrWGWVyuJVQ==" />
+
+  <!--  js   -->
+  <script src="../assets/application-c1017f102a130cfd626341b0fb7e31bc.js" data-turbolinks-track="true"></script>
+  <script src="../assets/mentions-and-photoswipe-161077ada89deb7fd786388c54692d70.js" data-turbolinks-track="true"></script>
+
+  <!--
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-46172202-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+-->
+
+<!-- Google Analytics New -->
+<script type="text/javascript">
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','../../www.google-analytics.com/analytics.js','ga');
+
+// On the Origin Domain
+ga('create', 'UA-46172202-1', 'auto', {'allowLinker': true});
+ga('require', 'linker');
+ga('require', 'ecommerce');
+
+ga('linker:autoLink', ['secure.avangate.com']);      // Domains that are linked from this page.
+ga('send', 'pageview');                              // Send hits after initializing the auto-linker plug-in.
+
+</script>
+<!-- End Google Analytics -->
+
+  <!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','../../connect.facebook.net/en_US/fbevents.js');
+
+        fbq('init', '111649226022273');
+    fbq('track', "PageView");
+
+</script>
+
+<noscript><img height="1" width="1" style="display:none"
+src="../../www.facebook.com/tr5c3c.gif?id=111649226022273&amp;ev=PageView&amp;noscript=1"
+/></noscript>
+
+<!-- End Facebook Pixel Code -->
+
+<!-- Hotjar Tracking Code for www.creative-tim.com -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:99526,hjsv:5};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+	<!--
+    - acest partial este importat in toate layout-urile
+    - se face un partial pentru fiecare script pe care vrem sa-l adaugam in toate paginile si il importam aici
+-->
+
+
+</head>
+
+<body class="product-page">
+
+<nav class="navbar filter-bar fixed-absolute">
+    <div class="container">
+    <div class="notification">
+        <div id="notif-message" class="notif-message" style="display: none;" notice-type=success>
+        </div>
+    </div>
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <div data-no-turbolink>
+            <a href="https://www.creative-tim.com/" class="navbar-brand">
+                <div class="logo">
+                    <img src="../../s3.amazonaws.com/creativetim_bucket/new_logo.png" width="60" height ="60"/>
+                </div>
+                <p>Creative <br> Tim</p>
+            </a>
+        </div>
+
+    </div>
+
+
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+
+        <ul class="nav navbar-nav navbar-right" data-no-turbolink>
+
+        <!-- <li>
+            <a href="javascript:void(0)" data-toggle="search-form">
+                <i class="icon-search icon-2x"></i>
+                <p>Search</p>
+            </a>
+        </li> -->
+
+
+            <li class="dropdown dropdown-categories" data-no-turbolink>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    <i class="icon-th-large icon-2x"></i>
+                    <p>
+                        Categories
+                        <span class="caret"></span>
+                    </p>
+
+                </a>
+
+            <ul class="dropdown-menu">
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes">
+                        All Categories
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/admin-dashboard">
+                        Admin &amp; Dashboards
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/ui-kit">
+                        UI Kits
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/free">
+                        Free Themes
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/premium">
+                        Premium Themes
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/angular-dashboard">
+                        Angular Dashboards
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/landing-page">
+                        Landing Pages
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/e-commerce">
+                        E-commerce
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/one-page-template">
+                        One Page Templates
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/wizard">
+                        Wizards
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/calendar">
+                        Calendar
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/login-form">
+                        Login Forms
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/components">
+                        Components
+                    </a>
+                </li>
+            </ul>
+        </li>
+
+        <li class="big-bundle" data-no-turbolink>
+                <a href="buy/bundle/index385e.html?utm_campaign=big-bundle&amp;utm_medium=navbar&amp;utm_source=tim">
+                <i class="icon-gift icon-2x"></i>
+                <p>Big Bundle</p>
+                <span class="notification-bubble notification-inverted">New</span>
+            </a>
+        </li>
+
+
+        <li>
+            <a href="http://blog.creative-tim.com/">
+                <i class="icon-align-left icon-2x"></i>
+                <p>Blog</p>
+            </a>
+        </li>
+
+
+
+
+            <li>
+                <a href="javascript:void(0)" onclick="openLoginModal();" role="button" data-toggle="modal">
+                    <i class="icon-male-sign-alt icon-2x"></i>
+                    <p>Login/Register</p>
+                </a>
+            </li>
+
+
+        </ul>
+    </div>
+</div>
+
+</nav>
+
+
+<div class="modal fade login" id="loginModal">
+    <div class="modal-dialog login animated">
+      <div class="modal-content">
+
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title">Login with</h4>
+    </div>
+    <div class="modal-body">
+        <div class="box">
+            <div class="content">
+                <div class="social" data-no-turbolink>
+                    <a id="github_login" class="circle github" href="https://www.creative-tim.com/social/github?destination=product_page&amp;subscribed=1&amp;url=https%253A%252F%252Fwww.creative-tim.com%252Fproduct%252Fpaper-dashboard%253Fpage%253D1">
+
+                            <i class="icon-github"></i>
+</a>                    <a id="google_login" class="circle google" href="https://www.creative-tim.com/social/google_oauth2?destination=product_page&amp;subscribed=1&amp;url=https%253A%252F%252Fwww.creative-tim.com%252Fproduct%252Fpaper-dashboard%253Fpage%253D1">
+
+                            <i class="icon-google-plus-alt"></i>
+</a>                    <a id="facebook_login" class="circle facebook" href="https://www.creative-tim.com/social/facebook?destination=product_page&amp;subscribed=1&amp;url=https%253A%252F%252Fwww.creative-tim.com%252Fproduct%252Fpaper-dashboard%253Fpage%253D1">
+
+                            <i class="icon-facebook-alt"></i>
+</a>                </div>
+                <div class="division">
+                      <div class="line l"></div>
+                      <span>or</span>
+                      <div class="line r"></div>
+                </div>
+
+                <div class="error inside-alert"></div>
+                <div class="form loginBox">
+
+                        <form html="{:multipart=&gt;true}" action="https://www.creative-tim.com/login" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+                            <input type="text" name="email" id="email" class="form-control" placeholder="Email" />
+                            <input type="password" name="password" id="password" class="form-control" placeholder="Password" />
+                            <input type="hidden" name="destination" id="destination" value="product_page" />
+                            <input type="hidden" name="url" id="url" value="https%3A%2F%2Fwww.creative-tim.com%2Fproduct%2Fpaper-dashboard%3Fpage%3D1" />
+                            <input type="submit" name="commit" value="Login" class="btn btn-default btn-login" />
+</form>                </div>
+             </div>
+        </div>
+        <div class="box">
+            <div class="content registerBox" style="display:none;">
+             <div class="form">
+                <form html="{:multipart=&gt;true}" action="https://www.creative-tim.com/register" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+                    <input type="text" name="email" id="email" class="form-control" placeholder="Email" />
+                    <input type="password" name="password" id="password" class="form-control" placeholder="Password" />
+                  	<input type="password" name="password_confirmation" id="password_confirmation" class="form-control" placeholder="Repeat Password" />
+                    <input type="hidden" name="destination" id="destination" value="product_page" />
+                    <input type="hidden" name="url" id="url" value="https%3A%2F%2Fwww.creative-tim.com%2Fproduct%2Fpaper-dashboard%3Fpage%3D1" />
+                    <input type="submit" name="commit" value="Create account" class="btn btn-default btn-register" />
+                        <label class="checkbox">
+                            <input type="checkbox" value="1" data-toggle="checkbox" name="subscribed" class="ct-info checkbox-subscribe" checked>
+                            Subscribe me to the Newsletter
+                        </label>
+
+</form>             </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <div class="forgot login-footer">
+
+            <span>Looking to
+                 <a href="javascript: showRegisterForm();">create an account</a>
+            ?</span>
+            <br />
+            <span><a href="https://www.creative-tim.com/forgot-password">Forgot password</a> ?</span>
+        </div>
+        <div class="forgot register-footer" style="display:none">
+             <span>Already have an account?</span>
+             <a href="javascript: showLoginForm();">Login</a>
+        </div>
+    </div>
+
+    </div>
+    </div>
+</div>
+
+<div class="modal fade cart-modal cart-modal-checkout" id="cart-modal" role="dialog">
+	<div class="text-center">
+		<ul class="cart-steps">
+			<li class="active">
+				<a href="#cart-review">
+					<div class="number">1</div>
+					<div class="step">Review</div>
+				</a>
+			</li>
+			<li>
+				<a href="#cart-payment-details" onClick="$('#my-cart').submit();">
+					<div class="number">2</div>
+					<div class="step">Payment Details</div>
+				</a>
+			</li>
+			<li>
+				<a href="#cart-order-receipt">
+					<div class="number">3</div>
+					<div class="step">Order Receipt</div>
+				</a>
+			</li>
+
+		</ul>
+	</div>
+
+	<div class="modal-dialog">
+
+		<div class="modal-content">
+			<div class="modal-header text-center">
+				<h3 class="modal-title">Shopping Cart</h3>
+				<i class="icon-remove-circle close" data-dismiss="modal" aria-label="Close"></i>
+			</div>
+			<div id="content-for-cart" class="content-container">
+				<div class="empty-cart-message">
+    <i class="icon-shopping-cart icon-2x"></i>
+    <h4>Your cart is currently empty.</h4>
+</div>
+<div class="text-center">
+    <a href="https://www.creative-tim.com/bootstrap-themes/premium#from-empty-shopping-cart" class="btn btn-info btn-new btn-fill btn-wd">
+        Start Shopping
+    </a>
+</div>
+
+			</div>
+			<i class="fa fa-refresh fa-spin fa-fw loading-icon"></i>
+		</div>
+
+		<div class="secured-message">
+			<i class="fa fa-lock"></i> Secured Payment by <b> Avangate </b> with: <br><i class="fa fa-cc-paypal fa-2x"></i> <i class="fa fa-cc-visa fa-2x"></i> <i class="fa fa-cc-mastercard fa-2x"></i> <i class="fa fa-cc-amex fa-2x"></i></p>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade cart-modal cart-modal-one-product" id="product-cart-modal" role="dialog">
+
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <h4 class="modal-title">You added this item to your cart!</h4>
+            </div>
+            <div class="modal-body">
+                <div class="cart">
+                    product
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="https://www.creative-tim.com/bootstrap-themes" type="button" class="btn btn-default btn-fill btn-new" data-dismiss="modal">
+                    Continue Shopping
+                </a>
+                <a type="button" class="btn btn-success btn-fill btn-new" href="https://www.creative-tim.com/checkout", data-cart="0">
+                    Checkout & Download
+                </a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<div id="fb-root">
+</div>
+<script src="../../connect.facebook.net/en_US/sdk.js" type="text/javascript"></script>
+<script type="text/javascript">
+    window.fbAsyncInit = function()
+    {
+    //facebook share
+        FB.init({
+            appId: '655968634437471',
+            status: true,
+            cookie: true,
+            xfbml: true,
+            version: 'v2.9'
+        });
+    };
+
+
+    function shareFacebookWithCallBack(){
+        FB.ui({
+          method: 'feed',
+          link: 'https://www.creative-tim.com/product/paper-dashboard?page=1'
+        }, function(response){
+            if (response && response.post_id) {
+               $.post('/share',{social_network : 1, product_id : parseInt('43'), provider: 'facebook' },function(data){
+                    if(data['status'] == 'ok'){
+                        console.log('ShareUp');
+                    }
+               });
+             } else {
+               console.log('Post was not published.');
+             }
+        });
+    }
+    //twitter share
+        window.twttr = (function (d,s,id) {
+          var t, js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return; js=d.createElement(s); js.id=id;
+          js.src="../../platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);
+          return window.twttr || (t = { _e: [], ready: function(f){ t._e.push(f) } });
+        }(document, "script", "twitter-wjs"));
+
+        // On ready, register the callback...
+        twttr.ready(function (twttr) {
+            twttr.events.bind('tweet', function (event) {
+                $.post('/share',{social_network : 2, product_id : parseInt('43'), provider: 'twitter' },function(data){
+                    if(data['status'] == 'ok'){
+                        console.log('ShareUp');
+                    }
+               });
+            });
+        });
+
+    function googleShare(event){
+        var width  = 575,
+        height = 400,
+        left   = ($(window).width()  - width)  / 2,
+        top    = ($(window).height() - height) / 2,
+        url    = 'https://plus.google.com/share?url=https://www.creative-tim.com/product/paper-dashboard?page=1',
+        opts   = 'status=1' +
+                 ',width='  + width  +
+                 ',height=' + height +
+                 ',top='    + top    +
+                 ',left='   + left;
+        window.open(url, 'Google+', opts);
+        $.post('/share',{social_network : 3, product_id : parseInt('43'), provider: 'google' },function(data){
+                    if(data['status'] == 'ok'){
+                        console.log('ShareUp');
+                    }
+               });
+        return false;
+    }
+</script>
+
+<!-- Facebook Additional Pixel Code -->
+
+<script>
+
+fbq('track', 'ViewContent', {
+    content_ids: ['43'],
+    content_type: 'product',
+    value: '0',
+    currency: 'USD',
+    content_name: 'Paper Dashboard'
+});
+
+</script>
+
+<!-- End Facebook Additional Pixel Code -->
+
+
+<div class="modal fade" id="giftOfferModal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-offer">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">&nbsp;</h4>
+        </div>
+        <img src="../assets/valentines-day-54de97c0244637dcac32e0da8c952975.jpg" alt="Valentines day" />
+        <div class="modal-body">
+<!--             <p><b class="merry">Happy Valentine's Day!</b><br /> -->
+            <p><b>
+            Get a special gift from us! <br />
+            Follow the steps below to receive it. <br />
+            </b></p>
+            <ol>
+              <li>Buy a premium product.</li>
+              <li>Download the product from your dashboard.</li>
+              <li>Press the <b>'Send gift'</b> button in your dashboard and offer a premium product (with the price lower or equal) as a gift.</li>  
+            </ol>
+            </p>
+            <div class="text-center" data-no-turbolink>
+                <a href="https://www.creative-tim.com/bootstrap-themes?utm_campaign=christmas-gift-offer&amp;utm_source=tim&amp;utm_medium=modal" class="btn btn-danger btn-round btn-fill btn-new">Start shopping</a>
+            </div>
+            
+            <div class="design-courtesy">Photo Courtesy of <a href="https://dribbble.com/shots/2525661-Heart">Henrique Athayde</a></div>
+
+        </div>
+    </div>
+  </div>
+</div>
+
+<input type="hidden" id="product_id" value="43">
+
+<div class="top-moving-bar" data-no-turbolink>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-7 col-xs-7">
+                <a class="navbar-brand" href="https://www.creative-tim.com/">
+                    <div class="logo">
+                        <img rel="tooltip" title="Hey! <br> Hope you're doing fine :-)" data-html="true" data-placement="bottom" src="https://s3.amazonaws.com/creativetim_bucket/new_logo.png"/>
+                    </div>
+</a>                <h4>Paper Dashboard
+
+                    <div class="middot"></div>
+                        <div class="mask">
+                            <img rel="tooltip" data-placement="bottom" title="Fully Coded and Responsive HTML5" src="../assets/icon-html-e05de3f70999d3ce94b9804b7e298026.jpg" alt="Icon html" />
+                        </div>
+                        <div class="mask">
+                            <img rel="tooltip" data-placement="bottom" title="Sass Files for Professional Front End Developers" src="../assets/icon-sass-31b996b6252dbd1dd9c349bee39a5b8b.jpg" alt="Icon sass" />
+                        </div>
+                        <div class="mask">
+                            <img rel="tooltip" data-placement="bottom" title="Crafted with Bootstrap - the most popular Front End Framework" src="../assets/icon-bootstrap-7cec419b71f47386f443bd3fbfef2f7c.jpg" alt="Icon bootstrap" />
+                        </div>
+                </h4>
+            </div>
+            <div class="col-md-6 col-sm-5 col-xs-5 text-right">
+
+                        <a class="btn btn-default btn-simple" target="_blank" href="http://demos.creative-tim.com/paper-dashboard/dashboard.html">Live Preview</a>
+
+                        <a class="btn btn-default btn-round btn-fill" href="paper-dashboard-pro.html">Upgrade to PRO</a>
+
+
+                        <a class="btn btn-info btn-fill btn-wd btn-round" data-toggle="modal" href="javascript:void(0)" onclick="openRegisterModal();">
+                            Free Download
+                        </a>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+                        <div class="alert alert-celebrating alert-orange alert-absolute" data-no-turbolink>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-sm-9 text-left">
+                We just launched our first <b>Premium Boootstrap 4 UI Kit: <a href="http://demos.creative-tim.com/paper-kit-2-pro/presentation.html?utm_campaign=pk2pro-launch&amp;utm_source=tim&amp;utm_medium=bellybanner-link" target="_blank">Paper Kit 2 PRO</a></b>. Get it at promo price! 😍
+            </div>
+
+            <div class="col-md-2 col-sm-3">
+                <a href="#mediumModal" data-toggle="modal" href="#" class="btn btn-fill btn-block btn-neutral btn-round btn-open-modal">More Details...</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-medium" id="mediumModal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-offer">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">&nbsp;</h4>
+        </div>
+        <img src="../assets/opt_pk2p_thumbnail-d390547f558687007555134c95e2106c.jpg" alt="Opt pk2p thumbnail" />
+        <div class="modal-body">
+            <p>
+            <br />
+            <b><a href="http://demos.creative-tim.com/paper-kit-2-pro/presentation.html?utm_campaign=pk2pro-launch&amp;utm_source=tim&amp;utm_medium=modal-title" target="_blank">Paper Kit 2 PRO</a></b> was built from scratch on the new Bootstrap 4 structure. It comes with a huge number of components, sections and example pages.
+            <br /><br /> <b> Important: </b> All the licenses of Paper Kit 1 PRO bought before 29 July 2017 will be upgraded for FREE ❤️
+            </p>
+            <div class="text-center" data-no-turbolink>
+                <a href="http://demos.creative-tim.com/paper-kit-2-pro/presentation.html?utm_campaign=pk2pro-launch&amp;utm_source=tim&amp;utm_medium=modal-button-preview" class="btn btn-warning btn-round btn-new btn-view-pk2-pro btn-wd" target="_blank">Live Preview</a>
+                <a href="paper-kit-2-proc6f9.html?utm_campaign=pk2pro-launch&amp;utm_source=tim&amp;utm_medium=modal-button-buy&amp;ref=pk2pro-launch-buy" class="btn btn-warning btn-round btn-fill btn-new btn-buy-pk2-pro btn-wd" target="_blank">Buy Now!</a>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div itemscope itemtype="http://schema.org/Product">
+    <div id="productPage" class="parallax parallax-product parallax-orange" data-no-turbolink style="background: url('../../s3.amazonaws.com/creativetim_bucket/products/43/paper_kit_pro_cover87a4.jpg?1459261404')no-repeat;background-size: cover; ">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-6">
+                    <div class="product-image">
+                        <a href="http://demos.creative-tim.com/paper-dashboard/dashboard.html" target="_blank">
+                            <img src="../../s3.amazonaws.com/creativetim_bucket/products/43/original/opt_pd_thumbnail800e.jpg?1459261403" alt="Paper Dashboard Image"/>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-md-offset-1">
+                    <div class="pay-area">
+
+    <div class="text-center">
+        <h1 itemprop="name" class="product-name">Paper Dashboard</h1>
+        <h6 class="tagline">Free Bootstrap Admin Template</h6>
+
+            <div class="rating-stars">
+                <input type="number" class="rating" data-min="1" data-max="5" value="5" disabled="disabled">
+                <div class="aggregate-rating" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating" data-no-turbolink>
+                    &middot;
+                    <span itemprop="ratingValue">4.90</span>/5
+
+                    <a href="paper-dashboard/reviews.html" >(<span itemprop="reviewCount">161</span> Reviews)</a>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+
+
+	    <div class="choose-license">
+                <p class="text-center"><i class="fa fa-balance-scale"></i> MIT License <a  class="btn btn-round btn-xs btn-neutral"
+                         href="https://github.com/timcreative/freebies/blob/master/LICENSE.md"
+                          rel="tooltip"
+                        title="Click and see more details."
+                       target="_blank">
+                        <i class=" fa fa-question"></i>
+                    </a>
+                </p>
+        </div>
+
+
+        <div class="tab-content" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+
+
+
+    	    <div class="tab-pane active" id="personal">
+                        <a class="btn btn-new btn-neutral btn-fill btn-wd btn-round" data-toggle="modal" href="javascript:void(0)" onclick="openRegisterModal();">
+                            Free Download
+                        </a>
+
+
+                    <a href="http://demos.creative-tim.com/paper-dashboard/dashboard.html" class="hidden-xs btn btn-new btn-wd btn-neutral btn-round" target="_blank">
+                        Live Preview
+                    </a>
+
+                    <a href="http://demos.creative-tim.com/paper-dashboard/dashboard.html" class="hidden-sm hidden-md hidden-lg btn btn-new btn-wd btn-neutral btn-round" target="_blank">
+                        Live Preview
+                    </a>
+    	    </div>
+
+    	    <div class="tab-pane" id="developer">
+
+                            <a class="btn btn-new btn-neutral btn-fill btn-wd btn-round" data-toggle="modal" href="javascript:void(0)" onclick="openRegisterModal();">
+                                Buy now &middot; <b>$19</b>
+                            </a>
+
+
+                    <a href="http://demos.creative-tim.com/paper-dashboard/dashboard.html" class="btn btn-new btn-wd btn-neutral btn-round" target="_blank">
+                        Live Preview
+                    </a>
+
+    	    </div>
+
+        </div>
+    </div>
+</div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="section-product-description section-white-gradient section-scaled" data-no-turbolink>
+        <div class="container product">
+
+            <div class="row header-summary">
+
+                <div class="col-md-9">
+                    <div class="col-md-4">
+
+                        <div class="small-info">
+                            <i class="icon-cloud-download"></i>
+                            <h6 class="numbers">26,641 Downloads</h6>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="small-info">
+                            <i class="icon-comment"></i>
+                            <h6 class="numbers">43 Comments</h6>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="small-info">
+                            <i class="icon-medkit"></i>
+                            <h6 class="numbers">Regular Support</h6>
+                        </div>
+                    </div>
+
+                    <div class="clearfix"></div>
+
+                    <div class="col-md-4">
+                        <div class="small-info">
+                            <i class="icon-gift"></i>
+                            <h6 class="numbers">Lifetime Updates</h6>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="small-info">
+                            <i class="icon-suitcase"></i>
+                            <h6 class="numbers">
+                                Release: 1 year ago
+                            </h6>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 ">
+                        <div class="small-info">
+                            <i class="icon-refresh"></i>
+                            <h6 class="numbers">
+                                Update: 5 months ago
+                            </h6>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-3">
+                            <div class="technologies pull-right">
+                                    <div class="mask">
+                                        <img rel="tooltip" title="Fully Coded and Responsive HTML5" src="../assets/icon-html-e05de3f70999d3ce94b9804b7e298026.jpg" alt="Icon html" />
+                                    </div>
+                                    <div class="mask">
+                                        <img rel="tooltip" title="Sass Files for Professional Front End Developers" src="../assets/icon-sass-31b996b6252dbd1dd9c349bee39a5b8b.jpg" alt="Icon sass" />
+                                    </div>
+                                    <div class="mask">
+                                        <img rel="tooltip" title="Crafted with Bootstrap - the most popular Front End Framework" src="../assets/icon-bootstrap-7cec419b71f47386f443bd3fbfef2f7c.jpg" alt="Icon bootstrap" />
+                                    </div>
+                            </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-12">
+                </div>
+
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="description collapse" id="productDescription" aria-expanded="false">
+                        <h1 class="sub-title">Free Bootstrap Admin Template</h1>
+                        <h4 class="legend text-center">Product description</h4>
+
+                        <span itemprop="description">
+                            If you are a developer or a website owner that needs to work within a dashboard and want to have a pretty sight while doing so, Paper Dashboard is for you. Paper Dashboard is a Bootstrap Admin Panel which combines soft colors with beautiful typography and spacious cards and graphics. It is a powerful tool, but it is light and easy to use. It has enough features to allow you to get the job done, but it is not crowded to the point where you can't find the files for a specific plugin.<br>
+<br>
+We like consistency and design that blends into its purpose. Paper Dashboard is a perfect example of our most thoughtful work. It combines over a dozen components and plugins, while looking like everything fits together. For an easy start or inspiration for you project, we have also create a set of example pages, like the user settings or usage graphics.<br>
+<br>
+Paper Dashboard is built using the same design language as <a target="_blank" rel="nofollow" href="paper-kit.html">Paper Kit</a>. You can easily use them together, or pick between them depending on the project you have.<br>
+<br>
+Let us know what you think and what we can improve below. And good luck with development!<br>
+<br>
+                        <span>
+                        <br />
+                            Current version <b>1.1.2</b>
+                            <a class="btn btn-sm btn-simple btn-info " href="#product-version-logs-modal-43" role="button" data-toggle="modal">
+                                See updates and changelog
+                            </a>
+                    </div>
+                    <div class="view-more text-center">
+                        <button class="btn btn-simple btn-default viewMoreButton" data-target="#productDescription">View More</button>
+                    </div>
+
+                        <div class="summary">
+                            <div class="row">
+                                <div class="col-md-4 col-xs-6">
+                                    <div class="category">
+                                        <i class="icon-th-large"></i>
+                                        <p>16 Handcrafted Components</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4 col-xs-6">
+                                    <div class="category">
+                                        <i class="icon-gears"></i>
+
+                                        <p>4 Customized Plugins</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4 col-xs-6">
+                                    <div class="category">
+                                        <i class="icon-picture"></i>
+
+                                        <p>4 Example Pages</p>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    <h6 class="text-center">Product certified by: <span itemprop="brand">Creative Tim</span></h6>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+        <div class="main-white section-check-free-pro section-white-gradient">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+
+                        <h4 class="legend">Upgrade to PRO Version</h4>
+                        <p class="description">
+                         Get more power with Paper Dashboard Pro. It has a lot more features compared to the free version. We hope you will create awesome websites/templates with this product!
+                        </p>
+
+
+                        <div class="row" data-no-turbolink>
+
+                            <div class="col-md-5">
+                                <h5 class="subtitle">What is in Demo?</h5>
+                                <ul class="list-unstyled">
+                                    <li>Components &middot; <b>16</b> </li>
+                                    <li>Plugins &middot; <b>4</b></li>
+                                    <li>Examples Pages &middot; <b>4</b></li>
+                                    <li>-</li>
+                                    <li>-</li>
+                                    
+                                    
+                                    
+                                </ul>
+                            </div>
+                            <div class="col-md-6 col-md-offset-1">
+                                <h5 class="subtitle">What is in PRO Version?</h5>
+                                <ul class="list-unstyled">
+                                    <li>Components &middot; <b>160</b></li>
+                                    <li>Plugins &middot; <b>15</b></li>
+                                    <li>Example Pages &middot; <b>25</b></li>
+                                    <li>+ Documentation</li>
+                                    <li>+ SASS Files</li>
+                                    
+                                    
+                                    
+                                </ul>
+                            </div>
+
+                                <a class="btn btn-new btn-fill btn-round btn-default" href="paper-dashboard-pro.html">Upgrade to PRO</a>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-md-offset-1">
+                        <div class="image">
+                                <img src="../../s3.amazonaws.com/creativetim_bucket/products/47/original/opt_pdp_thumbnailefe6.jpg?1490974984" alt="Opt pdp thumbnail" />
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    <div class="main main-dark section-creators">
+        <div class="container">
+            <div class="creators">
+                <div class="row">
+
+    <div class="col-md-8 col-md-offset-2" id="comments">
+        <div class="creators collaborators-card">
+            <h2 class="legend text-center">We are here to help you!</h2>
+
+            <div class="collaborators" data-no-turbolink>
+
+
+                <div class="authors-container" data-collaborators="2">
+                    <div class="author">
+    <a class='card-user account-photo  account-product-owner '
+       rel='popover'
+       data-content='<div class="uil-ring-css" style="-webkit-transform:scale(0.3)"><div></div></div>'
+       data-initialized='0'
+       data-html='true'
+       data-placement='top'
+       data-template='<div class="popover" onmouseover="clearTimeout(timeoutObj);$(this).mouseleave(function() {$(this).hide();});"><div class="arrow"></div><div class="popover-inner"><div class="popover-content"><p></p></div></div></div>'
+       data-username='cristina'
+    >
+
+        <div class="mask">
+            <img src="../../s3.amazonaws.com/creativetim_bucket/photos/7/thumbfb4c.jpg?1447682169" class="photo"/>
+        </div>
+
+            <div class="account-type">
+                <i class="fa fa-star"></i>
+            </div>
+    </a>
+</div>
+
+
+                        <div class="author">
+    <a class='card-user account-photo '
+       rel='popover'
+       data-content='<div class="uil-ring-css" style="-webkit-transform:scale(0.3)"><div></div></div>'
+       data-initialized='0'
+       data-html='true'
+       data-placement='top'
+       data-template='<div class="popover" onmouseover="clearTimeout(timeoutObj);$(this).mouseleave(function() {$(this).hide();});"><div class="arrow"></div><div class="popover-inner"><div class="popover-content"><p></p></div></div></div>'
+       data-username='axelut'
+    >
+
+        <div class="mask">
+            <img src="../../s3.amazonaws.com/creativetim_bucket/photos/1/thumb953e.jpg?1484594398" class="photo"/>
+        </div>
+
+    </a>
+</div>
+
+
+
+                    <br>
+                </div>
+
+                <div class="btn-area text-center">
+                    <h4 class="commented">43 Web Developers commented on this product</h4>
+
+
+                    <div class="collapse in" id="commentsCollapse">
+                            <input id="keep_product" class="hidden" value="43">
+
+                                <div class = "sort_paginate_ajax">
+                                    
+
+    
+
+<div class="comment " id="comment-1094">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="account-photo account-product-owner">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/7/thumbfb4c.jpg?1447682169" alt="Thumb" />
+
+                    <div class="account-type" rel="tooltip" title="Product Owner">
+                        <i class="fa fa-star"></i>
+                    </div>
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div class="author">
+                <h4 class="username">cristina
+                    <ul>
+                    <li class = 'user-role owner' > owner</li>
+                    </ul>
+                <small>1 year ago</small>
+                </h4>
+            </div>
+            Hey guys!  Me and <a class='card-user'
+    	       rel='popover'
+    	       data-content='<div class="uil-ring-css" style="-webkit-transform:scale(0.3)"><div></div></div>'
+    	       data-initialized='0'
+    	       data-html='true'
+    	       data-placement='top'
+    	       data-template='<div class="popover" onmouseover="clearTimeout(timeoutObj);$(this).mouseleave(function() {$(this).hide();});"><div class="arrow"></div><div class="popover-inner"><div class="popover-content"><p></p></div></div></div>'
+    	       data-username='axelut'
+    	    >
+    	    	@axelut
+    	    </a> have put in our best efforts to make a product that is beautiful and easy to use. We&#39;d love to know what you think. Hope this can be a great starting point for your next project :) <br>
+
+            <div class="comment-reply-btn">
+    		</div>
+    	</div>
+
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+    <div id="last-reply-1094"></div>
+    
+
+<div class="comment " id="comment-1097">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/anonymous_thumb.png" alt="Anonymous thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div class="author">
+                <h4 class="username">jamesking56
+                    <ul>
+                    <li class = 'user-role downloaded' > downloaded</li>
+                    </ul>
+                <small>1 year ago</small>
+                </h4>
+            </div>
+            Will there be a PRO version for this theme? <br>
+
+            <div class="comment-reply-btn">
+    		</div>
+    	</div>
+
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+    				
+<div class="comment " id="reply-1099" >
+
+    <div class="row">
+        <div class="col-md-2 col-md-offset-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/29/thumbd9d0.jpg?1459343964" alt="Thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="author">
+                <h4 class="username">axelut.alex
+                </h4>
+            </div>
+            <a class='card-user'
+    	       rel='popover'
+    	       data-content='<div class="uil-ring-css" style="-webkit-transform:scale(0.3)"><div></div></div>'
+    	       data-initialized='0'
+    	       data-html='true'
+    	       data-placement='top'
+    	       data-template='<div class="popover" onmouseover="clearTimeout(timeoutObj);$(this).mouseleave(function() {$(this).hide();});"><div class="arrow"></div><div class="popover-inner"><div class="popover-content"><p></p></div></div></div>'
+    	       data-username='jamesking56'
+    	    >
+    	    	@jamesking56
+    	    </a> thank you for your interest in our products. Yes it will be a PRO version too, right now we are working on the Material Kit PRO which will be released at the end of April, then the Paper Dashboard PRO will come after that :D
+        </div>
+
+        <div class="col-md-2 text-right">
+            <h5 class="time">1 year ago</h5>
+        </div>
+    </div>
+</div>
+
+    <div id="last-reply-1097"></div>
+    
+
+<div class="comment " id="comment-1098">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/anonymous_thumb.png" alt="Anonymous thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div class="author">
+                <h4 class="username">jamesking56
+                    <ul>
+                    <li class = 'user-role downloaded' > downloaded</li>
+                    </ul>
+                <small>1 year ago</small>
+                </h4>
+            </div>
+            ... and is it easy to update from this one to the PRO one? I&#39;m creating a Saas and I absolutely adore this theme for it. <br>
+
+            <div class="comment-reply-btn">
+    		</div>
+    	</div>
+
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+    				
+<div class="comment " id="reply-1100" >
+
+    <div class="row">
+        <div class="col-md-2 col-md-offset-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/29/thumbd9d0.jpg?1459343964" alt="Thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="author">
+                <h4 class="username">axelut.alex
+                </h4>
+            </div>
+            <a class='card-user'
+    	       rel='popover'
+    	       data-content='<div class="uil-ring-css" style="-webkit-transform:scale(0.3)"><div></div></div>'
+    	       data-initialized='0'
+    	       data-html='true'
+    	       data-placement='top'
+    	       data-template='<div class="popover" onmouseover="clearTimeout(timeoutObj);$(this).mouseleave(function() {$(this).hide();});"><div class="arrow"></div><div class="popover-inner"><div class="popover-content"><p></p></div></div></div>'
+    	       data-username='jamesking56'
+    	    >
+    	    	@jamesking56
+    	    </a> yes, the PRO version will have basically the same structure of the page/sidebar/navigation as the Free one, so it will be painless to upgrade to the PRO. It will have more elements which will speed up your development process. Something like Light Bootstrap Dashboard PRO + new features. We keep you posted!
+        </div>
+
+        <div class="col-md-2 text-right">
+            <h5 class="time">1 year ago</h5>
+        </div>
+    </div>
+</div>
+
+    <div id="last-reply-1098"></div>
+    
+
+<div class="comment " id="comment-1118">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/43930/thumb48a8.jpg?1444426826" alt="Thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div class="author">
+                <h4 class="username">thomas.rose
+                    <ul>
+                    <li class = 'user-role downloaded' > downloaded</li>
+                    </ul>
+                <small>1 year ago</small>
+                </h4>
+            </div>
+            Looks awesome! :) Is there any chance to make the sidebar collapsible? <br>
+
+            <div class="comment-reply-btn">
+    		</div>
+    	</div>
+
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+    				
+<div class="comment " id="reply-1175" >
+
+    <div class="row">
+        <div class="col-md-2 col-md-offset-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/1/thumb953e.jpg?1484594398" alt="Thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="author">
+                <h4 class="username">axelut
+                    <ul>
+                    <li class = 'user-role downloaded' > downloaded</li>
+                    </ul>
+                </h4>
+            </div>
+            <a class='card-user'
+    	       rel='popover'
+    	       data-content='<div class="uil-ring-css" style="-webkit-transform:scale(0.3)"><div></div></div>'
+    	       data-initialized='0'
+    	       data-html='true'
+    	       data-placement='top'
+    	       data-template='<div class="popover" onmouseover="clearTimeout(timeoutObj);$(this).mouseleave(function() {$(this).hide();});"><div class="arrow"></div><div class="popover-inner"><div class="popover-content"><p></p></div></div></div>'
+    	       data-username='thomas.rose'
+    	    >
+    	    	@thomas.rose
+    	    </a> thank you for using our product. The collapsible sidebar will be available in the PRO version. We will keep you posted about the release date. Best, Alex!
+        </div>
+
+        <div class="col-md-2 text-right">
+            <h5 class="time">1 year ago</h5>
+        </div>
+    </div>
+</div>
+
+    <div id="last-reply-1118"></div>
+    
+
+<div class="comment " id="comment-1159">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/anonymous_thumb.png" alt="Anonymous thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div class="author">
+                <h4 class="username">sakarya.bulent
+                    <ul>
+                    <li class = 'user-role downloaded' > downloaded</li>
+                    </ul>
+                <small>1 year ago</small>
+                </h4>
+            </div>
+            I&#39;m looking for pro version. Can I use it for my open source project. <br>
+
+            <div class="comment-reply-btn">
+    		</div>
+    	</div>
+
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+    				
+<div class="comment " id="reply-1174" >
+
+    <div class="row">
+        <div class="col-md-2 col-md-offset-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/1/thumb953e.jpg?1484594398" alt="Thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="author">
+                <h4 class="username">axelut
+                    <ul>
+                    <li class = 'user-role downloaded' > downloaded</li>
+                    </ul>
+                </h4>
+            </div>
+            <a class='card-user'
+    	       rel='popover'
+    	       data-content='<div class="uil-ring-css" style="-webkit-transform:scale(0.3)"><div></div></div>'
+    	       data-initialized='0'
+    	       data-html='true'
+    	       data-placement='top'
+    	       data-template='<div class="popover" onmouseover="clearTimeout(timeoutObj);$(this).mouseleave(function() {$(this).hide();});"><div class="arrow"></div><div class="popover-inner"><div class="popover-content"><p></p></div></div></div>'
+    	       data-username='sakarya.bulent'
+    	    >
+    	    	@sakarya.bulent
+    	    </a> thank you for your interest in our product. You can use the Free version for an open source project but you have to specify in the &quot;about section&quot; or in the &quot;readme file&quot; that &quot;The design of this product is copyright of Creative Tim&quot; and a link to our website. All the best, Alex!
+        </div>
+
+        <div class="col-md-2 text-right">
+            <h5 class="time">1 year ago</h5>
+        </div>
+    </div>
+</div>
+
+    <div id="last-reply-1159"></div>
+    
+
+<div class="comment " id="comment-1169">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/anonymous_thumb.png" alt="Anonymous thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div class="author">
+                <h4 class="username">psriwahyuni
+                    <ul>
+                    <li class = 'user-role downloaded' > downloaded</li>
+                    </ul>
+                <small>1 year ago</small>
+                </h4>
+            </div>
+            This is such a great template!
+I was wondering if there was any way to change the color of the sidebar? <br>
+
+            <div class="comment-reply-btn">
+    		</div>
+    	</div>
+
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+    				
+<div class="comment " id="reply-1173" >
+
+    <div class="row">
+        <div class="col-md-2 col-md-offset-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/1/thumb953e.jpg?1484594398" alt="Thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="author">
+                <h4 class="username">axelut
+                    <ul>
+                    <li class = 'user-role downloaded' > downloaded</li>
+                    </ul>
+                </h4>
+            </div>
+            <a class='card-user'
+    	       rel='popover'
+    	       data-content='<div class="uil-ring-css" style="-webkit-transform:scale(0.3)"><div></div></div>'
+    	       data-initialized='0'
+    	       data-html='true'
+    	       data-placement='top'
+    	       data-template='<div class="popover" onmouseover="clearTimeout(timeoutObj);$(this).mouseleave(function() {$(this).hide();});"><div class="arrow"></div><div class="popover-inner"><div class="popover-content"><p></p></div></div></div>'
+    	       data-username='psriwahyuni'
+    	    >
+    	    	@psriwahyuni
+    	    </a> thank you for using our product. By default, you have 2 colors for the sidebar which are set as a parameter to the div with class &quot;sidebar&quot; like data-background-color=&quot;white&quot;, white | black. If you want other colors please go to line 378 inside paper-dashboard.html and change the &quot;#FFFFFF&quot; with any color that you want. Best, Alex!
+        </div>
+
+        <div class="col-md-2 text-right">
+            <h5 class="time">1 year ago</h5>
+        </div>
+    </div>
+</div>
+
+    <div id="last-reply-1169"></div>
+    
+
+<div class="comment " id="comment-1176">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/71495/thumb91fa.jpg?1458129580" alt="Thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div class="author">
+                <h4 class="username">vc.halip
+                    <ul>
+                    <li class = 'user-role downloaded' > downloaded</li>
+                    </ul>
+                <small>1 year ago</small>
+                </h4>
+            </div>
+            it disables bootstrap datepicker on forms <br>
+
+            <div class="comment-reply-btn">
+    		</div>
+    	</div>
+
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+    <div id="last-reply-1176"></div>
+    
+
+<div class="comment " id="comment-1177">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/71495/thumb91fa.jpg?1458129580" alt="Thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div class="author">
+                <h4 class="username">vc.halip
+                    <ul>
+                    <li class = 'user-role downloaded' > downloaded</li>
+                    </ul>
+                <small>1 year ago</small>
+                </h4>
+            </div>
+            i commented
+  /*.dropdown-menu {
+  background-color: #FFFCF5;
+  border: 0 none;
+  border-radius: 6px;
+  display: block;
+  margin-top: 10px;
+  padding: 0px;
+  position: absolute;
+  visibility: hidden;
+  z-index: 9000;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-box-shadow: 0 2px rgba(17, 16, 15, 0.1), 0 2px 10px rgba(17, 16, 15, 0.1);
+  box-shadow: 0 2px rgba(17, 16, 15, 0.1), 0 2px 10px rgba(17, 16, 15, 0.1);
+}*/ <br>
+
+            <div class="comment-reply-btn">
+    		</div>
+    	</div>
+
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+    <div id="last-reply-1177"></div>
+    
+
+<div class="comment " id="comment-1233">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/anonymous_thumb.png" alt="Anonymous thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div class="author">
+                <h4 class="username">cmpscabral
+                    <ul>
+                    <li class = 'user-role downloaded' > downloaded</li>
+                    </ul>
+                <small>1 year ago</small>
+                </h4>
+            </div>
+            will the PRO version be available soon? tks <br>
+
+            <div class="comment-reply-btn">
+    		</div>
+    	</div>
+
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+    				
+<div class="comment " id="reply-1235" >
+
+    <div class="row">
+        <div class="col-md-2 col-md-offset-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/1/thumb953e.jpg?1484594398" alt="Thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="author">
+                <h4 class="username">axelut
+                    <ul>
+                    <li class = 'user-role downloaded' > downloaded</li>
+                    </ul>
+                </h4>
+            </div>
+            <b>Anonymous Tim</b> thank you for your interest in our product. The PRO version will be released in the beginning of June. We keep you posted about the release date. Best, Alex!
+        </div>
+
+        <div class="col-md-2 text-right">
+            <h5 class="time">1 year ago</h5>
+        </div>
+    </div>
+</div>
+
+    <div id="last-reply-1233"></div>
+    
+
+<div class="comment " id="comment-1234">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/50335/thumb4704.jpg?1447168607" alt="Thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div class="author">
+                <h4 class="username">corstiaan
+                <small>1 year ago</small>
+                </h4>
+            </div>
+            I will be looking forward to the PRO version as well. I like the friendly factor of this theme. Any eta on the PRO version? Thanks! <br>
+
+            <div class="comment-reply-btn">
+    		</div>
+    	</div>
+
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+    				
+<div class="comment " id="reply-1236" >
+
+    <div class="row">
+        <div class="col-md-2 col-md-offset-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/1/thumb953e.jpg?1484594398" alt="Thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="author">
+                <h4 class="username">axelut
+                    <ul>
+                    <li class = 'user-role downloaded' > downloaded</li>
+                    </ul>
+                </h4>
+            </div>
+            <a class='card-user'
+    	       rel='popover'
+    	       data-content='<div class="uil-ring-css" style="-webkit-transform:scale(0.3)"><div></div></div>'
+    	       data-initialized='0'
+    	       data-html='true'
+    	       data-placement='top'
+    	       data-template='<div class="popover" onmouseover="clearTimeout(timeoutObj);$(this).mouseleave(function() {$(this).hide();});"><div class="arrow"></div><div class="popover-inner"><div class="popover-content"><p></p></div></div></div>'
+    	       data-username='corstiaan'
+    	    >
+    	    	@corstiaan
+    	    </a> thank you for your interest in our product. The PRO version will be released in the beginning of June. We keep you posted about the release date. Best, Alex!
+        </div>
+
+        <div class="col-md-2 text-right">
+            <h5 class="time">1 year ago</h5>
+        </div>
+    </div>
+</div>
+
+    <div id="last-reply-1234"></div>
+<div id="last-comment-43"></div>
+
+                                    <div class="text-center" data-no-turbolink>
+                                        <div class="pagination pagination-azure pagination-no-border " is_active="true"><span class="previous_page disabled">«</span> <em class="current">1</em> <a rel="next" href="paper-dashboard4658.html?page=2#comments">2</a> <a href="paper-dashboard9ba9.html?page=3#comments">3</a> <a href="paper-dashboardfdb0.html?page=4#comments">4</a> <a href="paper-dashboardaf4d?page=5#comments">5</a> <a class="next_page" rel="next" href="paper-dashboard4658.html?page=2#comments">»</a></div>
+                                    </div>
+                                </div>
+                        <div id="last-comment-43"></div>
+                            <h4 class="post-comment-info">You have to be logged in to post a comment.
+                                <a href="javascript:void(0)" onclick="openLoginModal();" role="button" data-toggle="modal">
+                                    Login here.
+                                </a>
+                            </h4>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+                <div class="row">
+    <div class="col-md-8 col-md-offset-2 text-center">
+        <div class="sharing-area">
+            <div class="big-icon">
+                <i class="icon-comments"></i>
+            </div>
+            <h2 class="legend text-center">Sharing is caring!</h2>
+
+            <a href="javascript:shareFacebookWithCallBack()" class="btn btn-new btn-wd btn-social btn-facebook btn-fill btn-round">
+                <i class="fa fa-facebook-square"></i> Facebook
+            </a>
+            <a href="https://twitter.com/intent/tweet?url=https://www.creative-tim.com/product/paper-dashboard?page=1&amp;text=Checkout%20this%20awesome%20product%20for%20web%20developers&amp;via=creativetim" class="btn btn-new btn-wd btn-social btn-twitter btn-fill btn-round">
+                <i class="fa fa-twitter"></i> Twitter
+            </a>
+            <a href="javascript:void(0)" class="btn btn-new btn-wd btn-social btn-google btn-fill btn-round" onclick="googleShare(this)">
+                <i class="fa fa-google-plus-square"></i> Google+
+            </a>
+             <a href="https://www.creative-tim.com/cdn-cgi/l/email-protection#a798d4d2c5cdc2c4d39ae4cfc2c4ccc8d2d387d3cfced481c5c8c3de9aefce8bee87c1c8d2c9c387d3cfced487c6c9c387d3cfc8d2c0cfd387dec8d287cacec0cfd387cbceccc287ced387cfd3d3d7d49d8888d0d0d089c4d5c2c6d3ced1c28ad3ceca89c4c8ca88d7d5c8c3d2c4d388d7c6d7c2d58ac3c6d4cfc5c8c6d5c398d7c6c0c29a96" class="btn btn-new btn-wd btn-social btn-neutral btn-email btn-fill btn-round">
+                <i class="fa fa-paper-plane"></i> Email
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+            </div>
+        </div>
+    </div>
+
+        <div class="main main-purple section-feedback parallax  parallax-orange" style="background: url('../../s3.amazonaws.com/creativetim_bucket/products/43/paper_kit_pro_cover87a4.jpg?1459261404')no-repeat;background-size: cover; ">
+            <div class="container">
+                <div class="testimonials">
+                    <h4 class="legend text-center">Why our customers appreciate us</h4>
+                        <div class="col-md-4">
+    <div class="card" itemprop="review" itemscope itemtype="http://schema.org/Review">
+        <div class="content">
+            <div class="rating-stars rating-just-view" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+                <meta itemprop="worstRating" content="1">
+                <meta itemprop="bestRating" content="5">
+                <meta itemprop="ratingValue" content="5">
+                <input type="number" class="rating" data-min="1" data-max="5" value="5" disabled="disabled" />
+            </div>
+
+            <h3 class="small-title" itemprop="name">
+                Design Quality
+            </h3>
+
+            <h4 class="message" itemprop="description">BEST!</h4>
+
+            <div class="footer">
+               <div class="author">
+                   <a class="card-link">
+                       <img class="avatar" src="../../s3.amazonaws.com/creativetim_bucket/anonymous_thumb.png" alt="Anonymous thumb" />
+                      <span itemprop="author">Anonymous Tim</span>
+                   </a>
+               </div>
+               <div class="stats pull-right">
+                   <meta itemprop="datePublished" content="2017-08-09">1 day ago
+               </div>
+               <div class="clearfix"></div>
+           </div>
+
+        </div>
+    </div>
+</div>
+
+                        <div class="col-md-4">
+    <div class="card" itemprop="review" itemscope itemtype="http://schema.org/Review">
+        <div class="content">
+            <div class="rating-stars rating-just-view" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+                <meta itemprop="worstRating" content="1">
+                <meta itemprop="bestRating" content="5">
+                <meta itemprop="ratingValue" content="5">
+                <input type="number" class="rating" data-min="1" data-max="5" value="5" disabled="disabled" />
+            </div>
+
+            <h3 class="small-title" itemprop="name">
+                Design Quality
+            </h3>
+
+            <h4 class="message" itemprop="description"></h4>
+
+            <div class="footer">
+               <div class="author">
+                   <a class="card-link">
+                       <img class="avatar" src="../../s3.amazonaws.com/creativetim_bucket/photos/178469/thumb007f.jpg?1492655877" alt="Thumb" />
+                      <span itemprop="author">Anonymous Tim</span>
+                   </a>
+               </div>
+               <div class="stats pull-right">
+                   <meta itemprop="datePublished" content="2017-08-09">1 day ago
+               </div>
+               <div class="clearfix"></div>
+           </div>
+
+        </div>
+    </div>
+</div>
+
+                        <div class="col-md-4">
+    <div class="card" itemprop="review" itemscope itemtype="http://schema.org/Review">
+        <div class="content">
+            <div class="rating-stars rating-just-view" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+                <meta itemprop="worstRating" content="1">
+                <meta itemprop="bestRating" content="5">
+                <meta itemprop="ratingValue" content="4">
+                <input type="number" class="rating" data-min="1" data-max="5" value="4" disabled="disabled" />
+            </div>
+
+            <h3 class="small-title" itemprop="name">
+                Design Quality
+            </h3>
+
+            <h4 class="message" itemprop="description">Good option for free</h4>
+
+            <div class="footer">
+               <div class="author">
+                   <a class="card-link">
+                       <img class="avatar" src="../../s3.amazonaws.com/creativetim_bucket/photos/235010/thumb40e9.jpg?1501496549" alt="Thumb" />
+                      <span itemprop="author">Oskar Arce</span>
+                   </a>
+               </div>
+               <div class="stats pull-right">
+                   <meta itemprop="datePublished" content="2017-08-06">4 days ago
+               </div>
+               <div class="clearfix"></div>
+           </div>
+
+        </div>
+    </div>
+</div>
+
+
+                        <div class="clearfix"></div>
+                        <div class="text-center" data-no-turbolink>
+                            <a class="btn btn-new btn-neutral btn-round" href="paper-dashboard/reviews.html">View All Reviews</a>
+                        </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+    <div class="main-white">
+        <div class="container">
+            <ol itemscope itemtype="http://schema.org/BreadcrumbList" class="breadcrumb">
+        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" >
+                <a itemprop="item" href="https://www.creative-tim.com/">
+                <span itemprop="name">Home</span>
+                </a>
+
+            <meta itemprop="position" content="1" />
+        </li>
+        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" >
+                <a itemprop="item" href="https://www.creative-tim.com/bootstrap-themes">
+                <span itemprop="name">All Categories</span>
+                </a>
+
+            <meta itemprop="position" content="2" />
+        </li>
+        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class=&quot;active&quot;&gt;>
+                <span itemprop="name">Paper Dashboard</span>
+
+            <meta itemprop="position" content="3" />
+        </li>
+</ol>
+
+        </div>
+    </div>
+</div>
+
+<div class="modal fade reviews-modal" id="reviewsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:4</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Suzie Murth</td><br>
+              <td>message:Awesome dashboard. It&#39;s fantastic</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>George Alon</td><br>
+              <td>message:Really easy to set up. Highly recommend it.</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Dan Ross</td><br>
+              <td>message:The best Bootstrap dashboard</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Travis Moks</td><br>
+              <td>message:The layout and documentation is fantastic! 5 stars, congratulations!</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:Great!</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Srdjan Romcevic</td><br>
+              <td>message:Amazing!</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>lee jing</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Robin Hood</td><br>
+              <td>message:Nicely done!</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:2</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:Clean Design</td>
+              <td>rating:3</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:I really appreciate the work on your products. The Paper Dashboard is one of the best templates i&#39;ve ever used.
+
+The only negativ point is the rather small documentation.</td>
+              <td>rating:4</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>dacotoYOUtv Cortés Toledano</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:Best admin dashboard ever :D</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Eugeney Dubrovin</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Chris Vasey</td><br>
+              <td>message:Really useful</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Jijo Joy</td><br>
+              <td>message:</td>
+              <td>rating:4</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:It&#39;s easy to use.</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Doğa Özkaracaabatlıoğlu</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>knight S</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Boisney Philippe</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Ognews 24</td><br>
+              <td>message:This is very Poor Admin panel</td>
+              <td>rating:1</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Александр Гончаров</td><br>
+              <td>message:</td>
+              <td>rating:3</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Aditya Wardana</td><br>
+              <td>message:good design</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Johnathan Chamberlain</td><br>
+              <td>message:Looks great for a free admin template! Will be recommending to others in the future.</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Nixon Ogoi</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Vladut Teodor</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Thiago Santos</td><br>
+              <td>message:Great Usability!</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Jeffery Osei</td><br>
+              <td>message:</td>
+              <td>rating:4</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Александр Бордюгов</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Kriangkrai Prommaithong</td><br>
+              <td>message:nice css</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Николай Тимофеев</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Martin Kolarov</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:Amazing!Amazing!</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:Really nicely made.</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Cristina</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:free components, navbar, buttons, icons... fantastic job by the Creative-Team!</td>
+              <td>rating:3</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:On German: Wirklich super hübsch und mit viel Mühe gestaltet. Daumen hoch! :)</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Marcos Paulo Farias</td><br>
+              <td>message:Better free dashboad admin template :D</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Muhammad Sumon Molla Selim</td><br>
+              <td>message:The code is nice like any other Creative Tim product. But the design looks a bit retro type.</td>
+              <td>rating:3</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>proteasa dan catalin</td><br>
+              <td>message:</td>
+              <td>rating:4</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:4</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Hitesh Joshi</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Arnout Mulder</td><br>
+              <td>message:Nice design, looks calm and tight</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Rishab Goyal</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Syafiq Hanafee</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Mateusz Kiliński</td><br>
+              <td>message:Clean and awesome!</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:Esta muy genial, la interacción y el diseño propio.</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:Good, I like it</td>
+              <td>rating:4</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Shiqi Tan</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Daniel Olel</td><br>
+              <td>message:The Theme looks really good when I tested it on a project I am working on! I am even thinknig of upgrading to the PRO version!</td>
+              <td>rating:4</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anaiza Araiza Garcia</td><br>
+              <td>message:Easy to customize and beautifull</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Md. Rejaul Karim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Joselito Coutinho</td><br>
+              <td>message:</td>
+              <td>rating:4</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Engeiline Male</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Jacob Bédard</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Jackson S</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Magnus Boye</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Jiraboot S.</td><br>
+              <td>message:I like it.</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Kaphy 123</td><br>
+              <td>message:I was searching for a product which has best quality in design, I finally figured out this. I am very much impressed with Creative Tim paper dashboard.</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Ryan Heneise</td><br>
+              <td>message:All the paper themes look really nice and user-friendly. Soft edges, clear typography, and pleasing color scheme.</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:maybe, add some smoothing slide :)
+overall awesome</td>
+              <td>rating:4</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:just awesome</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Emmanuel See Te</td><br>
+              <td>message:The Customizability of each compenent is very easy. Also the design quality is good im thinking of buying the pro version of this dashboard.</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:Great starting point</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Jason Williams</td><br>
+              <td>message:Loved the free version so much, I am buying the Pro version to get the extended functionality.  Keep up the excellent work.</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Jakub Hanák</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Alex Soni</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:4</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:Really love this design, Paper Kit is a great base to build this on. Would love to see Angular 2 support in the future.</td>
+              <td>rating:4</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Knoxly Oto</td><br>
+              <td>message:Quality and innovative design. Good to start and upgrade to PRO version for other cool feature.</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Yakov Lebski</td><br>
+              <td>message:Simple and clever dashboard!</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:4</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Steve Chaloner</td><br>
+              <td>message:It looks great and it works perfectly.  Not two things that often go together!</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:4</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:wonderful bootstrap</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:very nice</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Thohirah Husaini</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Mani Lancer</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Cheddad Kh</td><br>
+              <td>message:top design</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Nasratullah Ayobi</td><br>
+              <td>message:</td>
+              <td>rating:3</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Evgenios Skitsanos</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>qallidi mohammedamine</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Hemanth G</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Tom Brouwer</td><br>
+              <td>message:Nice and clean template, exactly what i search for my new project. Another top product from Tim.</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:4</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Manuel Oleaga</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Alessandro Traversi</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>amit bisen</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Pablo Moreno</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Breno Mayder</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Kim Skinner</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:ok</td>
+              <td>rating:4</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Rodrigo Fraga</td><br>
+              <td>message:more of the same but functional</td>
+              <td>rating:4</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:Cool idea for e.g. a shopping list. Thank you!</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Khanh Hoang</td><br>
+              <td>message:Good design!</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Jordy van der Poel</td><br>
+              <td>message:Very nice and easy to work with!</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:attention to detail is what you get with Creative Tim
+</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Artem Gutorov</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Cornel Hattingh</td><br>
+              <td>message:Easy to use professional theme</td>
+              <td>rating:4</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Kyle Modeste</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:Very useful and easy to implement</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Zorzis Varkaris</td><br>
+              <td>message:nice!</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>润 劳</td><br>
+              <td>message:so beautiful</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:Exellent user interface! Super simple!!!</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Rolando jr Arguelles</td><br>
+              <td>message:Very nice template!</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Cristi Jora</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>JS Ong</td><br>
+              <td>message:Design was clean and neat</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Ariel Arce</td><br>
+              <td>message:excelente!</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Surendra Soni</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Nguyễn Duy Tuyên</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:i relay like this dashboard and i used it in different projects</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:Outstanding. </td>
+              <td>rating:4</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>adisorn wisuttipat</td><br>
+              <td>message:I like this design</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Emanuel Nogueiras</td><br>
+              <td>message:Great!
+Very usefull and explained.
+Great for advanced and beginners.</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Olivier LE GUENNEC</td><br>
+              <td>message:</td>
+              <td>rating:4</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Athi Sithembiso</td><br>
+              <td>message:Very cool minimal kit that&#39;s awesome </td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Pax Beach</td><br>
+              <td>message:Very pretty and easy-to-eye design.
+Good work!</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Khairu Aqsara</td><br>
+              <td>message:Nice Design And Look And Feel, The Most I Like is Color And Font, It&#39;s Not Like Another Admin Free Themes,</td>
+              <td>rating:4</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:4</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Bh</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Dino .</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:Very nice.</td>
+              <td>rating:4</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Juliano Barbosa</td><br>
+              <td>message:Very nice !!!</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Oskar Arce</td><br>
+              <td>message:Good option for free</td>
+              <td>rating:4</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Paper Dashboard</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:BEST!</td>
+              <td>rating:5</td>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-info btn-new btn-round" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="product-version-logs-modal-43" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-account">
+
+    <div class="modal-content">
+          <div class="modal-header text-center">
+               <h4> Updates and Changelogs</h4>
+          </div>
+          <div class="modal-body">
+            <p>
+                     V1.0, 29.03.2016 Original Release<br/><br/>V1.1, 30 Sept 2016 - New Page [current version]<br/>- added Upgrade to PRO page for those who want to upsell inside the dashboard<br/><br/>V1.1.1, 8 Feb 2017 <br/>- switched to MIT license<br/><br/>V1.1.2, 8 Mar 2017<br/>- added documentation files
+            </p>
+          </div>
+          <div class="modal-footer small-footer">
+            <button type="button" class="btn btn-default btn-simple btn-block" data-dismiss="modal">Close</button>
+          </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="footer-title ">
+    <div class="container">
+       <div class="row">
+           <div class="col-sm-8">
+             <h1 class="title">Join our newsletter and receive weekly news!</h1>
+           </div>
+            <form html="{:multipart=&gt;true}" class="form-inline" action="https://www.creative-tim.com/newsletter" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+                <div class="col-sm-6 col-md-2">
+                    <input type="email" name="subscribe_email" id="subscribe_email" class="form-control" placeholder="Enter Email" />
+                </div>
+                <div class="col-sm-6 col-md-2">
+                    <input type="submit" name="commit" value="Sign Up" class="btn btn-info btn-round btn-fill btn-block" />
+                </div>
+</form>        </div>
+    </div>
+</div>
+
+
+<div class="footer">
+    <div class="overlayer">
+    <div class="container">
+        <div class="row support">
+
+            <div class="col-sm-3 col-xs-4">
+                <h4>Creative Tim</h4>
+                <ul class="list-unstyled">
+                    <li> <a href="http://blog.creative-tim.com/">Blog</a></li>
+                    <li> <a href="https://www.creative-tim.com/affiliates/new">Affiliate Program</a></li>
+                    <li> <a href="https://www.creative-tim.com/terms">Terms &amp; Conditions</a></li>
+                    <li> <a href="https://www.creative-tim.com/privacy">Privacy Policy</a></li>
+                    <li> <a href="https://www.creative-tim.com/faq">FAQ</a></li>
+                    <li><a href="https://mixpanel.com/f/partner" rel="nofollow"><img src="../../cdn.mxpnl.com/site_media/images/partner/badge_blue.png" alt="Mobile Analytics" /></a></li>
+                </ul>
+            </div>
+            <div class="col-sm-3 col-xs-4">
+                <h4>Happy people</h4>
+                <ul class="list-unstyled social-list">
+                    <li><h3 class="numbers-dont-lie"><b>240,404</b> accounts</h3></li>
+                    <li><h3 class="numbers-dont-lie"><b>417,331</b> downloads</h3></li>
+
+                </ul>
+            </div>
+
+            <div class="col-sm-3 col-xs-4">
+                <h4>Help and Support</h4>
+                <ul class="list-unstyled">
+                    <li><a href="https://www.creative-tim.com/about-us">About Us</a></li>
+                    <li><a href="https://www.creative-tim.com/contact-us">Contact Us</a></li>
+                    <li><a href="https://www.creative-tim.com/sponsorships">Sponsorships</a></li>
+                    <li><a href="https://www.creative-tim.com/bootstrap">Bootstrap</a></li>
+                    <li><a href="https://www.creative-tim.com/license">Licenses</a></li>
+                    <li><a href="https://www.creative-tim.com/gallery/get-shit-done-pro">Products Gallery</a></li>
+                </ul>
+            </div>
+
+            <div class="col-sm-3 col-xs-12 text-center">
+                    <h4>Latest News</h4>
+                     <a
+                     class="twitter-timeline"
+                     href="https://twitter.com/CreativeTim"
+                     data-widget-id="586445781978124289"
+                     data-chrome="noheader nofooter noborders noscrollbar transparent"
+                     height="200">
+                     Tweets by @CreativeTim</a>
+            </div>
+
+        </div>
+        <hr>
+        <div class="row">
+            <div class="social-area text-center" itemscope itemtype="http://schema.org/LocalBusiness">
+                <a itemprop="url" href="https://www.creative-tim.com/" class="footer-brand">
+                    <div class="logo">
+                        <img itemprop="logo" src="../../s3.amazonaws.com/creativetim_bucket/new_logo.png" />
+                    </div>
+                    <span itemprop="name">Creative Tim</span>
+                </a>
+
+               <br/>
+                <a itemprop="sameAs" href="https://dribbble.com/creativetim" class="btn btn-default btn-social btn-round" rel="publisher" target="_blank"><i class="fa fa-dribbble"></i></a>
+                <a itemprop="sameAs" href="https://www.facebook.com/CreativeTim" class="btn btn-default btn-social btn-round" target="_blank"><i class="fa fa-facebook-square"></i></a>
+                <a itemprop="sameAs" href="https://twitter.com/CreativeTim" class="btn btn-default btn-social btn-round" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a itemprop="sameAs" href="https://plus.google.com/+CreativetimPage" class="btn btn-default btn-social btn-round" target="_blank"><i class="fa fa-google-plus-square"></i></a>
+
+                <a itemprop="sameAs" href="https://www.instagram.com/creativetimofficial/" class="btn btn-default btn-social btn-round" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a itemprop="sameAs" href="https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w" class="btn btn-default btn-social btn-round" target="_blank"><i class="fa fa-youtube"></i></a>
+                <a itemprop="sameAs" href="https://ro.pinterest.com/thecreativetim/" class="btn btn-default btn-social btn-round" target="_blank"><i class="fa fa-pinterest"></i></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="credits">
+                 &copy; 2017 Creative Tim, all rights reserved. Made with <i class="icon-heart heart" alt="love"></i> for a better web.
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+
+
+<script>
+ !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+
+ </script>
+
+
+<script type="text/javascript">
+	
+
+    $().ready(function (){
+	    initTextareaForMention();
+
+	    $('.edit-comment-modal').on('shown.bs.modal', function () {
+		  	textarea = $(this).find('textarea.hidden').html();
+		  	$(this).find('textarea.mention').val(textarea);
+		})
+    });
+
+</script>
+
+<!-- Drip -->
+<!-- <script type="text/javascript">
+	var _dcq = _dcq || [];
+	var _dcs = _dcs || {};
+	_dcs.account = '2119369';
+
+	(function() {
+		var dc = document.createElement('script');
+		dc.type = 'text/javascript'; dc.async = true;
+		dc.src = '//tag.getdrip.com/2119369.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(dc, s);
+	})();
+</script> -->
+
+
+<script>/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/\>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
+
+
+
+<!-- Mirrored from www.creative-tim.com/product/paper-dashboard?page=1 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 10 Aug 2017 23:57:49 GMT -->
+</html>

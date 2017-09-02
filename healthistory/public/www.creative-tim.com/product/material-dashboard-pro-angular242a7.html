@@ -1,0 +1,2449 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from www.creative-tim.com/product/material-dashboard-pro-angular2?page=16 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 10 Aug 2017 23:57:45 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head  itemscope itemtype="https://schema.org/WebSite"  prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# product: http://ogp.me/ns/product#">
+  
+  <meta charset="utf-8">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"2315e0b361","applicationID":"9961421","transactionName":"dVwNRxYMCFtVS01CQllXFlAQTBdfX04=","queueTime":0,"applicationTime":1419,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+  <meta name="viewport" content="width=device-width" />
+  <meta name="p:domain_verify" content="96e683d0045e44dfac2deaec70e57185"/>
+
+  <link rel="shortcut icon" type="image/x-icon" href="../assets/favicon-07e579901353a57d289b9b754f0e2912.ico" />
+
+  <link rel="apple-touch-icon" sizes="76x76" href="../assets/apple-touch-icon-precomposed-60956e08c7bbd5166b96ef4f0340152b.png">
+  <link rel="canonical" href="material-dashboard-pro-angular2.html" data-turbolinks-track="false" itemprop="url"/>
+
+  <title itemprop="name">
+      Material Dashboard Pro Angular 2: Premium Bootstrap Admin Template @ Creative Tim
+  </title>
+      <meta name="twitter:card" content="summary" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@CreativeTim" />
+    <meta name="twitter:creator" content="@CreativeTim" />
+    <meta name="twitter:title" content="Material Dashboard Pro Angular 2 by Creative Tim" />
+    <meta name="twitter:description" content="Premium Bootstrap Angular Template" />
+    <meta name="twitter:image" content="https://s3.amazonaws.com/creativetim_bucket/products/55/original/opt_mdp_angular_thumbnail.jpg?1490372038" />
+    <meta name="twitter:url" content="https://www.creative-tim.com/product/material-dashboard-pro-angular2?page=16" />
+
+
+  <meta name="description" content="Download Material Dashboard Pro Angular 2 a Premium Bootstrap Admin Template developed by Creative Tim. See the live demo on our site and join over 150.000" />
+<meta name="keywords" content="creativetim, creative tim, bootstrap, theme, freebies, bootstrap kit, bootstrap template, free items, beautiful ui" />
+<meta property="og:app_id" content="655968634437471" />
+<meta property="og:type" content="product" />
+<meta property="og:title" content="Material Dashboard Pro Angular 2 by Creative Tim" />
+<meta property="og:url" content="https://www.creative-tim.com/product/material-dashboard-pro-angular2?page=16" />
+<meta property="og:image" content="https://s3.amazonaws.com/creativetim_bucket/products/55/original/opt_mdp_angular_thumbnail.jpg?1490372038" />
+<meta name="product:price:amount" content="59.0" />
+<meta name="product:price:currency" content="USD" />
+<meta name="product:availability" content="in Stock" />
+<meta name="product:brand" content="Creative Tim" />
+<meta name="product:category" content="Admin &amp; Dashboards" />
+<meta name="data-turbolinks-track" content="false" />
+  <link rel="stylesheet" media="all" href="../assets/application-1bcb58ff3712e4ff5783262db7875077.css" data-turbolinks-track="true" />
+
+  <!-- font -->
+  <link href="../../maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="bn8IIJw3dzry85b3Ukq/XI7rkhYi1GvR2mZrodRVyNU+HzrHmJ6I8zCZCAIS07StY5kf48yoT8yUU5DlMwvEUQ==" />
+
+  <!--  js   -->
+  <script src="../assets/application-c1017f102a130cfd626341b0fb7e31bc.js" data-turbolinks-track="true"></script>
+  <script src="../assets/mentions-and-photoswipe-161077ada89deb7fd786388c54692d70.js" data-turbolinks-track="true"></script>
+
+  <!--
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-46172202-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+-->
+
+<!-- Google Analytics New -->
+<script type="text/javascript">
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','../../www.google-analytics.com/analytics.js','ga');
+
+// On the Origin Domain
+ga('create', 'UA-46172202-1', 'auto', {'allowLinker': true});
+ga('require', 'linker');
+ga('require', 'ecommerce');
+
+ga('linker:autoLink', ['secure.avangate.com']);      // Domains that are linked from this page.
+ga('send', 'pageview');                              // Send hits after initializing the auto-linker plug-in.
+
+</script>
+<!-- End Google Analytics -->
+
+  <!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','../../connect.facebook.net/en_US/fbevents.js');
+
+        fbq('init', '111649226022273');
+    fbq('track', "PageView");
+
+</script>
+
+<noscript><img height="1" width="1" style="display:none"
+src="../../www.facebook.com/tr5c3c.gif?id=111649226022273&amp;ev=PageView&amp;noscript=1"
+/></noscript>
+
+<!-- End Facebook Pixel Code -->
+
+<!-- Hotjar Tracking Code for www.creative-tim.com -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:99526,hjsv:5};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+	<!--
+    - acest partial este importat in toate layout-urile
+    - se face un partial pentru fiecare script pe care vrem sa-l adaugam in toate paginile si il importam aici
+-->
+
+
+</head>
+
+<body class="product-page">
+
+<nav class="navbar filter-bar fixed-absolute">
+    <div class="container">
+    <div class="notification">
+        <div id="notif-message" class="notif-message" style="display: none;" notice-type=success>
+        </div>
+    </div>
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <div data-no-turbolink>
+            <a href="https://www.creative-tim.com/" class="navbar-brand">
+                <div class="logo">
+                    <img src="../../s3.amazonaws.com/creativetim_bucket/new_logo.png" width="60" height ="60"/>
+                </div>
+                <p>Creative <br> Tim</p>
+            </a>
+        </div>
+
+    </div>
+
+
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+
+        <ul class="nav navbar-nav navbar-right" data-no-turbolink>
+
+        <!-- <li>
+            <a href="javascript:void(0)" data-toggle="search-form">
+                <i class="icon-search icon-2x"></i>
+                <p>Search</p>
+            </a>
+        </li> -->
+
+
+            <li class="dropdown dropdown-categories" data-no-turbolink>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    <i class="icon-th-large icon-2x"></i>
+                    <p>
+                        Categories
+                        <span class="caret"></span>
+                    </p>
+
+                </a>
+
+            <ul class="dropdown-menu">
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes">
+                        All Categories
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/admin-dashboard">
+                        Admin &amp; Dashboards
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/ui-kit">
+                        UI Kits
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/free">
+                        Free Themes
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/premium">
+                        Premium Themes
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/angular-dashboard">
+                        Angular Dashboards
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/landing-page">
+                        Landing Pages
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/e-commerce">
+                        E-commerce
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/one-page-template">
+                        One Page Templates
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/wizard">
+                        Wizards
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/calendar">
+                        Calendar
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/login-form">
+                        Login Forms
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.creative-tim.com/bootstrap-themes/components">
+                        Components
+                    </a>
+                </li>
+            </ul>
+        </li>
+
+        <li class="big-bundle" data-no-turbolink>
+                <a href="buy/bundle/index385e.html?utm_campaign=big-bundle&amp;utm_medium=navbar&amp;utm_source=tim">
+                <i class="icon-gift icon-2x"></i>
+                <p>Big Bundle</p>
+                <span class="notification-bubble notification-inverted">New</span>
+            </a>
+        </li>
+
+
+        <li>
+            <a href="http://blog.creative-tim.com/">
+                <i class="icon-align-left icon-2x"></i>
+                <p>Blog</p>
+            </a>
+        </li>
+
+
+
+
+            <li>
+                <a href="javascript:void(0)" onclick="openLoginModal();" role="button" data-toggle="modal">
+                    <i class="icon-male-sign-alt icon-2x"></i>
+                    <p>Login/Register</p>
+                </a>
+            </li>
+
+
+        </ul>
+    </div>
+</div>
+
+</nav>
+
+
+<div class="modal fade login" id="loginModal">
+    <div class="modal-dialog login animated">
+      <div class="modal-content">
+
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title">Login with</h4>
+    </div>
+    <div class="modal-body">
+        <div class="box">
+            <div class="content">
+                <div class="social" data-no-turbolink>
+                    <a id="github_login" class="circle github" href="https://www.creative-tim.com/social/github?destination=product_page&amp;subscribed=1&amp;url=https%253A%252F%252Fwww.creative-tim.com%252Fproduct%252Fmaterial-dashboard-pro-angular2%253Fpage%253D16">
+
+                            <i class="icon-github"></i>
+</a>                    <a id="google_login" class="circle google" href="https://www.creative-tim.com/social/google_oauth2?destination=product_page&amp;subscribed=1&amp;url=https%253A%252F%252Fwww.creative-tim.com%252Fproduct%252Fmaterial-dashboard-pro-angular2%253Fpage%253D16">
+
+                            <i class="icon-google-plus-alt"></i>
+</a>                    <a id="facebook_login" class="circle facebook" href="https://www.creative-tim.com/social/facebook?destination=product_page&amp;subscribed=1&amp;url=https%253A%252F%252Fwww.creative-tim.com%252Fproduct%252Fmaterial-dashboard-pro-angular2%253Fpage%253D16">
+
+                            <i class="icon-facebook-alt"></i>
+</a>                </div>
+                <div class="division">
+                      <div class="line l"></div>
+                      <span>or</span>
+                      <div class="line r"></div>
+                </div>
+
+                <div class="error inside-alert"></div>
+                <div class="form loginBox">
+
+                        <form html="{:multipart=&gt;true}" action="https://www.creative-tim.com/login" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+                            <input type="text" name="email" id="email" class="form-control" placeholder="Email" />
+                            <input type="password" name="password" id="password" class="form-control" placeholder="Password" />
+                            <input type="hidden" name="destination" id="destination" value="product_page" />
+                            <input type="hidden" name="url" id="url" value="https%3A%2F%2Fwww.creative-tim.com%2Fproduct%2Fmaterial-dashboard-pro-angular2%3Fpage%3D16" />
+                            <input type="submit" name="commit" value="Login" class="btn btn-default btn-login" />
+</form>                </div>
+             </div>
+        </div>
+        <div class="box">
+            <div class="content registerBox" style="display:none;">
+             <div class="form">
+                <form html="{:multipart=&gt;true}" action="https://www.creative-tim.com/register" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+                    <input type="text" name="email" id="email" class="form-control" placeholder="Email" />
+                    <input type="password" name="password" id="password" class="form-control" placeholder="Password" />
+                  	<input type="password" name="password_confirmation" id="password_confirmation" class="form-control" placeholder="Repeat Password" />
+                    <input type="hidden" name="destination" id="destination" value="product_page" />
+                    <input type="hidden" name="url" id="url" value="https%3A%2F%2Fwww.creative-tim.com%2Fproduct%2Fmaterial-dashboard-pro-angular2%3Fpage%3D16" />
+                    <input type="submit" name="commit" value="Create account" class="btn btn-default btn-register" />
+                        <label class="checkbox">
+                            <input type="checkbox" value="1" data-toggle="checkbox" name="subscribed" class="ct-info checkbox-subscribe" checked>
+                            Subscribe me to the Newsletter
+                        </label>
+
+</form>             </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <div class="forgot login-footer">
+
+            <span>Looking to
+                 <a href="javascript: showRegisterForm();">create an account</a>
+            ?</span>
+            <br />
+            <span><a href="https://www.creative-tim.com/forgot-password">Forgot password</a> ?</span>
+        </div>
+        <div class="forgot register-footer" style="display:none">
+             <span>Already have an account?</span>
+             <a href="javascript: showLoginForm();">Login</a>
+        </div>
+    </div>
+
+    </div>
+    </div>
+</div>
+
+<div class="modal fade cart-modal cart-modal-checkout" id="cart-modal" role="dialog">
+	<div class="text-center">
+		<ul class="cart-steps">
+			<li class="active">
+				<a href="#cart-review">
+					<div class="number">1</div>
+					<div class="step">Review</div>
+				</a>
+			</li>
+			<li>
+				<a href="#cart-payment-details" onClick="$('#my-cart').submit();">
+					<div class="number">2</div>
+					<div class="step">Payment Details</div>
+				</a>
+			</li>
+			<li>
+				<a href="#cart-order-receipt">
+					<div class="number">3</div>
+					<div class="step">Order Receipt</div>
+				</a>
+			</li>
+
+		</ul>
+	</div>
+
+	<div class="modal-dialog">
+
+		<div class="modal-content">
+			<div class="modal-header text-center">
+				<h3 class="modal-title">Shopping Cart</h3>
+				<i class="icon-remove-circle close" data-dismiss="modal" aria-label="Close"></i>
+			</div>
+			<div id="content-for-cart" class="content-container">
+				<div class="empty-cart-message">
+    <i class="icon-shopping-cart icon-2x"></i>
+    <h4>Your cart is currently empty.</h4>
+</div>
+<div class="text-center">
+    <a href="https://www.creative-tim.com/bootstrap-themes/premium#from-empty-shopping-cart" class="btn btn-info btn-new btn-fill btn-wd">
+        Start Shopping
+    </a>
+</div>
+
+			</div>
+			<i class="fa fa-refresh fa-spin fa-fw loading-icon"></i>
+		</div>
+
+		<div class="secured-message">
+			<i class="fa fa-lock"></i> Secured Payment by <b> Avangate </b> with: <br><i class="fa fa-cc-paypal fa-2x"></i> <i class="fa fa-cc-visa fa-2x"></i> <i class="fa fa-cc-mastercard fa-2x"></i> <i class="fa fa-cc-amex fa-2x"></i></p>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade cart-modal cart-modal-one-product" id="product-cart-modal" role="dialog">
+
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <h4 class="modal-title">You added this item to your cart!</h4>
+            </div>
+            <div class="modal-body">
+                <div class="cart">
+                    product
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="https://www.creative-tim.com/bootstrap-themes" type="button" class="btn btn-default btn-fill btn-new" data-dismiss="modal">
+                    Continue Shopping
+                </a>
+                <a type="button" class="btn btn-success btn-fill btn-new" href="https://www.creative-tim.com/checkout", data-cart="0">
+                    Checkout & Download
+                </a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<div id="fb-root">
+</div>
+<script src="../../connect.facebook.net/en_US/sdk.js" type="text/javascript"></script>
+<script type="text/javascript">
+    window.fbAsyncInit = function()
+    {
+    //facebook share
+        FB.init({
+            appId: '655968634437471',
+            status: true,
+            cookie: true,
+            xfbml: true,
+            version: 'v2.9'
+        });
+    };
+
+
+    function shareFacebookWithCallBack(){
+        FB.ui({
+          method: 'feed',
+          link: 'https://www.creative-tim.com/product/material-dashboard-pro-angular2?page=16'
+        }, function(response){
+            if (response && response.post_id) {
+               $.post('/share',{social_network : 1, product_id : parseInt('55'), provider: 'facebook' },function(data){
+                    if(data['status'] == 'ok'){
+                        console.log('ShareUp');
+                    }
+               });
+             } else {
+               console.log('Post was not published.');
+             }
+        });
+    }
+    //twitter share
+        window.twttr = (function (d,s,id) {
+          var t, js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return; js=d.createElement(s); js.id=id;
+          js.src="../../platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);
+          return window.twttr || (t = { _e: [], ready: function(f){ t._e.push(f) } });
+        }(document, "script", "twitter-wjs"));
+
+        // On ready, register the callback...
+        twttr.ready(function (twttr) {
+            twttr.events.bind('tweet', function (event) {
+                $.post('/share',{social_network : 2, product_id : parseInt('55'), provider: 'twitter' },function(data){
+                    if(data['status'] == 'ok'){
+                        console.log('ShareUp');
+                    }
+               });
+            });
+        });
+
+    function googleShare(event){
+        var width  = 575,
+        height = 400,
+        left   = ($(window).width()  - width)  / 2,
+        top    = ($(window).height() - height) / 2,
+        url    = 'https://plus.google.com/share?url=https://www.creative-tim.com/product/material-dashboard-pro-angular2?page=16',
+        opts   = 'status=1' +
+                 ',width='  + width  +
+                 ',height=' + height +
+                 ',top='    + top    +
+                 ',left='   + left;
+        window.open(url, 'Google+', opts);
+        $.post('/share',{social_network : 3, product_id : parseInt('55'), provider: 'google' },function(data){
+                    if(data['status'] == 'ok'){
+                        console.log('ShareUp');
+                    }
+               });
+        return false;
+    }
+</script>
+
+<!-- Facebook Additional Pixel Code -->
+
+<script>
+
+fbq('track', 'ViewContent', {
+    content_ids: ['55'],
+    content_type: 'product',
+    value: '59.0',
+    currency: 'USD',
+    content_name: 'Material Dashboard Pro Angular 2'
+});
+
+</script>
+
+<!-- End Facebook Additional Pixel Code -->
+
+
+<div class="modal fade" id="giftOfferModal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-offer">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">&nbsp;</h4>
+        </div>
+        <img src="../assets/valentines-day-54de97c0244637dcac32e0da8c952975.jpg" alt="Valentines day" />
+        <div class="modal-body">
+<!--             <p><b class="merry">Happy Valentine's Day!</b><br /> -->
+            <p><b>
+            Get a special gift from us! <br />
+            Follow the steps below to receive it. <br />
+            </b></p>
+            <ol>
+              <li>Buy a premium product.</li>
+              <li>Download the product from your dashboard.</li>
+              <li>Press the <b>'Send gift'</b> button in your dashboard and offer a premium product (with the price lower or equal) as a gift.</li>  
+            </ol>
+            </p>
+            <div class="text-center" data-no-turbolink>
+                <a href="https://www.creative-tim.com/bootstrap-themes?utm_campaign=christmas-gift-offer&amp;utm_source=tim&amp;utm_medium=modal" class="btn btn-danger btn-round btn-fill btn-new">Start shopping</a>
+            </div>
+            
+            <div class="design-courtesy">Photo Courtesy of <a href="https://dribbble.com/shots/2525661-Heart">Henrique Athayde</a></div>
+
+        </div>
+    </div>
+  </div>
+</div>
+
+<input type="hidden" id="product_id" value="55">
+
+<div class="top-moving-bar" data-no-turbolink>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-7 col-xs-7">
+                <a class="navbar-brand" href="https://www.creative-tim.com/">
+                    <div class="logo">
+                        <img rel="tooltip" title="Hey! <br> Hope you're doing fine :-)" data-html="true" data-placement="bottom" src="https://s3.amazonaws.com/creativetim_bucket/new_logo.png"/>
+                    </div>
+</a>                <h4>Material Dashboard Pro Angular 2
+
+                    <div class="middot"></div>
+                        <div class="mask">
+                            <img rel="tooltip" data-placement="bottom" title="Fully Coded and Responsive HTML5" src="../assets/icon-html-e05de3f70999d3ce94b9804b7e298026.jpg" alt="Icon html" />
+                        </div>
+                        <div class="mask">
+                            <img rel="tooltip" data-placement="bottom" title="Sass Files for Professional Front End Developers" src="../assets/icon-sass-31b996b6252dbd1dd9c349bee39a5b8b.jpg" alt="Icon sass" />
+                        </div>
+                        <div class="mask">
+                            <img rel="tooltip" data-placement="bottom" title="Photoshop Files for Professional Designers" src="../assets/icon-photoshop-f8d9899235a39f00fa6bc6c910a1cdaf.jpg" alt="Icon photoshop" />
+                        </div>
+                        <div class="mask">
+                            <img rel="tooltip" data-placement="bottom" title="Crafted with Bootstrap - the most popular Front End Framework" src="../assets/icon-bootstrap-7cec419b71f47386f443bd3fbfef2f7c.jpg" alt="Icon bootstrap" />
+                        </div>
+                        <div class="mask">
+                            <img rel="tooltip" data-placement="bottom" title="Angular 2+ Structure with TypeScript" src="../assets/icon-angular-ada038f93d6763f80ca9d1776d103783.jpg" alt="Icon angular" />
+                        </div>
+                </h4>
+            </div>
+            <div class="col-md-6 col-sm-5 col-xs-5 text-right">
+
+                        <a class="btn btn-default btn-simple" target="_blank" href="http://md-pro-angular2.creative-tim.com/">Live Preview</a>
+
+                        <a class="btn btn-default btn-simple" href="material-dashboard-angular2.html">Get Free Demo</a>
+
+
+
+                        <a href="https://www.creative-tim.com/buy/material-dashboard-pro-angular2?license=1" class="btn btn-info btn-fill btn-wd btn-round">
+                            Buy now &middot;<b>
+                                $59
+                            </b>
+                        </a>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<div itemscope itemtype="http://schema.org/Product">
+    <div id="productPage" class="parallax parallax-product parallax-" data-no-turbolink style="background: url('../../s3.amazonaws.com/creativetim_bucket/products/55/mdp_angular_coverde02.jpg?1490372038')no-repeat;background-size: cover; ">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-6">
+                    <div class="product-image">
+                        <a href="http://md-pro-angular2.creative-tim.com/" target="_blank">
+                            <img src="../../s3.amazonaws.com/creativetim_bucket/products/55/original/opt_mdp_angular_thumbnailde02.jpg?1490372038" alt="Material Dashboard Pro Angular 2 Image"/>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-md-offset-1">
+                    <div class="pay-area">
+
+    <div class="text-center">
+        <h1 itemprop="name" class="product-name">Material Dashboard Pro Angular 2</h1>
+        <h6 class="tagline">Premium Bootstrap Angular Template</h6>
+
+            <div class="rating-stars">
+                <input type="number" class="rating" data-min="1" data-max="5" value="5" disabled="disabled">
+                <div class="aggregate-rating" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating" data-no-turbolink>
+                    &middot;
+                    <span itemprop="ratingValue">4.80</span>/5
+
+                    <a href="material-dashboard-pro-angular2/reviews.html" >(<span itemprop="reviewCount">46</span> Reviews)</a>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+
+
+	    <div class="choose-license">
+                    <p class="pull-left">License
+                        <a  class="btn btn-round btn-xs btn-neutral pull-right"
+                             href="https://www.creative-tim.com/license"
+                              rel="tooltip"
+                            title="Something unclear regarding the licenses? Click on the '?' and see more details."
+                           target="_blank">
+                            <i class=" fa fa-question"></i>
+                        </a>
+                    </p>
+
+                        <ul class="nav nav-pills pull-right">
+                            <li class="active">
+                                <a href="#personal" data-toggle="tab">Personal</a>
+                            </li>
+                            <li>
+                                <a href="#developer" data-toggle="tab">Developer</a>
+                            </li>
+                        </ul>
+
+                <div class="clearfix"></div>
+        </div>
+
+
+        <div class="tab-content" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+
+                <meta content="59.00" itemprop="price">
+                <meta content="USD" itemprop="priceCurrency">
+                <meta content="instock" itemprop="availability">
+
+
+    	    <div class="tab-pane active" id="personal">
+
+                        <a href="https://www.creative-tim.com/buy/material-dashboard-pro-angular2?license=1" class="btn btn-new btn-neutral btn-fill btn-wd btn-round">
+                            Buy now &middot;<b>
+                                $59
+                            </b>
+                        </a>
+
+
+                    <a href="http://md-pro-angular2.creative-tim.com/" class="hidden-xs btn btn-new btn-wd btn-neutral btn-round" target="_blank">
+                        Live Preview
+                    </a>
+
+                    <a href="http://md-pro-angular2.creative-tim.com/" class="hidden-sm hidden-md hidden-lg btn btn-new btn-wd btn-neutral btn-round" target="_blank">
+                        Live Preview
+                    </a>
+    	    </div>
+
+    	    <div class="tab-pane" id="developer">
+
+                        <a href="https://www.creative-tim.com/buy/material-dashboard-pro-angular2?license=2" class="btn btn-new btn-neutral btn-fill btn-wd btn-round">
+                            Buy now &middot; <b>
+                                $239
+                            </b>
+                        </a>
+
+
+                    <a href="http://md-pro-angular2.creative-tim.com/" class="btn btn-new btn-wd btn-neutral btn-round" target="_blank">
+                        Live Preview
+                    </a>
+
+    	    </div>
+
+        </div>
+    </div>
+</div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="section-product-description section-white-gradient section-scaled" data-no-turbolink>
+        <div class="container product">
+
+            <div class="row header-summary">
+
+                <div class="col-md-9">
+                    <div class="col-md-4">
+
+                        <div class="small-info">
+                            <i class="icon-cloud-download"></i>
+                            <h6 class="numbers">460 Downloads</h6>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="small-info">
+                            <i class="icon-comment"></i>
+                            <h6 class="numbers">181 Comments</h6>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="small-info">
+                            <i class="icon-medkit"></i>
+                            <h6 class="numbers">Premium Support</h6>
+                        </div>
+                    </div>
+
+                    <div class="clearfix"></div>
+
+                    <div class="col-md-4">
+                        <div class="small-info">
+                            <i class="icon-gift"></i>
+                            <h6 class="numbers">Lifetime Updates</h6>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="small-info">
+                            <i class="icon-suitcase"></i>
+                            <h6 class="numbers">
+                                Release: 4 months ago
+                            </h6>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 ">
+                        <div class="small-info">
+                            <i class="icon-refresh"></i>
+                            <h6 class="numbers">
+                                Update: 21 days ago
+                            </h6>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-3">
+                            <div class="technologies pull-right">
+                                    <div class="mask">
+                                        <img rel="tooltip" title="Fully Coded and Responsive HTML5" src="../assets/icon-html-e05de3f70999d3ce94b9804b7e298026.jpg" alt="Icon html" />
+                                    </div>
+                                    <div class="mask">
+                                        <img rel="tooltip" title="Sass Files for Professional Front End Developers" src="../assets/icon-sass-31b996b6252dbd1dd9c349bee39a5b8b.jpg" alt="Icon sass" />
+                                    </div>
+                                    <div class="mask">
+                                        <img rel="tooltip" title="Photoshop Files for Professional Designers" src="../assets/icon-photoshop-f8d9899235a39f00fa6bc6c910a1cdaf.jpg" alt="Icon photoshop" />
+                                    </div>
+                                    <div class="mask">
+                                        <img rel="tooltip" title="Crafted with Bootstrap - the most popular Front End Framework" src="../assets/icon-bootstrap-7cec419b71f47386f443bd3fbfef2f7c.jpg" alt="Icon bootstrap" />
+                                    </div>
+                                    <div class="mask">
+                                        <img rel="tooltip" title="Angular 2+ Structure with TypeScript" src="../assets/icon-angular-ada038f93d6763f80ca9d1776d103783.jpg" alt="Icon angular" />
+                                    </div>
+                            </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-12">
+                </div>
+
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="description collapse" id="productDescription" aria-expanded="false">
+                        <h1 class="sub-title">Premium Bootstrap Admin Angular Template</h1>
+                        <h4 class="legend text-center">Product description</h4>
+
+                        <span itemprop="description">
+                            <b>Material Dashboard PRO Angular 2</b> CLI is a Premium Material Bootstrap Admin with a fresh, new design inspired by Google's Material Design. It is based on the popular Bootstrap framework and comes packed with multiple third-party plugins. All components are built to fit perfectly with each other while aligning to the material concepts.<br><br> This dashboard is the premium version for the <a target="_blank" rel="nofollow" href="material-dashboard-angular2.html">Material Dashboard Angular 2</a>, which is available for free download. <b>Material Dashboard PRO Angular 2 CLI</b> was built based on the feedback that we received from the users of the free version. We tried to keep it as user-friendly as possible, but to provide all the useful tools for developing a complex product. This dashboard can help you build admin panels, CRMs or content management systems.<br><br> Material Dashboard PRO Angular 2 has the same line of design as the <a target="_blank" rel="nofollow" href="material-kit-pro.html">Material Kit PRO</a>, so they will help you have the presentation pages of your site and the Admin/CMS having the same design trend. If you think you will need more landing and example pages, be sure to check it out. If you love the material design, you'll probably enjoy using these products! We recommend you to use them separate and not to try to combine their CSS and JS files. <br><br>Material Dashboard PRO Angular 2 uses a framework built by our friend <a target="_blank" rel="nofollow" href="http://fezvrasta.github.io/bootstrap-material-design/">Federico - Bootstrap Material Design</a>, who did an amazing job creating the backbone for the material effects, animations, ripples and transitions. Big thanks to his team for the effort and forward thinking they put into it.<br><br>
+<h3>Special thanks</h3>
+ During the development of this dashboard, we have used many existing resources from awesome developers. We want to thank them for providing their tools open source:<br><br>
+<ul><li><a target="_blank" rel="nofollow" href="https://github.com/mouse0270">Robert McIntosh</a> for the notification system</li><li><a target="_blank" rel="nofollow" href="https://gionkunz.github.io/chartist-js/">Chartist</a> for the wonderful charts</li><li><a target="_blank" rel="nofollow" href="https://twitter.com/t4t5">Tristan Edwards</a> for the <a target="_blank" rel="nofollow" href="http://limonte.github.io/sweetalert2/">Sweet Alert</a></li><li><a target="_blank" rel="nofollow" href="https://github.com/Eonasdan">Eonasdan</a> for the <a target="_blank" rel="nofollow" href="https://eonasdan.github.io/bootstrap-datetimepicker/">DateTimPicker</a></li><li>Kirill Lebedev for <a target="_blank" rel="nofollow" href="http://jvectormap.com/">jVector Maps</a></li><li><a target="_blank" rel="nofollow" href="https://twitter.com/gabrielva">Vincent Gabriel</a> for the <a target="_blank" rel="nofollow" href="https://github.com/VinceG/twitter-bootstrap-wizard">Bootstrap Wizard</a></li><li><a target="_blank" rel="nofollow" href="https://fullcalendar.io/">FullCalendar.io</a> for the awesome Calendar</li></ul>
+ Let us know your thoughts below. And good luck with development!<br><br>
+                        <span>
+                        <br />
+                            Current version <b>1.2.1</b>
+                            <a class="btn btn-sm btn-simple btn-info " href="#product-version-logs-modal-55" role="button" data-toggle="modal">
+                                See updates and changelog
+                            </a>
+                    </div>
+                    <div class="view-more text-center">
+                        <button class="btn btn-simple btn-default viewMoreButton" data-target="#productDescription">View More</button>
+                    </div>
+
+                        <div class="summary">
+                            <div class="row">
+                                <div class="col-md-4 col-xs-6">
+                                    <div class="category">
+                                        <i class="icon-th-large"></i>
+                                        <p>200 Handcrafted Components</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4 col-xs-6">
+                                    <div class="category">
+                                        <i class="icon-gears"></i>
+
+                                        <p>15 Customized Plugins</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4 col-xs-6">
+                                    <div class="category">
+                                        <i class="icon-picture"></i>
+
+                                        <p>27 Example Pages</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4 col-xs-6">
+                                    <div class="category">
+                                        <i class="icon-bold"></i>
+                                        <p>Bootstrap Based</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4 col-xs-6">
+                                    <div class="category">
+                                        <i class="icon-file-text-alt"></i>
+                                        <p>Documentation</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4 col-xs-6">
+                                    <div class="category">
+                                        <i class="icon-mobile-phone"></i>
+                                        <p>Fully Responsive</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    <h6 class="text-center">Product certified by: <span itemprop="brand">Creative Tim</span></h6>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+        <div class="main-white section-check-free-pro section-white-gradient">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+
+
+
+                        <h4 class="legend">Get Free Demo</h4>
+                        <p class="description">
+                            Learn more about Material Dashboard Pro Angular 2 in the light demo version. It has features from the full version. We hope you will like this introduction to this product!
+                        </p>
+
+                        <div class="row" data-no-turbolink>
+
+                            <div class="col-md-5">
+                                <h5 class="subtitle">What is in Demo?</h5>
+                                <ul class="list-unstyled">
+                                    <li>Components &middot; <b>60</b> </li>
+                                    <li>Plugins &middot; <b>2</b></li>
+                                    <li>Examples Pages &middot; <b>3</b></li>
+                                    <li>-</li>
+                                    <li>-</li>
+                                    
+                                    <li>-</li>
+                                    
+                                </ul>
+                            </div>
+                            <div class="col-md-6 col-md-offset-1">
+                                <h5 class="subtitle">What is in PRO Version?</h5>
+                                <ul class="list-unstyled">
+                                    <li>Components &middot; <b>200</b></li>
+                                    <li>Plugins &middot; <b>15</b></li>
+                                    <li>Example Pages &middot; <b>27</b></li>
+                                    <li>+ Documentation</li>
+                                    <li>+ SASS Files</li>
+                                    
+                                    <li>+ Photoshop Files</li>
+                                    
+                                </ul>
+                            </div>
+
+                                <a class="btn btn-new btn-fill btn-round btn-default" href="material-dashboard-angular2.html">Get Free Demo</a>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-md-offset-1">
+                        <div class="image">
+                                <img src="../../s3.amazonaws.com/creativetim_bucket/products/53/original/opt_md_angular_thumbnailacd1.jpg?1485781957" alt="Opt md angular thumbnail" />
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    <div class="main main-dark section-creators">
+        <div class="container">
+            <div class="creators">
+                <div class="row">
+
+    <div class="col-md-8 col-md-offset-2" id="comments">
+        <div class="creators collaborators-card">
+            <h2 class="legend text-center">We are here to help you!</h2>
+
+            <div class="collaborators" data-no-turbolink>
+
+
+                <div class="authors-container" data-collaborators="2">
+                    <div class="author">
+    <a class='card-user account-photo  account-product-owner '
+       rel='popover'
+       data-content='<div class="uil-ring-css" style="-webkit-transform:scale(0.3)"><div></div></div>'
+       data-initialized='0'
+       data-html='true'
+       data-placement='top'
+       data-template='<div class="popover" onmouseover="clearTimeout(timeoutObj);$(this).mouseleave(function() {$(this).hide();});"><div class="arrow"></div><div class="popover-inner"><div class="popover-content"><p></p></div></div></div>'
+       data-username='chelaru_ciprian'
+    >
+
+        <div class="mask">
+            <img src="../../s3.amazonaws.com/creativetim_bucket/photos/112208/thumb3a2b.jpg?1498575892" class="photo"/>
+        </div>
+
+            <div class="account-type">
+                <i class="fa fa-star"></i>
+            </div>
+    </a>
+</div>
+
+
+                        <div class="author">
+    <a class='card-user account-photo '
+       rel='popover'
+       data-content='<div class="uil-ring-css" style="-webkit-transform:scale(0.3)"><div></div></div>'
+       data-initialized='0'
+       data-html='true'
+       data-placement='top'
+       data-template='<div class="popover" onmouseover="clearTimeout(timeoutObj);$(this).mouseleave(function() {$(this).hide();});"><div class="arrow"></div><div class="popover-inner"><div class="popover-content"><p></p></div></div></div>'
+       data-username='axelut'
+    >
+
+        <div class="mask">
+            <img src="../../s3.amazonaws.com/creativetim_bucket/photos/1/thumb953e.jpg?1484594398" class="photo"/>
+        </div>
+
+    </a>
+</div>
+
+
+
+                    <br>
+                </div>
+
+                <div class="btn-area text-center">
+                    <h4 class="commented">181 Web Developers commented on this product</h4>
+
+                        <a target="_blank" class="btn btn-default btn-new btn-simple" href="https://github.com/creativetimofficial/material-dashboard-pro-angular">
+                            <i class="fa fa-github-alt"></i> Report issue
+</a>
+                    <div class="collapse in" id="commentsCollapse">
+                            <input id="keep_product" class="hidden" value="55">
+
+                                <div class = "sort_paginate_ajax">
+                                    
+
+    
+
+<div class="comment " id="comment-4047">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/anonymous_thumb.png" alt="Anonymous thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div class="author">
+                <h4 class="username">joao_gabriel200
+                <small>10 days ago</small>
+                </h4>
+            </div>
+            There&#39;s a logic for Login Auth?? <br>
+
+            <div class="comment-reply-btn">
+    		</div>
+    	</div>
+
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+    				
+<div class="comment " id="reply-4087" >
+
+    <div class="row">
+        <div class="col-md-2 col-md-offset-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/1/thumb953e.jpg?1484594398" alt="Thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="author">
+                <h4 class="username">axelut
+                </h4>
+            </div>
+            <a class='card-user'
+    	       rel='popover'
+    	       data-content='<div class="uil-ring-css" style="-webkit-transform:scale(0.3)"><div></div></div>'
+    	       data-initialized='0'
+    	       data-html='true'
+    	       data-placement='top'
+    	       data-template='<div class="popover" onmouseover="clearTimeout(timeoutObj);$(this).mouseleave(function() {$(this).hide();});"><div class="arrow"></div><div class="popover-inner"><div class="popover-content"><p></p></div></div></div>'
+    	       data-username='joao_gabriel200'
+    	    >
+    	    	@joao_gabriel200
+    	    </a> thank you for your interest in our product. Unfortunately, we didn&#39;t write the logic for the login, we have only the layouts and every developer is doing the logic as he wants or how the requirements are for his client. Hope this information helps. Best, Alex!
+        </div>
+
+        <div class="col-md-2 text-right">
+            <h5 class="time">8 days ago</h5>
+        </div>
+    </div>
+</div>
+
+    <div id="last-reply-4047"></div>
+    
+
+<div class="comment " id="comment-4061">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/235565/thumb5f38?1501575762" alt="Thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div class="author">
+                <h4 class="username">waleed.tayseer
+                <small>9 days ago</small>
+                </h4>
+            </div>
+            Hello, based on the comments i&#39;ve read regarding this template. i&#39;ve learned that there will an angular 4 version released in a couple of days. could you please be more precise? when exactly it should be released? I&#39;m asking this question because i was going to buy this template however i can wait till the new version is released as long as the time period won&#39;t be very long. Please let me know.
+Thanks! <br>
+
+            <div class="comment-reply-btn">
+    		</div>
+    	</div>
+
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+    				
+<div class="comment " id="reply-4098" >
+
+    <div class="row">
+        <div class="col-md-2 col-md-offset-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/1/thumb953e.jpg?1484594398" alt="Thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="author">
+                <h4 class="username">axelut
+                </h4>
+            </div>
+            <a class='card-user'
+    	       rel='popover'
+    	       data-content='<div class="uil-ring-css" style="-webkit-transform:scale(0.3)"><div></div></div>'
+    	       data-initialized='0'
+    	       data-html='true'
+    	       data-placement='top'
+    	       data-template='<div class="popover" onmouseover="clearTimeout(timeoutObj);$(this).mouseleave(function() {$(this).hide();});"><div class="arrow"></div><div class="popover-inner"><div class="popover-content"><p></p></div></div></div>'
+    	       data-username='waleed.tayseer'
+    	    >
+    	    	@waleed.tayseer
+    	    </a> thank you for your interest in our product. The Angular4 version should come this Friday. If we don&#39;t have a stable version by then, you will receive a fully working Beta and another update on Monday. Hope this information helps you. Best, Alex!
+        </div>
+
+        <div class="col-md-2 text-right">
+            <h5 class="time">8 days ago</h5>
+        </div>
+    </div>
+</div>
+
+    				
+<div class="comment " id="reply-4120" >
+
+    <div class="row">
+        <div class="col-md-2 col-md-offset-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/235565/thumb5f38?1501575762" alt="Thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="author">
+                <h4 class="username">waleed.tayseer
+                </h4>
+            </div>
+            great thank you very much!
+        </div>
+
+        <div class="col-md-2 text-right">
+            <h5 class="time">7 days ago</h5>
+        </div>
+    </div>
+</div>
+
+    				
+<div class="comment " id="reply-4140" >
+
+    <div class="row">
+        <div class="col-md-2 col-md-offset-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/anonymous_thumb.png" alt="Anonymous thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="author">
+                <h4 class="username">pcharbon70
+                    <ul>
+                    <li class = 'user-role downloaded' > downloaded</li>
+                    </ul>
+                </h4>
+            </div>
+            Looking forward to this as a lot of Angular 2 (*cough* 4) components have moved to it and will not work due to template changes in angular-cli. Where will we be to get the newest beta-version?
+        </div>
+
+        <div class="col-md-2 text-right">
+            <h5 class="time">6 days ago</h5>
+        </div>
+    </div>
+</div>
+
+    <div id="last-reply-4061"></div>
+    
+
+<div class="comment " id="comment-4062">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/235565/thumb5f38?1501575762" alt="Thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div class="author">
+                <h4 class="username">waleed.tayseer
+                <small>9 days ago</small>
+                </h4>
+            </div>
+            One more thing! Does this new template support Right to Left layouts ? <br>
+
+            <div class="comment-reply-btn">
+    		</div>
+    	</div>
+
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+    				
+<div class="comment " id="reply-4099" >
+
+    <div class="row">
+        <div class="col-md-2 col-md-offset-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/1/thumb953e.jpg?1484594398" alt="Thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="author">
+                <h4 class="username">axelut
+                </h4>
+            </div>
+            <a class='card-user'
+    	       rel='popover'
+    	       data-content='<div class="uil-ring-css" style="-webkit-transform:scale(0.3)"><div></div></div>'
+    	       data-initialized='0'
+    	       data-html='true'
+    	       data-placement='top'
+    	       data-template='<div class="popover" onmouseover="clearTimeout(timeoutObj);$(this).mouseleave(function() {$(this).hide();});"><div class="arrow"></div><div class="popover-inner"><div class="popover-content"><p></p></div></div></div>'
+    	       data-username='waleed.tayseer'
+    	    >
+    	    	@waleed.tayseer
+    	    </a> unfortunately, we don&#39;t have a right/left layout, but that shouldn&#39;t be so hard to be implemented if you really want it. If you cannot do that, maybe somebody from our team will assist. Best, Alex!
+        </div>
+
+        <div class="col-md-2 text-right">
+            <h5 class="time">8 days ago</h5>
+        </div>
+    </div>
+</div>
+
+    <div id="last-reply-4062"></div>
+    
+
+<div class="comment " id="comment-4066">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/165373/thumb2a56?1490600782" alt="Thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div class="author">
+                <h4 class="username">vishak.kavalur
+                    <ul>
+                    <li class = 'user-role downloaded' > downloaded</li>
+                    </ul>
+                <small>9 days ago</small>
+                </h4>
+            </div>
+            It would be great if you guys could progress bars and spinners in the next release <br>
+
+            <div class="comment-reply-btn">
+    		</div>
+    	</div>
+
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+    				
+<div class="comment " id="reply-4069" >
+
+    <div class="row">
+        <div class="col-md-2 col-md-offset-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/234784/thumb3cb8?1501459339" alt="Thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="author">
+                <h4 class="username">hassan.mehmood
+                </h4>
+            </div>
+            hello vishak can you please contact me brother i need your help send me email on <a class="__cf_email__" href="https://www.creative-tim.com/cdn-cgi/l/email-protection" data-cfemail="0c646d7f7f6d6261656d623e384c756d646363226f6361">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>
+and i send you request on facebook please respond me
+        </div>
+
+        <div class="col-md-2 text-right">
+            <h5 class="time">9 days ago</h5>
+        </div>
+    </div>
+</div>
+
+    				
+<div class="comment " id="reply-4084" >
+
+    <div class="row">
+        <div class="col-md-2 col-md-offset-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/165373/thumb2a56?1490600782" alt="Thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="author">
+                <h4 class="username">vishak.kavalur
+                    <ul>
+                    <li class = 'user-role downloaded' > downloaded</li>
+                    </ul>
+                </h4>
+            </div>
+            <a class='card-user'
+    	       rel='popover'
+    	       data-content='<div class="uil-ring-css" style="-webkit-transform:scale(0.3)"><div></div></div>'
+    	       data-initialized='0'
+    	       data-html='true'
+    	       data-placement='top'
+    	       data-template='<div class="popover" onmouseover="clearTimeout(timeoutObj);$(this).mouseleave(function() {$(this).hide();});"><div class="arrow"></div><div class="popover-inner"><div class="popover-content"><p></p></div></div></div>'
+    	       data-username='hassan.mehmood'
+    	    >
+    	    	@hassan.mehmood
+    	    </a> , Have sent you a mail.
+        </div>
+
+        <div class="col-md-2 text-right">
+            <h5 class="time">8 days ago</h5>
+        </div>
+    </div>
+</div>
+
+    				
+<div class="comment " id="reply-4100" >
+
+    <div class="row">
+        <div class="col-md-2 col-md-offset-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/1/thumb953e.jpg?1484594398" alt="Thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="author">
+                <h4 class="username">axelut
+                </h4>
+            </div>
+            <a class='card-user'
+    	       rel='popover'
+    	       data-content='<div class="uil-ring-css" style="-webkit-transform:scale(0.3)"><div></div></div>'
+    	       data-initialized='0'
+    	       data-html='true'
+    	       data-placement='top'
+    	       data-template='<div class="popover" onmouseover="clearTimeout(timeoutObj);$(this).mouseleave(function() {$(this).hide();});"><div class="arrow"></div><div class="popover-inner"><div class="popover-content"><p></p></div></div></div>'
+    	       data-username='vishak.kavalur'
+    	    >
+    	    	@vishak.kavalur
+    	    </a> thank you for the feedback. At this moment we are working to release the v1.3.0 version so the spinners can be a feature for v1.4.0 as now we are not adding new elements. For the progress bars, please check them here: http://md-pro-angular2.creative-tim.com/#/forms/extended Best, Alex!
+        </div>
+
+        <div class="col-md-2 text-right">
+            <h5 class="time">8 days ago</h5>
+        </div>
+    </div>
+</div>
+
+    <div id="last-reply-4066"></div>
+    
+
+<div class="comment " id="comment-4067">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/anonymous_thumb.png" alt="Anonymous thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div class="author">
+                <h4 class="username">wrosb
+                <small>9 days ago</small>
+                </h4>
+            </div>
+            Hello @axelut, please keep me posted about jquery free release. I want to test it. <br>
+
+            <div class="comment-reply-btn">
+    		</div>
+    	</div>
+
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+    				
+<div class="comment " id="reply-4101" >
+
+    <div class="row">
+        <div class="col-md-2 col-md-offset-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/1/thumb953e.jpg?1484594398" alt="Thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="author">
+                <h4 class="username">axelut
+                </h4>
+            </div>
+            <a class='card-user'
+    	       rel='popover'
+    	       data-content='<div class="uil-ring-css" style="-webkit-transform:scale(0.3)"><div></div></div>'
+    	       data-initialized='0'
+    	       data-html='true'
+    	       data-placement='top'
+    	       data-template='<div class="popover" onmouseover="clearTimeout(timeoutObj);$(this).mouseleave(function() {$(this).hide();});"><div class="arrow"></div><div class="popover-inner"><div class="popover-content"><p></p></div></div></div>'
+    	       data-username='wrosb'
+    	    >
+    	    	@wrosb
+    	    </a> thank you for your interest in our products. We are working on it, hope we will have something stable on Friday, otherwise, we will have a beta and something stable by Monday. We will let everybody know about our status. Best, Alex!
+        </div>
+
+        <div class="col-md-2 text-right">
+            <h5 class="time">8 days ago</h5>
+        </div>
+    </div>
+</div>
+
+    <div id="last-reply-4067"></div>
+    
+
+<div class="comment " id="comment-4071">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/213830/thumb0860.jpg?1497867110" alt="Thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div class="author">
+                <h4 class="username">daniele.renda
+                    <ul>
+                    <li class = 'user-role downloaded' > downloaded</li>
+                    </ul>
+                <small>9 days ago</small>
+                </h4>
+            </div>
+            <a class='card-user'
+    	       rel='popover'
+    	       data-content='<div class="uil-ring-css" style="-webkit-transform:scale(0.3)"><div></div></div>'
+    	       data-initialized='0'
+    	       data-html='true'
+    	       data-placement='top'
+    	       data-template='<div class="popover" onmouseover="clearTimeout(timeoutObj);$(this).mouseleave(function() {$(this).hide();});"><div class="arrow"></div><div class="popover-inner"><div class="popover-content"><p></p></div></div></div>'
+    	       data-username='axelut'
+    	    >
+    	    	@axelut
+    	    </a> Some updates about the new release? Thanks <br>
+
+            <div class="comment-reply-btn">
+    		</div>
+    	</div>
+
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+    				
+<div class="comment " id="reply-4102" >
+
+    <div class="row">
+        <div class="col-md-2 col-md-offset-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/1/thumb953e.jpg?1484594398" alt="Thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="author">
+                <h4 class="username">axelut
+                </h4>
+            </div>
+            <a class='card-user'
+    	       rel='popover'
+    	       data-content='<div class="uil-ring-css" style="-webkit-transform:scale(0.3)"><div></div></div>'
+    	       data-initialized='0'
+    	       data-html='true'
+    	       data-placement='top'
+    	       data-template='<div class="popover" onmouseover="clearTimeout(timeoutObj);$(this).mouseleave(function() {$(this).hide();});"><div class="arrow"></div><div class="popover-inner"><div class="popover-content"><p></p></div></div></div>'
+    	       data-username='daniele.renda'
+    	    >
+    	    	@daniele.renda
+    	    </a> we are working on it. We switched most of the old libraries which were using jQuery to native Angular libraries. We will have something to show on Friday and probably a final stable release for Monday. We will let you know about the status. Best, Alex!
+        </div>
+
+        <div class="col-md-2 text-right">
+            <h5 class="time">8 days ago</h5>
+        </div>
+    </div>
+</div>
+
+    <div id="last-reply-4071"></div>
+    
+
+<div class="comment " id="comment-4072">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/anonymous_thumb.png" alt="Anonymous thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div class="author">
+                <h4 class="username">muabdulla
+                    <ul>
+                    <li class = 'user-role downloaded' > downloaded</li>
+                    </ul>
+                <small>9 days ago</small>
+                </h4>
+            </div>
+            <a class='card-user'
+    	       rel='popover'
+    	       data-content='<div class="uil-ring-css" style="-webkit-transform:scale(0.3)"><div></div></div>'
+    	       data-initialized='0'
+    	       data-html='true'
+    	       data-placement='top'
+    	       data-template='<div class="popover" onmouseover="clearTimeout(timeoutObj);$(this).mouseleave(function() {$(this).hide();});"><div class="arrow"></div><div class="popover-inner"><div class="popover-content"><p></p></div></div></div>'
+    	       data-username='chelaru_ciprian'
+    	    >
+    	    	@chelaru_ciprian
+    	    </a> is there an Angular 4 compatible template as mentioned in the comments? if so can I see a demo please? <br>
+
+            <div class="comment-reply-btn">
+    		</div>
+    	</div>
+
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+    				
+<div class="comment " id="reply-4103" >
+
+    <div class="row">
+        <div class="col-md-2 col-md-offset-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/1/thumb953e.jpg?1484594398" alt="Thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="author">
+                <h4 class="username">axelut
+                </h4>
+            </div>
+            <a class='card-user'
+    	       rel='popover'
+    	       data-content='<div class="uil-ring-css" style="-webkit-transform:scale(0.3)"><div></div></div>'
+    	       data-initialized='0'
+    	       data-html='true'
+    	       data-placement='top'
+    	       data-template='<div class="popover" onmouseover="clearTimeout(timeoutObj);$(this).mouseleave(function() {$(this).hide();});"><div class="arrow"></div><div class="popover-inner"><div class="popover-content"><p></p></div></div></div>'
+    	       data-username='muabdulla'
+    	    >
+    	    	@muabdulla
+    	    </a> thank you for your interest in our products. We prepare the launch of Angular 4 for this Friday. If it is not fully stable we will release a beta for testing and do the rest of the changes after that. Hope this information helps. Best, Alex!
+        </div>
+
+        <div class="col-md-2 text-right">
+            <h5 class="time">8 days ago</h5>
+        </div>
+    </div>
+</div>
+
+    <div id="last-reply-4072"></div>
+    
+
+<div class="comment " id="comment-4077">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/anonymous_thumb.png" alt="Anonymous thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div class="author">
+                <h4 class="username">shuyihovh
+                <small>9 days ago</small>
+                </h4>
+            </div>
+            Just want to shout out for a jquery free angular version. Please let us know. Thank you! @axelut <br>
+
+            <div class="comment-reply-btn">
+    		</div>
+    	</div>
+
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+    				
+<div class="comment " id="reply-4105" >
+
+    <div class="row">
+        <div class="col-md-2 col-md-offset-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/1/thumb953e.jpg?1484594398" alt="Thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="author">
+                <h4 class="username">axelut
+                </h4>
+            </div>
+            <a class='card-user'
+    	       rel='popover'
+    	       data-content='<div class="uil-ring-css" style="-webkit-transform:scale(0.3)"><div></div></div>'
+    	       data-initialized='0'
+    	       data-html='true'
+    	       data-placement='top'
+    	       data-template='<div class="popover" onmouseover="clearTimeout(timeoutObj);$(this).mouseleave(function() {$(this).hide();});"><div class="arrow"></div><div class="popover-inner"><div class="popover-content"><p></p></div></div></div>'
+    	       data-username='shuyihovh'
+    	    >
+    	    	@shuyihovh
+    	    </a> thank you for your interest in our product. We will have something for Friday and a stable version on Monday. Hope this information helps. Best, Alex!
+        </div>
+
+        <div class="col-md-2 text-right">
+            <h5 class="time">8 days ago</h5>
+        </div>
+    </div>
+</div>
+
+    <div id="last-reply-4077"></div>
+    
+
+<div class="comment " id="comment-4085">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/180881/thumb423e.jpeg?1492928895" alt="Thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div class="author">
+                <h4 class="username">kietphamquang.anh
+                    <ul>
+                    <li class = 'user-role downloaded' > downloaded</li>
+                    </ul>
+                <small>8 days ago</small>
+                </h4>
+            </div>
+            Hi, In ExtendedFormsComponent class, I would like to get all values which are selected by multi select component using ngSubmit of angular
+
+ &lt;select class=&quot;selectpicker&quot; data-style=&quot;select-with-transition&quot; multiple title=&quot;Choose City&quot; data-size=&quot;7&quot;&gt;
+...
+
+How could I get it? Thanks <br>
+
+            <div class="comment-reply-btn">
+    		</div>
+    	</div>
+
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+    				
+<div class="comment " id="reply-4115" >
+
+    <div class="row">
+        <div class="col-md-2 col-md-offset-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/1/thumb953e.jpg?1484594398" alt="Thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="author">
+                <h4 class="username">axelut
+                </h4>
+            </div>
+            <a class='card-user'
+    	       rel='popover'
+    	       data-content='<div class="uil-ring-css" style="-webkit-transform:scale(0.3)"><div></div></div>'
+    	       data-initialized='0'
+    	       data-html='true'
+    	       data-placement='top'
+    	       data-template='<div class="popover" onmouseover="clearTimeout(timeoutObj);$(this).mouseleave(function() {$(this).hide();});"><div class="arrow"></div><div class="popover-inner"><div class="popover-content"><p></p></div></div></div>'
+    	       data-username='kietphamquang.anh'
+    	    >
+    	    	@kietphamquang.anh
+    	    </a> thank you for using our product. Can you please send us a link so we can check how you send data in form? Also if you can give us your code portions from HTML and TS which are handling that we will check them and give you a solution for your case. If it is easier to write code please open the issue here: https://github.com/creativetimofficial/material-dashboard-pro-angular/issues/new and we will check it. Best, Alex!
+        </div>
+
+        <div class="col-md-2 text-right">
+            <h5 class="time">7 days ago</h5>
+        </div>
+    </div>
+</div>
+
+    <div id="last-reply-4085"></div>
+    
+
+<div class="comment " id="comment-4089">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/anonymous_thumb.png" alt="Anonymous thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div class="author">
+                <h4 class="username">mjlb2
+                <small>8 days ago</small>
+                </h4>
+            </div>
+            Hi, really want to purchase this and start using it, do you have an eta when the Angular 4 version is going to be released?
+thanks <br>
+
+            <div class="comment-reply-btn">
+    		</div>
+    	</div>
+
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+    				
+<div class="comment " id="reply-4104" >
+
+    <div class="row">
+        <div class="col-md-2 col-md-offset-2">
+            <div class="account-photo account-regular-user">
+                <img class="photo photo-right" width="70" height="70" src="../../s3.amazonaws.com/creativetim_bucket/photos/1/thumb953e.jpg?1484594398" alt="Thumb" />
+
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="author">
+                <h4 class="username">axelut
+                </h4>
+            </div>
+            <a class='card-user'
+    	       rel='popover'
+    	       data-content='<div class="uil-ring-css" style="-webkit-transform:scale(0.3)"><div></div></div>'
+    	       data-initialized='0'
+    	       data-html='true'
+    	       data-placement='top'
+    	       data-template='<div class="popover" onmouseover="clearTimeout(timeoutObj);$(this).mouseleave(function() {$(this).hide();});"><div class="arrow"></div><div class="popover-inner"><div class="popover-content"><p></p></div></div></div>'
+    	       data-username='mjlb2'
+    	    >
+    	    	@mjlb2
+    	    </a> thank you for your interest in our products. There will be at least a working version this Friday, even it is a Beta, it will be stable enough to start working with it. Then by Monday, we prepare the final launch. Hope this information helps. Best, Alex!
+        </div>
+
+        <div class="col-md-2 text-right">
+            <h5 class="time">8 days ago</h5>
+        </div>
+    </div>
+</div>
+
+    <div id="last-reply-4089"></div>
+<div id="last-comment-55"></div>
+
+                                    <div class="text-center" data-no-turbolink>
+                                        <div class="pagination pagination-azure pagination-no-border " is_active="true"><a class="previous_page" rel="prev" href="material-dashboard-pro-angular25760.html?page=15#comments">«</a> <a href="material-dashboard-pro-angular22679.html?page=1#comments">1</a> <a href="material-dashboard-pro-angular24658.html?page=2#comments">2</a> <span class="gap">&hellip;</span> <a href="material-dashboard-pro-angular21c8b.html?page=11#comments">11</a> <a href="material-dashboard-pro-angular2ce37.html?page=12#comments">12</a> <a href="material-dashboard-pro-angular28c93.html?page=13#comments">13</a> <a href="material-dashboard-pro-angular2a7f1.html?page=14#comments">14</a> <a rel="prev" href="material-dashboard-pro-angular25760.html?page=15#comments">15</a> <em class="current">16</em> <a rel="next" href="material-dashboard-pro-angular25c43.html?page=17#comments">17</a> <a href="material-dashboard-pro-angular29683.html?page=18#comments">18</a> <a href="material-dashboard-pro-angular27537?page=19#comments">19</a> <a class="next_page" rel="next" href="material-dashboard-pro-angular25c43.html?page=17#comments">»</a></div>
+                                    </div>
+                                </div>
+                        <div id="last-comment-55"></div>
+                            <h4 class="post-comment-info">You have to be logged in to post a comment.
+                                <a href="javascript:void(0)" onclick="openLoginModal();" role="button" data-toggle="modal">
+                                    Login here.
+                                </a>
+                            </h4>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+                <div class="row">
+    <div class="col-md-8 col-md-offset-2 text-center">
+        <div class="sharing-area">
+            <div class="big-icon">
+                <i class="icon-comments"></i>
+            </div>
+            <h2 class="legend text-center">Sharing is caring!</h2>
+
+            <a href="javascript:shareFacebookWithCallBack()" class="btn btn-new btn-wd btn-social btn-facebook btn-fill btn-round">
+                <i class="fa fa-facebook-square"></i> Facebook
+            </a>
+            <a href="https://twitter.com/intent/tweet?url=https://www.creative-tim.com/product/material-dashboard-pro-angular2?page=16&amp;text=Checkout%20this%20awesome%20product%20for%20web%20developers&amp;via=creativetim" class="btn btn-new btn-wd btn-social btn-twitter btn-fill btn-round">
+                <i class="fa fa-twitter"></i> Twitter
+            </a>
+            <a href="javascript:void(0)" class="btn btn-new btn-wd btn-social btn-google btn-fill btn-round" onclick="googleShare(this)">
+                <i class="fa fa-google-plus-square"></i> Google+
+            </a>
+             <a href="https://www.creative-tim.com/cdn-cgi/l/email-protection#d4eba7a1b6beb1b7a0e997bcb1b7bfbba1a0f4a0bcbda7f2b6bbb0ade99cbdf89df4b2bba1bab0f4a0bcbda7f4b5bab0f4a0bcbba1b3bca0f4adbba1f4b9bdb3bca0f4b8bdbfb1f4bda0f4bca0a0a4a7eefbfba3a3a3fab7a6b1b5a0bda2b1f9a0bdb9fab7bbb9fba4a6bbb0a1b7a0fbb9b5a0b1a6bdb5b8f9b0b5a7bcb6bbb5a6b0f9a4a6bbf9b5bab3a1b8b5a6e6eba4b5b3b1e9e5e2" class="btn btn-new btn-wd btn-social btn-neutral btn-email btn-fill btn-round">
+                <i class="fa fa-paper-plane"></i> Email
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+            </div>
+        </div>
+    </div>
+
+        <div class="main main-purple section-feedback parallax  parallax-" style="background: url('../../s3.amazonaws.com/creativetim_bucket/products/55/mdp_angular_coverde02.jpg?1490372038')no-repeat;background-size: cover; ">
+            <div class="container">
+                <div class="testimonials">
+                    <h4 class="legend text-center">Why our customers appreciate us</h4>
+                        <div class="col-md-4">
+    <div class="card" itemprop="review" itemscope itemtype="http://schema.org/Review">
+        <div class="content">
+            <div class="rating-stars rating-just-view" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+                <meta itemprop="worstRating" content="1">
+                <meta itemprop="bestRating" content="5">
+                <meta itemprop="ratingValue" content="5">
+                <input type="number" class="rating" data-min="1" data-max="5" value="5" disabled="disabled" />
+            </div>
+
+            <h3 class="small-title" itemprop="name">
+                Design Quality
+            </h3>
+
+            <h4 class="message" itemprop="description"></h4>
+
+            <div class="footer">
+               <div class="author">
+                   <a class="card-link">
+                       <img class="avatar" src="../../s3.amazonaws.com/creativetim_bucket/anonymous_thumb.png" alt="Anonymous thumb" />
+                      <span itemprop="author">阳立 蔡</span>
+                   </a>
+               </div>
+               <div class="stats pull-right">
+                   <meta itemprop="datePublished" content="2017-08-02">8 days ago
+               </div>
+               <div class="clearfix"></div>
+           </div>
+
+        </div>
+    </div>
+</div>
+
+                        <div class="col-md-4">
+    <div class="card" itemprop="review" itemscope itemtype="http://schema.org/Review">
+        <div class="content">
+            <div class="rating-stars rating-just-view" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+                <meta itemprop="worstRating" content="1">
+                <meta itemprop="bestRating" content="5">
+                <meta itemprop="ratingValue" content="5">
+                <input type="number" class="rating" data-min="1" data-max="5" value="5" disabled="disabled" />
+            </div>
+
+            <h3 class="small-title" itemprop="name">
+                Design Quality
+            </h3>
+
+            <h4 class="message" itemprop="description"></h4>
+
+            <div class="footer">
+               <div class="author">
+                   <a class="card-link">
+                       <img class="avatar" src="../../s3.amazonaws.com/creativetim_bucket/photos/218071/thumb014f.jpg?1498584288" alt="Thumb" />
+                      <span itemprop="author">Alex Morcillo</span>
+                   </a>
+               </div>
+               <div class="stats pull-right">
+                   <meta itemprop="datePublished" content="2017-07-31">10 days ago
+               </div>
+               <div class="clearfix"></div>
+           </div>
+
+        </div>
+    </div>
+</div>
+
+                        <div class="col-md-4">
+    <div class="card" itemprop="review" itemscope itemtype="http://schema.org/Review">
+        <div class="content">
+            <div class="rating-stars rating-just-view" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+                <meta itemprop="worstRating" content="1">
+                <meta itemprop="bestRating" content="5">
+                <meta itemprop="ratingValue" content="4">
+                <input type="number" class="rating" data-min="1" data-max="5" value="4" disabled="disabled" />
+            </div>
+
+            <h3 class="small-title" itemprop="name">
+                Design Quality
+            </h3>
+
+            <h4 class="message" itemprop="description"></h4>
+
+            <div class="footer">
+               <div class="author">
+                   <a class="card-link">
+                       <img class="avatar" src="../../s3.amazonaws.com/creativetim_bucket/anonymous_thumb.png" alt="Anonymous thumb" />
+                      <span itemprop="author">Anonymous Tim</span>
+                   </a>
+               </div>
+               <div class="stats pull-right">
+                   <meta itemprop="datePublished" content="2017-07-31">10 days ago
+               </div>
+               <div class="clearfix"></div>
+           </div>
+
+        </div>
+    </div>
+</div>
+
+
+                        <div class="clearfix"></div>
+                        <div class="text-center" data-no-turbolink>
+                            <a class="btn btn-new btn-neutral btn-round" href="material-dashboard-pro-angular2/reviews.html">View All Reviews</a>
+                        </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+    <div class="main-white">
+        <div class="container">
+            <ol itemscope itemtype="http://schema.org/BreadcrumbList" class="breadcrumb">
+        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" >
+                <a itemprop="item" href="https://www.creative-tim.com/">
+                <span itemprop="name">Home</span>
+                </a>
+
+            <meta itemprop="position" content="1" />
+        </li>
+        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" >
+                <a itemprop="item" href="https://www.creative-tim.com/bootstrap-themes">
+                <span itemprop="name">All Categories</span>
+                </a>
+
+            <meta itemprop="position" content="2" />
+        </li>
+        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class=&quot;active&quot;&gt;>
+                <span itemprop="name">Material Dashboard Pro Angular 2</span>
+
+            <meta itemprop="position" content="3" />
+        </li>
+</ol>
+
+        </div>
+    </div>
+</div>
+
+<div class="modal fade reviews-modal" id="reviewsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+
+              <td>Material Dashboard Pro Angular 2</td>
+              <td>Julia Rakitina</td><br>
+              <td>message:Honestly I am disappointed of code quality. I was impressed by design of this template and purchased PRO version of product. Unfortunately I cant easy add new functionality(in my case Localization library), I spend 3 hours to make it work. I did not have this problems before. If you have time and patience enough you can buy these template because of it really good-looking design. Design 5, code 2 (( so my    rating 3/5</td>
+              <td>rating:3</td>
+
+
+              <td>Material Dashboard Pro Angular 2</td>
+              <td>Magnus Boye</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro Angular 2</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:Very Good.
+</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro Angular 2</td>
+              <td>Loh Tong Hong</td><br>
+              <td>message:High quality design and pretty decent code quality</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro Angular 2</td>
+              <td>刘 雨霖</td><br>
+              <td>message:</td>
+              <td>rating:1</td>
+
+
+              <td>Material Dashboard Pro Angular 2</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:So far so good! But the Navigation Sidebar-Trigger  at Login.html doesn´t work on the mobile version. Please fix it ! </td>
+              <td>rating:4</td>
+
+
+              <td>Material Dashboard Pro Angular 2</td>
+              <td>obayda alisawi</td><br>
+              <td>message:</td>
+              <td>rating:1</td>
+
+
+              <td>Material Dashboard Pro Angular 2</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro Angular 2</td>
+              <td>proteasa dan catalin</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro Angular 2</td>
+              <td>Germán Martínez López</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro Angular 2</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:Awesome</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro Angular 2</td>
+              <td>Julian Reale</td><br>
+              <td>message:excellent product... waiting for the CLI version</td>
+              <td>rating:4</td>
+
+
+              <td>Material Dashboard Pro Angular 2</td>
+              <td>Marlon David Rodriguez</td><br>
+              <td>message:excellent visual quality and code organization.</td>
+              <td>rating:4</td>
+
+
+              <td>Material Dashboard Pro Angular 2</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:Awesome!! </td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro Angular 2</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:Absolutely amazing and high professional theme! Great background for my learning path in Angular. Thanks!</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro Angular 2</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:4</td>
+
+
+              <td>Material Dashboard Pro Angular 2</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:i think, this template need support for select2  plugin, thanks https://select2.github.io/</td>
+              <td>rating:4</td>
+
+
+              <td>Material Dashboard Pro Angular 2</td>
+              <td>Freddy Castro</td><br>
+              <td>message:Muy buen producto </td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro Angular 2</td>
+              <td>Nikos Loulos</td><br>
+              <td>message:Great work! All the features are bind together in a great way. Congrats!</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro Angular 2</td>
+              <td>Kiet Pham Quang Anh</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro Angular 2</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro Angular 2</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:excellent</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro Angular 2</td>
+              <td>Alejandro Valladares</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro Angular 2</td>
+              <td>润 劳</td><br>
+              <td>message:so good</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro Angular 2</td>
+              <td>润 劳</td><br>
+              <td>message:so good</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro Angular 2</td>
+              <td>Zorzis Varkaris</td><br>
+              <td>message:impresive</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro Angular 2</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro Angular 2</td>
+              <td>Cristi Jora</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro Angular 2</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro Angular 2</td>
+              <td>Hisham Ahmad</td><br>
+              <td>message:The most beautiful admin template so far. Easy to code too. Thanks</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro Angular 2</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro Angular 2</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro Angular 2</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:Couldn&#39;t use it, bought by accident. No response to support request.</td>
+              <td>rating:1</td>
+
+
+              <td>Material Dashboard Pro Angular 2</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:Very cool. </td>
+              <td>rating:4</td>
+
+
+              <td>Material Dashboard Pro Angular 2</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:Outstanding. </td>
+              <td>rating:4</td>
+
+
+              <td>Material Dashboard Pro Angular 2</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:Outstanding. </td>
+              <td>rating:4</td>
+
+
+              <td>Material Dashboard Pro Angular 2</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:Top design. This will be the best product when the team get the product to jQuery free. This product still need to get a full angular way. </td>
+              <td>rating:3</td>
+
+
+              <td>Material Dashboard Pro Angular 2</td>
+              <td>Christopher Cain</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro Angular 2</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro Angular 2</td>
+              <td>Ivar Hernández González</td><br>
+              <td>message:Amazing code, simply, easy, customizable.</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro Angular 2</td>
+              <td>Jorge Andres Moreno Jaimes</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro Angular 2</td>
+              <td>WAGNER DE ANDRADE PERIN</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro Angular 2</td>
+              <td>Jeff Young</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro Angular 2</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro Angular 2</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro Angular 2</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro Angular 2</td>
+              <td>KARTHI V</td><br>
+              <td>message:cool designs</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro Angular 2</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:There are many basic components missing in the list. </td>
+              <td>rating:2</td>
+
+
+              <td>Material Dashboard Pro Angular 2</td>
+              <td>Anonymous Tim</td><br>
+              <td>message:</td>
+              <td>rating:4</td>
+
+
+              <td>Material Dashboard Pro Angular 2</td>
+              <td>Alex Morcillo</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+
+              <td>Material Dashboard Pro Angular 2</td>
+              <td>阳立 蔡</td><br>
+              <td>message:</td>
+              <td>rating:5</td>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-info btn-new btn-round" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="product-version-logs-modal-55" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-account">
+
+    <div class="modal-content">
+          <div class="modal-header text-center">
+               <h4> Updates and Changelogs</h4>
+          </div>
+          <div class="modal-body">
+            <p>
+                     V1.0.0 - 24 Mar 2017 [initial Release]<br/><br/>V1.0.1 - 01 May 2017 - Bug Fixes<br/>- fixed red background for sidebar without image<br/>- fixed Widges -> Widgets typo<br/>- fixed Extended Tables titles alignment<br/>- fixed issue with Burger menu on mobile/tablet in Login/Register/Lock/Pricing pages<br/>- fix double scroll problems on Windows<br/>- added Google Maps API Key for Demo presentation<br/><br/>V1.1.0 - 16 May 2017 - CLI Migration - intermediate release<br/>- added CLI structure<br/>- added 2 layouts<br/>- manipulation of the off canvas menu with Angular, not with jQuery<br/>- plugins moved to package.json<br/><br/>v1.1.1 - 18 May 2017 - Angular CLI Bug fixes <br/>- changed PerfectScrollbar library from 7.0.0 to 0.6.13 (7.0.0 is adding an infinite scroll) from js/core files<br/>- added active class back, it was not visible after the migration from Angular 2<br/>- fixed off canvas menu for login/register/lock pages<br/>- fix error with swal on calendar.components.ts<br/><br/>v1.1.2 - 25 May 2017 - Angular CLI Bug Fixes<br/>- fixed PerfectScrollbar issue on windows 7-10 for Chrome/Firefox<br/><br/>v1.2.0 - 03 June 2017 - Angular CLI Fixes<br/>- made DataTables.net with ngFor initialised from typescript<br/>- added Navbar Fixed classes<br/>- added documentation<br/>- added Forms Validators with ngModel in typescript<br/>- fixed Sidebar Moving Tab<br/>- Minor design bug fixes<br/>- moved to Angular CLI v1.0.0<br/><br/>v1.2.1 - 09 June 2017 - Angular CLI Fixes<br/>- fixed DataTables.net error on initialisation with data<br/>- fixed documentation names for classes<br/>- added example in documentation how to deploy on Heroku Server Live + link to tutorial<br/>- fix lbd module issue on tables<br/>- added customiser for demo purpose of changing colors in app/layouts/admin-layout.component.html<br/><br/>v1.2.1 - 20 July 2017 - Added Photoshop package (PSD Files)
+            </p>
+          </div>
+          <div class="modal-footer small-footer">
+            <button type="button" class="btn btn-default btn-simple btn-block" data-dismiss="modal">Close</button>
+          </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="footer-title ">
+    <div class="container">
+       <div class="row">
+           <div class="col-sm-8">
+             <h1 class="title">Join our newsletter and receive weekly news!</h1>
+           </div>
+            <form html="{:multipart=&gt;true}" class="form-inline" action="https://www.creative-tim.com/newsletter" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+                <div class="col-sm-6 col-md-2">
+                    <input type="email" name="subscribe_email" id="subscribe_email" class="form-control" placeholder="Enter Email" />
+                </div>
+                <div class="col-sm-6 col-md-2">
+                    <input type="submit" name="commit" value="Sign Up" class="btn btn-info btn-round btn-fill btn-block" />
+                </div>
+</form>        </div>
+    </div>
+</div>
+
+
+<div class="footer">
+    <div class="overlayer">
+    <div class="container">
+        <div class="row support">
+
+            <div class="col-sm-3 col-xs-4">
+                <h4>Creative Tim</h4>
+                <ul class="list-unstyled">
+                    <li> <a href="http://blog.creative-tim.com/">Blog</a></li>
+                    <li> <a href="https://www.creative-tim.com/affiliates/new">Affiliate Program</a></li>
+                    <li> <a href="https://www.creative-tim.com/terms">Terms &amp; Conditions</a></li>
+                    <li> <a href="https://www.creative-tim.com/privacy">Privacy Policy</a></li>
+                    <li> <a href="https://www.creative-tim.com/faq">FAQ</a></li>
+                    <li><a href="https://mixpanel.com/f/partner" rel="nofollow"><img src="../../cdn.mxpnl.com/site_media/images/partner/badge_blue.png" alt="Mobile Analytics" /></a></li>
+                </ul>
+            </div>
+            <div class="col-sm-3 col-xs-4">
+                <h4>Happy people</h4>
+                <ul class="list-unstyled social-list">
+                    <li><h3 class="numbers-dont-lie"><b>240,404</b> accounts</h3></li>
+                    <li><h3 class="numbers-dont-lie"><b>417,331</b> downloads</h3></li>
+
+                </ul>
+            </div>
+
+            <div class="col-sm-3 col-xs-4">
+                <h4>Help and Support</h4>
+                <ul class="list-unstyled">
+                    <li><a href="https://www.creative-tim.com/about-us">About Us</a></li>
+                    <li><a href="https://www.creative-tim.com/contact-us">Contact Us</a></li>
+                    <li><a href="https://www.creative-tim.com/sponsorships">Sponsorships</a></li>
+                    <li><a href="https://www.creative-tim.com/bootstrap">Bootstrap</a></li>
+                    <li><a href="https://www.creative-tim.com/license">Licenses</a></li>
+                    <li><a href="https://www.creative-tim.com/gallery/get-shit-done-pro">Products Gallery</a></li>
+                </ul>
+            </div>
+
+            <div class="col-sm-3 col-xs-12 text-center">
+                    <h4>Latest News</h4>
+                     <a
+                     class="twitter-timeline"
+                     href="https://twitter.com/CreativeTim"
+                     data-widget-id="586445781978124289"
+                     data-chrome="noheader nofooter noborders noscrollbar transparent"
+                     height="200">
+                     Tweets by @CreativeTim</a>
+            </div>
+
+        </div>
+        <hr>
+        <div class="row">
+            <div class="social-area text-center" itemscope itemtype="http://schema.org/LocalBusiness">
+                <a itemprop="url" href="https://www.creative-tim.com/" class="footer-brand">
+                    <div class="logo">
+                        <img itemprop="logo" src="../../s3.amazonaws.com/creativetim_bucket/new_logo.png" />
+                    </div>
+                    <span itemprop="name">Creative Tim</span>
+                </a>
+
+               <br/>
+                <a itemprop="sameAs" href="https://dribbble.com/creativetim" class="btn btn-default btn-social btn-round" rel="publisher" target="_blank"><i class="fa fa-dribbble"></i></a>
+                <a itemprop="sameAs" href="https://www.facebook.com/CreativeTim" class="btn btn-default btn-social btn-round" target="_blank"><i class="fa fa-facebook-square"></i></a>
+                <a itemprop="sameAs" href="https://twitter.com/CreativeTim" class="btn btn-default btn-social btn-round" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a itemprop="sameAs" href="https://plus.google.com/+CreativetimPage" class="btn btn-default btn-social btn-round" target="_blank"><i class="fa fa-google-plus-square"></i></a>
+
+                <a itemprop="sameAs" href="https://www.instagram.com/creativetimofficial/" class="btn btn-default btn-social btn-round" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a itemprop="sameAs" href="https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w" class="btn btn-default btn-social btn-round" target="_blank"><i class="fa fa-youtube"></i></a>
+                <a itemprop="sameAs" href="https://ro.pinterest.com/thecreativetim/" class="btn btn-default btn-social btn-round" target="_blank"><i class="fa fa-pinterest"></i></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="credits">
+                 &copy; 2017 Creative Tim, all rights reserved. Made with <i class="icon-heart heart" alt="love"></i> for a better web.
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+
+
+<script>
+ !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+
+ </script>
+
+
+<script type="text/javascript">
+	
+
+    $().ready(function (){
+	    initTextareaForMention();
+
+	    $('.edit-comment-modal').on('shown.bs.modal', function () {
+		  	textarea = $(this).find('textarea.hidden').html();
+		  	$(this).find('textarea.mention').val(textarea);
+		})
+    });
+
+</script>
+
+<!-- Drip -->
+<!-- <script type="text/javascript">
+	var _dcq = _dcq || [];
+	var _dcs = _dcs || {};
+	_dcs.account = '2119369';
+
+	(function() {
+		var dc = document.createElement('script');
+		dc.type = 'text/javascript'; dc.async = true;
+		dc.src = '//tag.getdrip.com/2119369.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(dc, s);
+	})();
+</script> -->
+
+
+<script>/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/\>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
+
+
+
+<!-- Mirrored from www.creative-tim.com/product/material-dashboard-pro-angular2?page=16 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 10 Aug 2017 23:57:45 GMT -->
+</html>
