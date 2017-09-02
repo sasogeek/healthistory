@@ -5,4 +5,4 @@ HealtHistory is a health records database for patients, accessible by both patie
 To run HealtHistory, clone the repo, change directory into `healthistory` and run the command `meteor`.
 
 # NB
-You must have [http://meteor.com](meteor) installed already in order to run this app.
+You must have [meteor](http://meteor.com) installed already in order to run this app.
